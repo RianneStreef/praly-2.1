@@ -1,0 +1,490 @@
+.room-intro {
+  /* padding-top: 80px; */
+  margin-bottom: 10vw;
+}
+
+.image-links {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.image-link {
+  transition: all 250ms linear;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 40vw;
+  width: 27vw;
+  position: relative;
+}
+
+.image-link::before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  filter: brightness(0.5);
+  z-index: 0;
+}
+
+.image-link:hover::before {
+  margin: -5px 0 5px 5px;
+  filter: brightness(1);
+  transition: all 250ms linear;
+}
+
+.chalet-image-link::before {
+  background-image: url("../images/facade-portrait-chalet.jpg");
+}
+.appart-image-link::before {
+  background-image: url("../images/appart-v.jpg");
+}
+.pavillion-image-link::before {
+  background-image: url("../images/pavillon-v.jpg");
+}
+
+.image-link-title {
+  font-family: "Hello mozza";
+  font-size: 25px;
+  color: #fff;
+  margin: 100px 0 20px 0;
+  filter: brightness(1);
+  transition: all 250ms linear;
+}
+
+.image-link:hover .image-link-title {
+  color: transparent;
+  transition: all 250ms linear;
+}
+
+.extra-info-button {
+  background-color: transparent;
+  color: transparent;
+  border: none;
+  z-index: 50;
+}
+
+.image-link:hover .extra-info-button {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  border: none;
+  text-transform: uppercase;
+  margin: 5vw;
+  font-family: "Futura Bold";
+  font-size: 13px;
+}
+
+.room-intro-inverse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.room-images-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.room-images-container-inverse {
+  display: flex;
+  flex-direction: column;
+}
+
+.room-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.room-image-container-inverse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.room-image {
+  width: 90vw;
+  z-index: 50;
+}
+
+.book-now {
+  font-family: "hello mozza outline";
+  font-size: 1.8rem;
+  letter-spacing: 3px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.book-now.mobile-only {
+  width: 90%;
+  text-align: right;
+}
+
+.book-now-appart.mobile-only {
+  width: 100%;
+}
+
+.book-now-chalet {
+  color: #707e6f;
+  text-align: right;
+}
+
+.book-now-appart {
+  color: #c58a32;
+}
+
+.book-now-pavillion {
+  color: #084740;
+  text-align: right;
+}
+
+.picto-container {
+  width: 90vw;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.picto-container-chalet {
+  background-color: rgb(112, 126, 111, 0.1);
+}
+
+.picto-container-appart {
+  background-color: rgb(197, 138, 50, 0.1);
+}
+
+.picto-container-pavillion {
+  background-color: rgb(8, 71, 64, 0.1);
+}
+
+.picto {
+  width: 50%;
+}
+
+.h3-room {
+  font-weight: 100;
+  letter-spacing: 5px;
+  font-size: 2.5rem;
+  margin: 20px;
+}
+
+.h3-chalet {
+  color: #707e6f;
+}
+
+.h3-appart {
+  color: #c58a32;
+}
+
+.h3-pavillion {
+  color: #084740;
+}
+
+.room-intro1 {
+  width: 90vw;
+}
+
+.room-intro1-inverse {
+  margin: 0 0 0 auto;
+}
+
+.room-intro1-text {
+  padding: 5vw;
+}
+
+.room-intro2 {
+  margin: 0;
+  width: 90vw;
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.room-intro-text-block {
+  height: 75px;
+  width: 370px;
+  float: right;
+  margin: 0 0 0 20px;
+}
+
+.room-intro-text-block-inverse {
+  height: 75px;
+  width: 370px;
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.chalet-intro {
+  background-color: #707e6f;
+  color: #fff;
+}
+
+.appart-intro {
+  background-color: #c58a32;
+  color: #fff;
+}
+
+.pavillion-intro {
+  background-color: #084740;
+  color: #fff;
+}
+
+.bottom-room-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-room-intro-reverse {
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-info-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.room-info-button {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #000;
+  padding: 10px 20px;
+  border: none;
+  text-transform: uppercase;
+  margin: 5vw;
+  font-family: "Futura Bold";
+  transition: all 250ms ease-in;
+}
+
+.room-info-button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  transition: all 250ms ease-in;
+}
+
+.room-info-button.mobile-only {
+  margin: auto;
+}
+
+.hidden-mobile-room-intro {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .image-links {
+    padding: 35px;
+  }
+
+  .image-link {
+    height: 40vw;
+    width: 27vw;
+  }
+
+  .image-link-title {
+    font-size: 60px;
+    margin: 100px 0 20px 0;
+  }
+
+  .hidden-mobile-room-intro {
+    display: flex;
+  }
+
+  .picto-container {
+    width: 40vw;
+  }
+
+  .h3-room {
+    font-size: 2rem;
+  }
+
+  .book-now {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  .room-image {
+    width: 55vw;
+    margin: 0;
+  }
+
+  .room-intro1 {
+    width: 75vw;
+  }
+
+  .room-intro1-text {
+    padding: 25px 5vw;
+  }
+
+  .room-intro-inverse {
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .bottom-room-intro {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .bottom-room-intro-reverse {
+    flex-direction: row-reverse;
+    align-items: flex-end;
+  }
+
+  .room-info-button-right {
+    margin: 115px 50px;
+  }
+
+  .room-info-button-left {
+    margin: 50px;
+  }
+
+  .room-intro {
+    margin-top: 250px;
+  }
+
+  .room-intro1 {
+    width: 62vw;
+  }
+  .room-intro2 {
+    padding: 25px 5vw;
+  }
+
+  .room-images-container {
+    flex-direction: row;
+  }
+
+  .picto-container-chalet {
+    background-color: transparent;
+  }
+
+  .picto-container-appart {
+    background-color: transparent;
+  }
+
+  .picto-container-pavillion {
+    background-color: transparent;
+  }
+
+  .room-images-container-chalet {
+    background-image: linear-gradient(
+      to right,
+      rgb(112, 126, 111, 0.1),
+      rgb(112, 126, 111, 0.1) 45%,
+      #fff 45%
+    );
+  }
+  .room-images-container-appart {
+    background-image: linear-gradient(
+      to right,
+      #fff,
+      #fff 50%,
+      rgb(197, 138, 50, 0.1) 50%
+    );
+  }
+  .room-images-container-pavillion {
+    background-image: linear-gradient(
+      to right,
+      rgb(8, 71, 64, 0.1),
+      rgb(8, 71, 64, 0.1) 45%,
+      #fff 45%
+    );
+  }
+
+  .room-image-container {
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: -75px;
+    justify-content: flex-end;
+  }
+
+  .room-image-container-inverse {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: -75px;
+    margin-left: -50px;
+    justify-content: flex-end;
+  }
+
+  .room-images-container-inverse {
+    flex-direction: row-reverse;
+  }
+
+  #chalet-intro,
+  #appart-intro,
+  #pavillion-intro {
+    height: 80px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .h3-room {
+    font-size: 3rem;
+  }
+  .image-link-title {
+    margin: 200px 0 20px 0;
+  }
+  .book-now {
+    font-size: 4.5rem;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .image-link-title {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  .h3-room {
+    font-size: 4rem;
+  }
+  .image-link-title {
+    font-size: 100px;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  .h3-room {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .room-intro {
+    margin-top: 400px;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .room-intro-text-block {
+    width: 425px;
+  }
+
+  .room-intro-text-block-inverse {
+    width: 425px;
+  }
+}

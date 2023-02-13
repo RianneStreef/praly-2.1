@@ -1,0 +1,9 @@
+.pavillion {
+  margin: 0 20px;
+}
+
+@media (min-width: 1250px) {
+  .pavillion {
+    margin: 100px 35px;
+  }
+}

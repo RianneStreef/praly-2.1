@@ -1,0 +1,264 @@
+.hero-herbergement {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url("../images/Hero-image-hebergement-mobile-v3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lodge-header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.room-video {
+  width: 100vw;
+  /* margin-top: 30px; */
+}
+
+.room-video-horizontal {
+  width: 100%;
+}
+
+.room-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.room-description-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.room-description-image {
+  width: 100%;
+  margin: 3px 5px;
+}
+
+.room-description-image:hover {
+  cursor: pointer;
+}
+
+.picto-container-herbergement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-right: 5vw; */
+}
+
+.picto-herbergement {
+  width: 50%;
+}
+
+.installations-title {
+  font-size: 30px;
+}
+
+.picto-container-herbergement-chalet {
+  background-color: rgb(112, 126, 111, 0.1);
+}
+
+.picto-container-herbergement-appart {
+  background-color: rgb(197, 138, 50, 0.1);
+}
+
+.picto-container-herbergement-pavillion {
+  background-color: rgb(8, 71, 64, 0.1);
+}
+
+.chalet-herbergement {
+  background-color: #707e6f;
+}
+
+.pavillion-herbergement {
+  background-color: #084740;
+}
+
+.appart-herbergement {
+  background-color: #c58a32;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.herbergement-button {
+  font-family: "Hello mozza";
+  font-size: 25px;
+  color: #fff;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.chalet-button {
+  background-color: #707e6f;
+}
+
+.appart-button {
+  background-color: #c58a32;
+}
+
+.pavillion-button {
+  background-color: #084740;
+}
+
+.book-now-herbergement {
+  text-align: right;
+  font-family: "hello mozza outline";
+  font-size: 1.5rem;
+  letter-spacing: 7px;
+  margin: 0 0 20px 0;
+}
+
+.facilities-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.facilities-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.facilities-list li {
+  display: flex;
+  align-items: center;
+}
+
+.facilities-icon {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+}
+
+.room-image-hebergements {
+  width: 90vw;
+  z-index: 50;
+}
+
+@media (min-width: 400px) {
+  .room-video-horizontal {
+    width: 55vw;
+    margin-top: 30px;
+  }
+  .video-container-horizontal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 500px) {
+  .room-video-horizontal {
+    width: 45vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-herbergement {
+    background-image: url("../images/Hero-image-hebergement-v3.jpg");
+  }
+
+  .lodge-header-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .room-description-pavillion {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .room-description-image-container {
+    width: 30%;
+    padding: 0 10px 5px 0;
+  }
+
+  .book-now-herbergement {
+    font-size: 3rem;
+  }
+
+  .picto-outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .picto-container-herbergement {
+    width: 40vw;
+    margin-left: -5vw;
+  }
+
+  .room-video {
+    width: 55vw;
+    margin-top: 30px;
+  }
+
+  .room-video-horizontal {
+    width: 55vw;
+    margin-top: 30px;
+  }
+  .video-container-horizontal {
+    align-items: flex-end;
+  }
+
+  .video-container {
+    margin-top: -18vw;
+  }
+
+  .room-video-chalet {
+    width: 25vw;
+  }
+
+  .herbergement-button {
+    font-size: 40px;
+  }
+  .facilities-list {
+    padding: 40px;
+  }
+
+  .room-image-hebergements {
+    width: 55vw;
+    margin: 0 0 0 -5vw;
+  }
+}
+
+@media (min-width: 1000px) {
+  .room-description {
+    flex-direction: row;
+  }
+  .room-description > * {
+    width: 45vw;
+  }
+  .room-description-images {
+    justify-content: flex-start;
+  }
+
+  .room-description-image-container {
+    width: 45%;
+  }
+  .book-now-herbergement {
+    font-size: 4.5rem;
+  }
+}
+@media (min-width: 1250px) {
+  .picto-container-herbergement {
+    width: 45vw;
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,247 @@
+@font-face {
+  font-family: "Hello mozza";
+  src: local("Hello mozza"), url(../fonts/Hello\ Mozza.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Hello mozza outline";
+  src: local("Hello mozza outline"),
+    url(../fonts/Hello\ Mozza\ Outline.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Basic Title Font";
+  src: local("Basic Title Font"),
+    url(../fonts/basictitlefont.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "QuickSand";
+  src: local("QuickSand"),
+    url(../fonts/Quicksand/Quicksand.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica Bold";
+  src: local("Helvetica Bold"),
+    url(../fonts/Helvetica-Font/Helvetica-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Futura Bold";
+  src: local("Futura Bold"),
+    url(../fonts/Futura-Bold/Futura-Bold.otf) format("truetype");
+}
+:root {
+  --color-background: #fff;
+  --color-background-dark: rgb(65, 63, 63);
+  --color-text: #000;
+  --color-text-light: #fff;
+}
+
+html {
+  font-size: calc(60% + 0.8vmin);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand";
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Hello mozza";
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 10px;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+h3,
+h4,
+h5 {
+  font-family: "Basic Title Font";
+}
+
+h4,
+h5 {
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-family: "Hello mozza";
+  font-size: 3rem;
+  margin: 0 20px;
+  letter-spacing: 10px;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-size: 2rem;
+  color: #707e6f;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0 5vw;
+  margin-top: 0;
+}
+
+h6 {
+  font-family: "Hello mozza";
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+p,
+li {
+  line-height: 30px;
+  font-size: 1.1rem;
+}
+
+p {
+  text-align: justify;
+}
+
+.page-subtitle {
+  margin-top: 80px;
+  text-align: center;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.flag {
+  width: 25px;
+  margin: 5px 10px;
+}
+
+.opaque {
+  opacity: 100%;
+}
+
+.fade {
+  opacity: 50%;
+}
+
+.header-placeholder {
+  height: 100px;
+}
+
+.center-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  margin: 20px auto;
+  text-transform: uppercase;
+  font-family: "Futura Bold";
+  border: 2px solid #000;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  transition: all 250ms ease-in;
+}
+
+.button-not-centered {
+  margin: 20px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.top-link {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 40px;
+  z-index: 999;
+}
+
+.scroll-down {
+  opacity: 0%;
+  transition: opacity 500ms linear;
+}
+
+.scroll-up {
+  opacity: 100%;
+  transition: opacity 500ms linear;
+}
+
+.coming-soon {
+  font-family: "Futura Bold";
+  text-align: center;
+}
+
+.desktop-only {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 6.6rem;
+  }
+  h2 {
+    font-size: 8rem;
+    margin: -25px 5vw 0 5vw;
+  }
+  p,
+  li {
+    font-size: 1.3rem;
+    line-height: 40px;
+  }
+  h4 {
+    font-size: 3rem;
+  }
+  h5 {
+    font-size: 3rem;
+  }
+  .mobile-only {
+    display: none;
+  }
+  .desktop-only {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  h1 {
+    font-size: 7.6rem;
+  }
+}

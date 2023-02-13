@@ -1,0 +1,42 @@
+.iframe-booking {
+  border: none;
+  margin: 50px auto;
+  width: 100vw;
+  height: 100%;
+}
+
+.iframe-booking-all {
+  height: 700px;
+}
+
+.iframe-booking-individual {
+  height: 1200px;
+}
+
+.iframe {
+  max-width: 100% !important;
+}
+
+.hero-booking {
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url("../images/Hero-image-reserver-mobile-v3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.additional-info-resas {
+  text-align: center;
+  padding: 35px;
+}
+
+@media (min-width: 768px) {
+  .hero-booking {
+    background-image: url("../images/Hero-image-reserver.jpg");
+  }
+}

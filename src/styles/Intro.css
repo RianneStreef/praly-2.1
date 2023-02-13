@@ -1,0 +1,250 @@
+.intro {
+  overflow: hidden;
+}
+
+.hero-container {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+
+#hero-1 {
+  background-image: url("../images/Hero2.jpg");
+}
+#hero-2 {
+  background-image: url("../images/Hero-image-v3.jpg");
+  animation-delay: -5s;
+}
+
+.hero-background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat: none;
+  opacity: 0;
+  z-index: 0;
+  animation: backgroundSlideshow 10s ease-in-out infinite;
+}
+
+.hero > * {
+  padding: 15px;
+}
+
+.hero-button {
+  font-family: "Futura Bold";
+  text-transform: uppercase;
+  padding: 20px;
+  border: none;
+  background-color: #fff;
+  margin-top: 50px;
+  font-size: 20px;
+  transition: all 250ms ease-in;
+}
+
+.hero-button:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all 250ms ease-in;
+}
+
+.hero-logo {
+  width: 50%;
+}
+
+.social-links {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.social-link {
+  width: 50px;
+  margin: 10px;
+  color: #fff;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-text {
+  text-align: justify;
+  margin: 20px;
+  width: 90%;
+}
+
+.intro-image {
+  width: 90%;
+}
+
+.groups-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.groups {
+  background-image: url("../images/slider/jardin2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.groups h2 {
+  text-align: right;
+  color: #fff;
+}
+
+.privatisation {
+  display: flex;
+  flex-direction: column;
+}
+
+.privatisation-icon {
+  background-image: linear-gradient(to top, #ffffff, rgb(255, 255, 255, 0));
+  padding: 5vw 15vw 5vw 5vw;
+}
+
+.privatisation-text {
+  background-color: #883519;
+  color: #fff;
+  padding: 5vw;
+  height: 80%;
+}
+
+.privatisation-text ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.family-icon {
+  width: 25vw;
+}
+
+.devis-button-container-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.devis-button-container-desktop {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.devis-button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  text-transform: uppercase;
+  font-family: "Futura Bold";
+  border: 2px solid #000;
+  width: 120px;
+  text-align: center;
+  justify-content: center;
+}
+
+.devis-button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  transition: all 250ms ease-in;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-logo {
+    width: 20%;
+    margin-top: 100px;
+  }
+
+  .intro-image {
+    width: 50%;
+    margin: 50px;
+  }
+
+  .intro-text {
+    margin: 0 5vw;
+  }
+
+  .family-icon {
+    width: 25vw;
+  }
+
+  .privatisation {
+    margin: 0 0 10vw 5vw;
+    flex-direction: row;
+    margin-bottom: 10vw;
+  }
+
+  .privatisation-text {
+    margin-left: -5vw;
+    padding: 5vw;
+    height: 80%;
+  }
+  .privatisation-icon {
+    padding: 5vw 15vw 5vw 5vw;
+    margin: 0 0 5vw 0;
+  }
+  .hero-social {
+    margin-top: 40px;
+  }
+  .groups {
+    width: 100vw;
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .intro-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@keyframes backgroundSlideshow {
+  0% {
+    opacity: 0.2;
+  }
+  10% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  75% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}

@@ -1,0 +1,9 @@
+.chalet {
+  margin: 0 20px;
+}
+
+@media (min-width: 1250px) {
+  .chalet {
+    margin: 0 35px 100px 35px;
+  }
+}

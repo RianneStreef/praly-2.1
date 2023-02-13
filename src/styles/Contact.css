@@ -1,0 +1,60 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5vw;
+}
+
+.form-items {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  width: 90vw;
+  font-family: "Quicksand";
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 0;
+}
+
+label {
+  text-transform: uppercase;
+  padding-right: 10px;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.address-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.contact-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-buttons {
+    flex-direction: row;
+  }
+  .form-items {
+    display: flex;
+    flex-direction: row;
+  }
+  label {
+    width: 12vw;
+    font-size: 20px;
+  }
+  input,
+  textarea {
+    width: 75vw;
+  }
+}
