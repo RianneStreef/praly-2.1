@@ -157,6 +157,12 @@ export const dutch = {
   hebergementsPageTitle: "De 3 Lodges",
 
   bookingPageTitle: "Boek uw verblijf",
+
+  promo1: "* GRATIS ONTBIJT TIJDENS EEN VERBLIJF IN APRIL: ",
+  promo2:
+    "- Deze aanbieding geldt voor alle reservering gemaakt op onze website, voor een verblijf in April 2023.",
+  promo3: "- 1 gratis ontbijt per persoon, na de eerste nacht van uw verblijf.",
+
   bookingPageSubTitle: "Bekijk beschikbaarheid",
 
   additionalInfo:

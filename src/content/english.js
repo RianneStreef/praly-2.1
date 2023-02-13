@@ -175,6 +175,12 @@ export const english = {
   bookingPageTitle: "Book your stay",
   bookingPageSubTitle: "Check availability",
 
+  promo1: "* FREE BREAKFAST DURING YOU STAY IN APRIL: ",
+  promo2:
+    "- This offer is valid for all reservations made on our website, for a stay in April 2023.",
+  promo3:
+    "- One free breakfast per person, after the first night of your stay.",
+
   additionalInfo:
     "Depending on the period, a minimum number of nights might be required. For reservations for 4 people, please contact us directly by mail.",
 
