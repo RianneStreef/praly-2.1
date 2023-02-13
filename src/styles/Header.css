@@ -1,7 +1,7 @@
 .header {
   position: fixed;
   width: 100vw;
-
+  z-index: 800;
   margin-top: 0;
 }
 
@@ -12,6 +12,16 @@
   background-color: rgb(255, 255, 255, 0.8);
   z-index: 900;
   position: relative;
+  /* border-bottom: 2px #707e6f solid; */
+}
+
+.promo-holder {
+  border-bottom: 2px #707e6f solid;
+  position: fixed;
+  right: 50px;
+  z-index: 70;
+  height: 100px;
+  width: 100px;
 }
 
 .promo-container {

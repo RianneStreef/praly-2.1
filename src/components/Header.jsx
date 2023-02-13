@@ -44,6 +44,7 @@ const Header = (props) => {
   return (
     <div className="header" id="header">
       <div className="header-main">
+        {/* <div className="promo-holder" /> */}
         <Link to="/" className="logo-link">
           <img className="header-logo" alt="logo" src={NoTextLogo} />
           <p className="header-logo-text">Les Lodges de Praly</p>
