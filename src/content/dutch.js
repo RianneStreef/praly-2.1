@@ -26,6 +26,9 @@ export const dutch = {
   book: "BOOK!",
   bookNow: "BOOK NOW >",
 
+  promoTitle: "APRIL",
+  promoText: "gratis ontbijt *",
+
   introText1:
     "Welkom bij Les Lodges de Praly. Wij heten u welkom in ons vriendelijke en authentieke huis, in het dorp Ollières sur Eyrieux, in het hart van de Monts d'Ardèche. Een ideale locatie voor een heerlijk verblijf: aan de rand van de 'Dolce Via', in een rustige omgeving en dicht bij het centrum. Kom met familie, partner of vrienden een paar dagen of langer ontsnappen in een van onze 3 lodges: het atypisch chalet hoog op ons terrein, het kleine paviljoen in de schaduw van de grote dennen, of in onze gezellige appartement! Zwembad en tuin staan ook ​​tot uw beschikking. Simpel plezier en een warm welkom!",
 

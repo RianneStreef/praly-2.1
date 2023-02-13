@@ -130,8 +130,8 @@ const Header = (props) => {
             <div></div>
           </div>
           <div className="promo-text">
-            <p className="promo-text-1">AVRIL</p>
-            <p className="promo-text-2"> petits déjeuners offerts * </p>
+            <p className="promo-text-1">{languageToUse.promoTitle}</p>
+            <p className="promo-text-2">{languageToUse.promoText}</p>
           </div>
         </Link>
       </div>

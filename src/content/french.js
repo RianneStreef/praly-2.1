@@ -43,6 +43,9 @@ export const french = {
   book: "RESERVER!",
   bookNow: "RESERVER >",
 
+  promoTitle: "AVRIL",
+  promoText: "petits déjeuners offerts *",
+
   introText1:
     "Bienvenue aux Lodges de Praly, nous vous accueillons chez nous, entre convivialité et authenticité, dans le village des Ollières sur Eyrieux, en plein cœur des Monts d’Ardèche. Un emplacement idéal pour un séjour facile : Au bord de la « Dolce Via », dans un quartier calme, à deux pas du centre. En famille, en couple ou entre amis, venez-vous évader quelques jours ou plus, dans l’un de nos 3 lodges :  Un chalet atypique sur les hauteurs du jardin, le pavillon à l’ombre du pin parasol, et l'appartement cosy ! Piscine & jardin sont à votre disposition. Des plaisirs simples et un accueil chaleureux !",
   introText2: "Laurine & Victor /",

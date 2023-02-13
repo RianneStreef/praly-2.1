@@ -3,7 +3,6 @@
   width: 100vw;
 
   margin-top: 0;
-  z-index: 900;
 }
 
 .header-main {
@@ -11,6 +10,8 @@
   justify-content: space-between;
   align-items: center;
   background-color: rgb(255, 255, 255, 0.8);
+  z-index: 900;
+  position: relative;
 }
 
 .promo-container {
@@ -30,6 +31,7 @@
   justify-content: flex-end;
   align-items: center;
   margin-top: -220px;
+  z-index: 800;
 }
 
 .promo-text {

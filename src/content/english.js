@@ -43,6 +43,9 @@ export const english = {
   book: "BOOK!",
   bookNow: "BOOK NOW >",
 
+  promoTitle: "APRIL",
+  promoText: "free breakfast *",
+
   introText1:
     "We welcome you to our home, surrounded by friendliness and authenticity, in the village of Ollières sur Eyrieux, in the heart of the Monts d'Ardèche. An ideal location for an easy stay: On the edge of the 'Dolce Via', in a quiet area, close to the center. With family, as a couple or with friends, come and escape for a few days or more, in one of our 3 lodges: An atypical chalet on the heights of our site, the little pavilion in the shade of the large pine tree, or in our cozy apartment! The swimming pool & garden are at your disposal. Simple pleasures and a warm welcome!",
   introText2: "Laurine & Victor /",
