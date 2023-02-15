@@ -50,7 +50,7 @@ const BookingPage = function (props) {
         </Link>
       </div>
       <div id="booking">
-        {/* <div className="header-placeholder" /> */}
+        <div className="header-placeholder" />
 
         <h2 className="page-subtitle">{languageToUse.bookingPageSubTitle}</h2>
         <div className="promo-info">
