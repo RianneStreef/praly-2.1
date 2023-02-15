@@ -32,7 +32,19 @@
 
 .additional-info-resas {
   text-align: center;
+  padding: 50px 100px;
+}
+
+.promo-info {
+  text-align: center;
   padding: 35px;
+  background-color: #707e6f;
+  color: #fff;
+  padding: 50px 100px;
+}
+
+.promo-info p {
+  margin: 5px;
 }
 
 @media (min-width: 768px) {
