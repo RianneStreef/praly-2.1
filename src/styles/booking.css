@@ -32,7 +32,7 @@
 
 .additional-info-resas {
   text-align: center;
-  padding: 50px 100px;
+  padding: 35px;
 }
 
 .promo-info {
@@ -40,7 +40,6 @@
   padding: 35px;
   background-color: #707e6f;
   color: #fff;
-  padding: 50px 100px;
 }
 
 .promo-info p {
@@ -50,5 +49,12 @@
 @media (min-width: 768px) {
   .hero-booking {
     background-image: url("../images/Hero-image-reserver.jpg");
+  }
+  .additional-info-resas {
+    padding: 50px 100px;
+  }
+
+  .promo-info {
+    padding: 50px 100px;
   }
 }
