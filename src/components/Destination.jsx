@@ -50,16 +50,16 @@ const Destination = (props) => {
                 href="https://www.ardeche-buissonniere.fr/preparer-et-reserver/bouger-activite-ardeche-centre-privas-lavoulte/"
                 target="blank"
               >
-                <img src={logoLink1} className="logo-link-destination" />
+                <img src={logoLink1} alt="" className="logo-link-destination" />
               </a>
               <a href="https://www.eyrieuxsport.fr/" target="blank">
-                <img src={logoLink2} className="logo-link-destination" />
+                <img src={logoLink2} alt="" className="logo-link-destination" />
               </a>
               <a href="https://aquarock.fr/fr/parc-aventure/" target="blank">
-                <img src={logoLink3} className="logo-link-destination" />
+                <img src={logoLink3} alt="" className="logo-link-destination" />
               </a>
               <a href="https://www.dolce-via.com/fr/" target="blank">
-                <img src={logoLink4} className="logo-link-destination" />
+                <img src={logoLink4} alt="" className="logo-link-destination" />
               </a>
             </div>
             <div>
