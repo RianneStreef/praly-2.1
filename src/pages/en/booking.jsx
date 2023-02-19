@@ -3,19 +3,17 @@ import { Helmet } from "react-helmet";
 
 import { Link } from "gatsby";
 
-import "../styles/booking.css";
+import "../../styles/booking.css";
 
-import { content } from "../content/languages";
-import intakeInfo from "../content/intake";
+import { content } from "../../content/languages";
+import intakeInfo from "../../content/intake";
 
-import logoRound from "../images/Praly-rond.png";
+import logoRound from "../../images/Praly-rond.png";
 
 const BookingPage = function (props) {
   let { language, languageToUse } = props;
 
-  language === "english" ? (languageToUse = content.english) : null;
-  language === "french" ? (languageToUse = content.french) : null;
-  language === "dutch" ? (languageToUse = content.dutch) : null;
+  languageToUse = content.english;
 
   // useEffect(() => {
   //   let frame = document.getElementById("booking");
@@ -33,7 +31,11 @@ const BookingPage = function (props) {
 
   return (
     <div>
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: "en",
+        }}
+      >
         <title>{languageToUse.bookingTitle}</title>
         <meta name="robots" content="index, follow" />
         <meta

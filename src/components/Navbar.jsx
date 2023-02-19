@@ -75,7 +75,13 @@ const Navbar = (props) => {
       <Ul open={open}>
         <li>
           <Link
-            to="/"
+            to={
+              language === "french"
+                ? "/"
+                : language === "english"
+                ? "/en/"
+                : "/nl/"
+            }
             className="nav-link-mobile"
             onClick={() => setOpen(!open)}
           >
@@ -84,7 +90,13 @@ const Navbar = (props) => {
         </li>
         <li>
           <Link
-            to="/hebergements"
+            to={
+              language === "french"
+                ? "/hebergements"
+                : language === "english"
+                ? "/en/hebergements"
+                : "/nl/hebergements"
+            }
             className="nav-link-mobile"
             onClick={() => setOpen(!open)}
           >
@@ -93,7 +105,13 @@ const Navbar = (props) => {
         </li>
         <li>
           <Link
-            to="/#groups"
+            to={
+              language === "french"
+                ? "/#groups"
+                : language === "english"
+                ? "/en/#groups"
+                : "/nl/#groups"
+            }
             className="nav-link-mobile"
             onClick={() => setOpen(!open)}
           >
@@ -103,7 +121,13 @@ const Navbar = (props) => {
 
         <li>
           <Link
-            to="/#destination"
+            to={
+              language === "french"
+                ? "/#destination"
+                : language === "english"
+                ? "/en/#destination"
+                : "/nl/#destination"
+            }
             className="nav-link-mobile"
             onClick={() => setOpen(!open)}
           >
@@ -113,7 +137,13 @@ const Navbar = (props) => {
 
         <li>
           <Link
-            to="/#contact"
+            to={
+              language === "french"
+                ? "/#contact"
+                : language === "english"
+                ? "/en/#contact"
+                : "/nl/#contact"
+            }
             className="nav-link-mobile"
             onClick={() => setOpen(!open)}
           >
@@ -122,7 +152,13 @@ const Navbar = (props) => {
         </li>
         <li>
           <Link
-            to="/booking"
+            to={
+              language === "french"
+                ? "/booking"
+                : language === "english"
+                ? "/en/booking"
+                : "/nl/booking"
+            }
             className="nav-link-mobile"
             onClick={() => setOpen(!open)}
           >

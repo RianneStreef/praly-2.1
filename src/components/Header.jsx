@@ -45,73 +45,142 @@ const Header = (props) => {
     <div className="header" id="header">
       <div className="header-main">
         {/* <div className="promo-holder" /> */}
-        <Link to="/" className="logo-link">
+        <Link
+          to={
+            language === "french"
+              ? "/"
+              : language === "english"
+              ? "/en/"
+              : "/nl/"
+          }
+          className="logo-link"
+        >
           <img className="header-logo" alt="logo" src={NoTextLogo} />
           <p className="header-logo-text">Les Lodges de Praly</p>
         </Link>
         <ul className="header-links hidden-mobile">
           <li>
-            <Link to="/" className="nav-link">
+            <Link
+              to={
+                language === "french"
+                  ? "/"
+                  : language === "english"
+                  ? "/en/"
+                  : "/nl/"
+              }
+              className="nav-link"
+            >
               {languageToUse.home}
             </Link>
           </li>
           <span className="dot">&#8226;</span>
           <li>
-            <Link to="/hebergements" className="nav-link">
+            <Link
+              to={
+                language === "french"
+                  ? "/hebergements"
+                  : language === "english"
+                  ? "/en/hebergements"
+                  : "/nl/hebergements"
+              }
+              className="nav-link"
+            >
               {languageToUse.herbergements}
             </Link>
           </li>
           <span className="dot">&#8226;</span>
 
           <li>
-            <Link to="/#groups" className="nav-link">
+            <Link
+              to={
+                language === "french"
+                  ? "/#groups"
+                  : language === "english"
+                  ? "/en/#groups"
+                  : "/nl/#groups"
+              }
+              className="nav-link"
+            >
               {languageToUse.groups}
             </Link>
           </li>
           <span className="dot">&#8226;</span>
 
           <li>
-            <Link to="/#destination" className="nav-link">
+            <Link
+              to={
+                language === "french"
+                  ? "/#destination"
+                  : language === "english"
+                  ? "/en/#destination"
+                  : "/nl/#destination"
+              }
+              className="nav-link"
+            >
               {languageToUse.destination}
             </Link>
           </li>
           <span className="dot">&#8226;</span>
 
           <li>
-            <Link to="/#contact" className="nav-link">
+            <Link
+              to={
+                language === "french"
+                  ? "/#contact"
+                  : language === "english"
+                  ? "/en/#contact"
+                  : "/nl/#contact"
+              }
+              className="nav-link"
+            >
               {languageToUse.contact}
             </Link>
           </li>
           <span className="dot">&#8226;</span>
 
           <li>
-            <Link to="/booking" className="nav-link">
+            <Link
+              to={
+                language === "french"
+                  ? "/booking"
+                  : language === "english"
+                  ? "/en/booking"
+                  : "/nl/booking"
+              }
+              className="nav-link"
+            >
               <b> {languageToUse.book}</b>
             </Link>
           </li>
           <li>
             <div className="set-language-header">
-              <img
-                src={flagEn}
-                onClick={() => handleSetLanguage("english")}
-                className={`flag ${
-                  languageToUse.language === "english" ? "opaque" : "fade"
-                } `}
-              />
-              <img
-                src={flagFr}
-                onClick={() => handleSetLanguage("french")}
-                className={`flag ${
-                  languageToUse.language === "french" ? "opaque" : "fade"
-                } `}
-              />
-              <img
-                src={flagNl}
-                onClick={() => handleSetLanguage("dutch")}
-                className={`flag ${
-                  languageToUse.language === "dutch" ? "opaque" : "fade"
-                } `}
-              />
+              <Link to="/en">
+                <img
+                  src={flagEn}
+                  onClick={() => handleSetLanguage("english")}
+                  className={`flag ${
+                    languageToUse.language === "english" ? "opaque" : "fade"
+                  } `}
+                />
+              </Link>
+              <Link to="/">
+                <img
+                  src={flagFr}
+                  onClick={() => handleSetLanguage("french")}
+                  className={`flag ${
+                    languageToUse.language === "french" ? "opaque" : "fade"
+                  } `}
+                />
+              </Link>{" "}
+              <Link to="/nl">
+                <img
+                  src={flagNl}
+                  onClick={() => handleSetLanguage("dutch")}
+                  className={`flag ${
+                    languageToUse.language === "dutch" ? "opaque" : "fade"
+                  } `}
+                />
+              </Link>
             </div>
           </li>
         </ul>
@@ -125,7 +194,16 @@ const Header = (props) => {
         </div>
       </div>
       <div className="promo-container">
-        <Link to="/booking" className="promo">
+        <Link
+          to={
+            language === "french"
+              ? "/booking"
+              : language === "english"
+              ? "/en/booking"
+              : "/nl/booking"
+          }
+          className="promo"
+        >
           <div>
             <div className="promo-rope"></div>
             <div></div>

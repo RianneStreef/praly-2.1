@@ -27,20 +27,44 @@ const RoomIntro = (props) => {
         <h2>{languageToUse.ourRooms2}</h2>
 
         <div className="image-links">
-          <Link to="/#chalet-intro" className="image-link chalet-image-link">
+          <Link
+            to={
+              language === "french"
+                ? "/#chalet-intro"
+                : language === "english"
+                ? "/en/#chalet-intro"
+                : "/nl/#chalet-intro"
+            }
+            className="image-link chalet-image-link"
+          >
             <p className="image-link-title">Le Chalet</p>
             <div to="/#chalet-intro" className="extra-info-button">
               {languageToUse.moreInfo}
             </div>
           </Link>
 
-          <Link to="/#appart-intro" className="image-link appart-image-link">
+          <Link
+            to={
+              language === "french"
+                ? "/#appart-intro"
+                : language === "english"
+                ? "/en/#appart-intro"
+                : "/nl/#appart-intro"
+            }
+            className="image-link appart-image-link"
+          >
             <p className="image-link-title">L'Appart</p>
             <div className="extra-info-button">{languageToUse.moreInfo}</div>
           </Link>
 
           <Link
-            to="/#pavillion-intro"
+            to={
+              language === "french"
+                ? "/#pavillion-intro"
+                : language === "english"
+                ? "/en/#pavillion-intro"
+                : "/nl/#pavillion-intro"
+            }
             className="image-link pavillion-image-link"
           >
             <p className="image-link-title">Le Pavillon</p>
@@ -53,7 +77,13 @@ const RoomIntro = (props) => {
 
         <div className="room-images-container room-images-container-chalet">
           <Link
-            to="/chalet-booking"
+            to={
+              language === "french"
+                ? "/chalet-booking"
+                : language === "english"
+                ? "/en/chalet-booking"
+                : "/nl/chalet-booking"
+            }
             className="book-now book-now-chalet mobile-only"
           >
             {languageToUse.bookNow}
@@ -64,7 +94,13 @@ const RoomIntro = (props) => {
           </div>
           <div className="room-image-container chalet-image">
             <Link
-              to="/chalet-booking"
+              to={
+                language === "french"
+                  ? "/chalet-booking"
+                  : language === "english"
+                  ? "/en/chalet-booking"
+                  : "/nl/chalet-booking"
+              }
               className="book-now book-now-chalet desktop-only"
             >
               {languageToUse.bookNow}
@@ -81,7 +117,13 @@ const RoomIntro = (props) => {
             <p className="room-intro1-text">{languageToUse.introTextChalet}</p>
           </div>
           <Link
-            to="/hebergements/#chalet"
+            to={
+              language === "french"
+                ? "/hebergements/#chalet"
+                : language === "english"
+                ? "/en/hebergements/#chalet"
+                : "/nl/hebergements/#chalet"
+            }
             className="room-info-button room-info-button-right desktop-only"
           >
             {languageToUse.moreInfo}
@@ -89,7 +131,13 @@ const RoomIntro = (props) => {
         </div>
         <div className="room-intro2">
           <Link
-            to="/hebergements/#chalet"
+            to={
+              language === "french"
+                ? "/hebergements/#chalet"
+                : language === "english"
+                ? "/en/hebergements/#chalet"
+                : "/nl/hebergements/#chalet"
+            }
             className="room-info-button room-info-button-right mobile-only"
           >
             {languageToUse.moreInfo}
@@ -101,7 +149,13 @@ const RoomIntro = (props) => {
         <div className="room-intro-inverse">
           <div className="room-images-container-inverse room-images-container-appart">
             <Link
-              to="/appart-booking"
+              to={
+                language === "french"
+                  ? "/appart-booking"
+                  : language === "english"
+                  ? "/en/appart-booking"
+                  : "/nl/appart-booking"
+              }
               className="book-now book-now-appart mobile-only"
             >
               {languageToUse.bookNow}
@@ -112,7 +166,13 @@ const RoomIntro = (props) => {
             </div>
             <div className="room-image-container-inverse appart-image">
               <Link
-                to="/appart-booking"
+                to={
+                  language === "french"
+                    ? "/appart-booking"
+                    : language === "english"
+                    ? "/en/appart-booking"
+                    : "/nl/appart-booking"
+                }
                 className="book-now book-now-appart desktop-only"
               >
                 {languageToUse.bookNow}
@@ -129,7 +189,13 @@ const RoomIntro = (props) => {
             <p className="room-intro1-text">{languageToUse.introTextAppart}</p>
           </div>
           <Link
-            to="/hebergements/#appart"
+            to={
+              language === "french"
+                ? "/hebergements/#appart"
+                : language === "english"
+                ? "/en/hebergements/#appart"
+                : "/nl/hebergements/#appart"
+            }
             className="room-info-button room-info-button-left  desktop-only"
           >
             {languageToUse.moreInfo}
@@ -137,7 +203,13 @@ const RoomIntro = (props) => {
         </div>
         <div className="room-intro2">
           <Link
-            to="/hebergements/#appart"
+            to={
+              language === "french"
+                ? "/hebergements/#appart"
+                : language === "english"
+                ? "/en/hebergements/#appart"
+                : "/nl/hebergements/#appart"
+            }
             className="room-info-button room-info-button-left  mobile-only"
           >
             {languageToUse.moreInfo}
@@ -148,7 +220,13 @@ const RoomIntro = (props) => {
 
         <div className="room-images-container room-images-container-pavillion">
           <Link
-            to="/pavillion-booking"
+            to={
+              language === "french"
+                ? "/pavillion-booking"
+                : language === "english"
+                ? "/en/pavillion-booking"
+                : "/nl/pavillion-booking"
+            }
             className="book-now book-now-pavillion mobile-only"
           >
             {languageToUse.bookNow}
@@ -163,7 +241,13 @@ const RoomIntro = (props) => {
           </div>
           <div className="room-image-container pavillion-image">
             <Link
-              to="/pavillion-booking"
+              to={
+                language === "french"
+                  ? "/pavillion-booking"
+                  : language === "english"
+                  ? "/en/pavillion-booking"
+                  : "/nl/pavillion-booking"
+              }
               className="book-now book-now-pavillion desktop-only"
             >
               {languageToUse.bookNow}
@@ -183,7 +267,13 @@ const RoomIntro = (props) => {
           </div>
           <div className="more-info-button-container">
             <Link
-              to="/hebergements/#pavillion"
+              to={
+                language === "french"
+                  ? "/hebergements/#pavillion"
+                  : language === "english"
+                  ? "/en/hebergements/#pavillion"
+                  : "/nl/hebergements/#pavillion"
+              }
               className="room-info-button room-info-button-right desktop-only"
             >
               {languageToUse.moreInfo}
@@ -192,7 +282,13 @@ const RoomIntro = (props) => {
         </div>
         <div className="room-intro2">
           <Link
-            to="/hebergements/#pavillion"
+            to={
+              language === "french"
+                ? "/hebergements/#pavillion"
+                : language === "english"
+                ? "/en/hebergements/#pavillion"
+                : "/nl/hebergements/#pavillion"
+            }
             className="room-info-button room-info-button-right mobile-only"
           >
             {languageToUse.moreInfo}
