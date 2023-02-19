@@ -17,7 +17,11 @@ const PavillionBookingPage = function (props) {
 
   return (
     <div>
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: "fr",
+        }}
+      >
         <title>{languageToUse.bookingTitlePavillion}</title>
         <meta name="robots" content="index, follow" />
         <meta

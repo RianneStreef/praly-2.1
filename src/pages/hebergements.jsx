@@ -31,7 +31,11 @@ const HerbergementsPage = function (props) {
   return (
     <div className="herbergements">
       {/* <SimpleReactLightbox> */}
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: "fr",
+        }}
+      >
         <title>{languageToUse.herbergementsTitle}</title>
         <meta name="robots" content="index, follow" />
         <meta
