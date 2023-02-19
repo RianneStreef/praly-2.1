@@ -25,7 +25,8 @@ const codeStyles = {
 };
 
 // markup
-const NotFoundPage = () => {
+const NotFoundPage = (props) => {
+  let { language, languageToUse } = props;
   return (
     <main style={pageStyles}>
       <title>Not found</title>
