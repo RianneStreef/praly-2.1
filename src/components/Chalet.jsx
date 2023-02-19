@@ -53,7 +53,13 @@ const Chalet = (props) => {
       <div className="chalet" id="chalet">
         <div className="header-placeholder" />
         <Link
-          to="/chalet-booking"
+          to={
+            language === "french"
+              ? "/chalet-booking"
+              : language === "english"
+              ? "/en/chalet-booking"
+              : "/nl/chalet-booking"
+          }
           className="book-now book-now-chalet mobile-only"
         >
           {languageToUse.bookNow}
@@ -71,7 +77,13 @@ const Chalet = (props) => {
           </div>
           <div className="video-container-horizontal">
             <Link
-              to="/chalet-booking"
+              to={
+                language === "french"
+                  ? "/chalet-booking"
+                  : language === "english"
+                  ? "/en/chalet-booking"
+                  : "/nl/chalet-booking"
+              }
               className="book-now book-now-chalet desktop-only"
             >
               {languageToUse.bookNow}
@@ -155,7 +167,13 @@ const Chalet = (props) => {
             <p className="room-text">{languageToUse.chaletP4}</p>
             <div className="button-container">
               <Link
-                to="/chalet-booking"
+                to={
+                  language === "french"
+                    ? "/chalet-booking"
+                    : language === "english"
+                    ? "/en/chalet-booking"
+                    : "/nl/chalet-booking"
+                }
                 className="herbergement-button chalet-button"
               >
                 {languageToUse.bookNow}

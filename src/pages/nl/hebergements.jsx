@@ -6,25 +6,23 @@ import { Link } from "gatsby";
 
 // import SimpleReactLightbox from "simple-react-lightbox";
 
-import "../styles/herbergements.css";
+import "../../styles/herbergements.css";
 
-import { content } from "../content/languages";
-import intakeInfo from "../content/intake";
+import { content } from "../../content/languages";
+import intakeInfo from "../../content/intake";
 
-import logoRound from "../images/Praly-rond.png";
+import logoRound from "../../images/Praly-rond.png";
 
-import top from "../images/top.png";
+import top from "../../images/top.png";
 
-import Chalet from "../components/Chalet";
-import Pavillion from "../components/Pavillion";
-import Appart from "../components/Appart";
+import Chalet from "../../components/Chalet";
+import Pavillion from "../../components/Pavillion";
+import Appart from "../../components/Appart";
 
 const HerbergementsPage = function (props) {
   let { language, languageToUse } = props;
 
-  language === "english" ? (languageToUse = content.english) : null;
-  language === "french" ? (languageToUse = content.french) : null;
-  language === "dutch" ? (languageToUse = content.dutch) : null;
+  languageToUse = content.dutch;
 
   const { data } = props;
 
@@ -33,7 +31,7 @@ const HerbergementsPage = function (props) {
       {/* <SimpleReactLightbox> */}
       <Helmet
         htmlAttributes={{
-          lang: "fr",
+          lang: "nl",
         }}
       >
         <title>{languageToUse.herbergementsTitle}</title>

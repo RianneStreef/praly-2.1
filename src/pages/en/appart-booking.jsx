@@ -1,25 +1,23 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-import "../styles/booking.css";
+import "../../styles/booking.css";
 
-import { content } from "../content/languages";
-import intakeInfo from "../content/intake";
+import { content } from "../../content/languages";
+import intakeInfo from "../../content/intake";
 
-import logoRound from "../images/Praly-rond.png";
+import logoRound from "../../images/Praly-rond.png";
 
 const AppartBookingPage = function (props) {
   let { language, languageToUse } = props;
 
-  language === "english" ? (languageToUse = content.english) : null;
-  language === "french" ? (languageToUse = content.french) : null;
-  language === "dutch" ? (languageToUse = content.dutch) : null;
+  languageToUse = content.english;
 
   return (
     <div>
       <Helmet
         htmlAttributes={{
-          lang: "fr",
+          lang: "en",
         }}
       >
         <title>{languageToUse.bookingTitle}</title>

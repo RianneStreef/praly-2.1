@@ -1,27 +1,25 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
-import "../styles/global.css";
+import "../../styles/global.css";
 
 import { Link } from "gatsby";
 
 // import SimpleReactLightbox from "simple-react-lightbox";
 
-import { content } from "../content/languages";
-import intakeInfo from "../content/intake";
+import { content } from "../../content/languages";
+import intakeInfo from "../../content/intake";
 
-import Intro from "../components/Intro";
-import Destination from "../components/Destination";
-import Contact from "../components/Contact";
+import Intro from "../../components/Intro";
+import Destination from "../../components/Destination";
+import Contact from "../../components/Contact";
 
-import top from "../images/top.png";
+import top from "../../images/top.png";
 
 const IndexPage = function (props) {
   let { language, languageToUse } = props;
 
-  language === "english" ? (languageToUse = content.english) : null;
-  language === "french" ? (languageToUse = content.french) : null;
-  language === "dutch" ? (languageToUse = content.dutch) : null;
+  languageToUse = content.dutch;
 
   useEffect(() => {
     const top = document.getElementById("top");
@@ -51,7 +49,11 @@ const IndexPage = function (props) {
 
   return (
     <div>
-      <Helmet>
+      <Helmet
+        htmlAttributes={{
+          lang: "nl",
+        }}
+      >
         <title>{languageToUse.indexTitle}</title>
         <meta name="robots" content="index, follow" />
         <meta name="description" content={languageToUse.metaDescription} />

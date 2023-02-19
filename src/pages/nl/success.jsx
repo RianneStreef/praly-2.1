@@ -1,23 +1,20 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-import "../styles/success.css";
+import "../../styles/success.css";
 
-import { content } from "../content/languages";
-import intakeInfo from "../content/intake";
+import { content } from "../../content/languages";
+import intakeInfo from "../../content/intake";
 
 const IndexPage = function (props) {
   let { language, languageToUse } = props;
 
-  language === "english" ? (languageToUse = content.english) : null;
-  language === "french" ? (languageToUse = content.french) : null;
-  language === "dutch" ? (languageToUse = content.dutch) : null;
-
+  languageToUse = content.dutch;
   return (
     <div className="success">
       <Helmet
         htmlAttributes={{
-          lang: "fr",
+          lang: "nl",
         }}
       >
         <title>{languageToUse.indexTitle}</title>
