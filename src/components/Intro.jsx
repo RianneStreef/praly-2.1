@@ -28,7 +28,16 @@ const Intro = (props) => {
       <div className="hero-container">
         <div className="hero">
           <img src={logoRound} alt="" className="hero-logo" />
-          <Link to="/booking" className="hero-button">
+          <Link
+            to={
+              language === "french"
+                ? "/booking"
+                : language === "english"
+                ? "/en/booking"
+                : "/nl/booking"
+            }
+            className="hero-button"
+          >
             {languageToUse.heroButton}
           </Link>
           <div className="hero-social">

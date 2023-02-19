@@ -53,7 +53,13 @@ const Pavillion = (props) => {
       <div className="pavillion" id="pavillion">
         <div className="header-placeholder" />
         <Link
-          to="/pavillion-booking"
+          to={
+            language === "french"
+              ? "/pavillion-booking"
+              : language === "english"
+              ? "/en/pavillion-booking"
+              : "/nl/pavillion-booking"
+          }
           className="book-now book-now-pavillion mobile-only"
         >
           {languageToUse.bookNow}
@@ -71,7 +77,13 @@ const Pavillion = (props) => {
           </div>
           <div className="video-container-horizontal">
             <Link
-              to="/pavillion-booking"
+              to={
+                language === "french"
+                  ? "/pavillion-booking"
+                  : language === "english"
+                  ? "/en/pavillion-booking"
+                  : "/nl/pavillion-booking"
+              }
               className="book-now book-now-pavillion desktop-only"
             >
               {languageToUse.bookNow}
@@ -140,7 +152,13 @@ const Pavillion = (props) => {
             <p className="room-text">{languageToUse.pavillionP4}</p>
             <div className="button-container">
               <Link
-                to="/pavillion-booking"
+                to={
+                  language === "french"
+                    ? "/pavillion-booking"
+                    : language === "english"
+                    ? "/en/pavillion-booking"
+                    : "/nl/pavillion-booking"
+                }
                 className="herbergement-button pavillion-button"
               >
                 {languageToUse.bookNow}

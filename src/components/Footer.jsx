@@ -40,9 +40,39 @@ const Footer = (props) => {
             </div>
           </div>
           <div className="footer-link-column footer-link-column-middle">
-            <Link to="/hebergements#appart">L'Appart</Link>
-            <Link to="/hebergements#chalet">Le Chalet</Link>
-            <Link to="/hebergements#pavillion">Le Pavillon</Link>
+            <Link
+              to={
+                language === "french"
+                  ? "/hebergements#appart"
+                  : language === "english"
+                  ? "/en/hebergements#appart"
+                  : "/nl/hebergements#appart"
+              }
+            >
+              L'Appart
+            </Link>
+            <Link
+              to={
+                language === "french"
+                  ? "/hebergements#chalet"
+                  : language === "english"
+                  ? "/en/hebergements#chalet"
+                  : "/nl/hebergements#chalet"
+              }
+            >
+              Le Chalet
+            </Link>
+            <Link
+              to={
+                language === "french"
+                  ? "/hebergements#pavillion"
+                  : language === "english"
+                  ? "/en/hebergements#pavillion"
+                  : "/nl/hebergements#pavillion"
+              }
+            >
+              Le Pavillon
+            </Link>
           </div>
 
           <div className="footer-link-column "></div>
