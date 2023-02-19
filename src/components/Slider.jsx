@@ -9,7 +9,7 @@ import img4 from "../images/slider/chalet-int.jpg";
 import img5 from "../images/slider/chalet-sdb.jpg";
 import img6 from "../images/slider/chalet-window.jpg";
 import img7 from "../images/slider/chalet-chambre.jpg";
-import img8 from  "../images/slider/pool.jpg";
+import img8 from "../images/slider/pool.jpg";
 import img9 from "../images/slider/surroundings.jpg";
 import img10 from "../images/slider/batiment-piscine.jpg";
 // a changer
@@ -439,43 +439,63 @@ const Slider = () => {
         </div>
         <div className="image-slider" id="image-slider">
           <div className="slide-image-container">
-            <img src={img1} className="slide-image" id="slide-image-1" />
+            <img src={img1} alt="" className="slide-image" id="slide-image-1" />
           </div>
           <div className="slide-image-container">
-            <img src={img2} className="slide-image" id="slide-image-2" />
+            <img src={img2} alt="" className="slide-image" id="slide-image-2" />
           </div>
           <div className="slide-image-container">
-            <img src={img3} className="slide-image" id="slide-image-3" />
+            <img src={img3} alt="" className="slide-image" id="slide-image-3" />
           </div>
           <div className="slide-image-container">
-            <img src={img4} className="slide-image" id="slide-image-4" />
+            <img src={img4} alt="" className="slide-image" id="slide-image-4" />
           </div>
           <div className="slide-image-container">
-            <img src={img5} className="slide-image" id="slide-image-5" />
+            <img src={img5} alt="" className="slide-image" id="slide-image-5" />
           </div>
           <div className="slide-image-container">
-            <img src={img6} className="slide-image" id="slide-image-6" />
+            <img src={img6} alt="" className="slide-image" id="slide-image-6" />
           </div>
           <div className="slide-image-container">
-            <img src={img7} className="slide-image" id="slide-image-7" />
+            <img src={img7} alt="" className="slide-image" id="slide-image-7" />
           </div>
           <div className="slide-image-container">
-            <img src={img8} className="slide-image" id="slide-image-8" />
+            <img src={img8} alt="" className="slide-image" id="slide-image-8" />
           </div>
           <div className="slide-image-container">
-            <img src={img9} className="slide-image" id="slide-image-9" />
+            <img src={img9} alt="" className="slide-image" id="slide-image-9" />
           </div>
           <div className="slide-image-container">
-            <img src={img10} className="slide-image" id="slide-image-10" />
+            <img
+              src={img10}
+              alt=""
+              className="slide-image"
+              id="slide-image-10"
+            />
           </div>
           <div className="slide-image-container">
-            <img src={img1} className="slide-image" id="slide-image-11" />
+            <img
+              src={img1}
+              alt=""
+              className="slide-image"
+              id="slide-image-11"
+            />
           </div>
           <div className="slide-image-container">
-            <img src={img2} className="slide-image" id="slide-image-12" />
+            <img
+              src={img2}
+              alt=""
+              className="slide-image"
+              id="slide-image-12"
+            />
           </div>
           <div className="slide-image-container">
-            <img src={img3} className="slide-image" id="slide-image-13" />
+            <img
+              src={img3}
+              alt=""
+              className="slide-image"
+              id="slide-image-13"
+            />
           </div>
         </div>
       </div>

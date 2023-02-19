@@ -161,6 +161,7 @@ const Header = (props) => {
                   className={`flag ${
                     languageToUse.language === "english" ? "opaque" : "fade"
                   } `}
+                  alt="set language to English"
                 />
               </Link>
               <Link to="/">
@@ -170,6 +171,7 @@ const Header = (props) => {
                   className={`flag ${
                     languageToUse.language === "french" ? "opaque" : "fade"
                   } `}
+                  alt="choisir Français"
                 />
               </Link>{" "}
               <Link to="/nl">
@@ -179,6 +181,7 @@ const Header = (props) => {
                   className={`flag ${
                     languageToUse.language === "dutch" ? "opaque" : "fade"
                   } `}
+                  alt="zet Nederlands als taal"
                 />
               </Link>
             </div>
