@@ -87,7 +87,11 @@ const Lightbox = (props) => {
       <div className="thumbnail-list-desktop">{thumbnailList}</div>
       {isOpen ? (
         <div className="lightbox">
-          <img src={images[currentImage].src} className="lightbox-image" />
+          <img
+            src={images[currentImage].src}
+            alt=""
+            className="lightbox-image"
+          />
           <div className="thumbnail-list-open">{thumbnailListOpen}</div>
           <div className="control-container-lightbox">
             <div
@@ -101,11 +105,13 @@ const Lightbox = (props) => {
                 src={left}
                 onClick={() => setSliderLeft()}
                 className="controls-lightbox control-left-lightbox"
+                alt="left"
               />
               <img
                 src={right}
                 onClick={() => setSliderRight()}
                 className="controls-lightbox control-right-lightbox"
+                alt="right"
               />
             </div>
             <div className="controls-placeholder" />

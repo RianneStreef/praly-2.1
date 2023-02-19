@@ -174,6 +174,7 @@ const Navbar = (props) => {
               className={`flag ${
                 languageToUse.language === "english" ? "opaque" : "fade"
               } `}
+              alt="set language to English"
             />
             <img
               src={flagFr}
@@ -181,6 +182,7 @@ const Navbar = (props) => {
               className={`flag ${
                 languageToUse.language === "french" ? "opaque" : "fade"
               } `}
+              alt="choisir Français comme langue"
             />
             <img
               src={flagNl}
@@ -188,6 +190,7 @@ const Navbar = (props) => {
               className={`flag ${
                 languageToUse.language === "dutch" ? "opaque" : "fade"
               } `}
+              alt="zet Nederlands als taal"
             />
           </div>
         </li>
