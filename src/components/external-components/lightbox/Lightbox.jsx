@@ -111,6 +111,7 @@ const Lightbox = (props) => {
                 src={right}
                 onClick={() => setSliderRight()}
                 className="controls-lightbox control-right-lightbox"
+                alt="right"
               />
             </div>
             <div className="controls-placeholder" />
