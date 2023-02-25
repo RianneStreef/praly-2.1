@@ -76,6 +76,12 @@
   color: #fff;
 }
 
+.under-title {
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+}
+
 .intro-container {
   display: flex;
   flex-direction: column;
