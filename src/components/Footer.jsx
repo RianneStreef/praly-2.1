@@ -86,10 +86,10 @@ const Footer = (props) => {
           {year}
         </span>
         <Link to="/legal">
-          <span>- {languageToUse.legal} -</span>
+          <span> - {languageToUse.legal} -</span>
         </Link>
         <Link to="/cgv">
-          <span>{languageToUse.cgv} -</span>
+          <span>{languageToUse.cgv} - </span>
         </Link>
         <a href="https://vts-webdesign.com" target="_blank">
           <span>VTS Web Design</span>

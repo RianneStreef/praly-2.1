@@ -57,7 +57,7 @@
 
 .under-title-hero {
   font-family: "Hello mozza";
-  font-size: 40px;
+  font-size: 20px;
   text-shadow: #000 1px 0 20px;
   color: #fff;
   margin: 0;
@@ -193,6 +193,10 @@
   .hero-logo {
     width: 20%;
     margin-top: 100px;
+  }
+
+  .under-title-hero {
+    font-size: 40px;
   }
 
   .under-title {
