@@ -49,6 +49,7 @@ const BookingPage = function (props) {
       </Helmet>
       <div className="hero-booking">
         <img src={logoRound} alt="" className="hero-logo" />
+
         <Link
           to={
             language === "french"

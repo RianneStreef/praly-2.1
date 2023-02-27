@@ -17,6 +17,7 @@ export const dutch = {
     "Reserveer Le Pavillon,  een kleine, knusse accommodatie",
 
   heroButton: "Boek uw verblijf",
+  underTitleHero: "VERHUUR LES OLLIÈRES SUR EYRIEUX",
 
   home: "Home",
   herbergements: "Onze accommodaties",
@@ -28,6 +29,8 @@ export const dutch = {
 
   promoTitle: "APRIL",
   promoText: "gratis ontbijt *",
+
+  underTitle: "AUTHENTIEK VERBLIJF IN DE ARDÈCHE",
 
   introText1:
     "Welkom bij Les Lodges de Praly. Wij heten u welkom in ons vriendelijke en authentieke huis, in het dorp Ollières sur Eyrieux, in het hart van de Monts d'Ardèche. Een ideale locatie voor een heerlijk verblijf: aan de rand van de 'Dolce Via', in een rustige omgeving en dicht bij het centrum. Kom met familie, partner of vrienden een paar dagen of langer ontsnappen in een van onze 3 lodges: het atypisch chalet hoog op ons terrein, het kleine paviljoen in de schaduw van de grote dennen, of in onze gezellige appartement! Zwembad en tuin staan ook ​​tot uw beschikking. Simpel plezier en een warm welkom!",
@@ -176,6 +179,7 @@ export const dutch = {
   subscribeConfirmation: "Uw email adres is geregistreerd!",
   subscribeButton: "Aanmelden",
 
+  copyrightText: "Verhuur en accommodatie Les Ollières sur Eyrieux",
   legal: "Disclaimer",
   cgv: "CGV",
 

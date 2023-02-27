@@ -34,6 +34,7 @@ export const french = {
     "location ardèche, location appartement ardèche, hébergement insolite ardèche, location chambre d'hôte ardèche, location maison d'hôte ardèche, location gite ardeche, location lodge ardeche",
 
   heroButton: "Reservez votre sejour",
+  underTitleHero: "LOCATION LES OLLIÈRES SUR EYRIEUX",
 
   home: "Accueil",
   herbergements: "Nos Hébergements",
@@ -45,6 +46,8 @@ export const french = {
 
   promoTitle: "AVRIL",
   promoText: "petits déjeuners offerts *",
+
+  underTitle: "SÉJOUR AUTHENTIQUE EN ARDÈCHE",
 
   introText1:
     "Bienvenue aux Lodges de Praly, nous vous accueillons chez nous, entre convivialité et authenticité, dans le village des Ollières sur Eyrieux, en plein cœur des Monts d’Ardèche. Un emplacement idéal pour un séjour facile : Au bord de la « Dolce Via », dans un quartier calme, à deux pas du centre. En famille, en couple ou entre amis, venez-vous évader quelques jours ou plus, dans l’un de nos 3 lodges :  Un chalet atypique sur les hauteurs du jardin, le pavillon à l’ombre du pin parasol, et l'appartement cosy ! Piscine & jardin sont à votre disposition. Des plaisirs simples et un accueil chaleureux !",
@@ -194,6 +197,7 @@ export const french = {
   subscribeConfirmation: "Votre adresse email est bien enregistré!",
   subscribeButton: "S'abonner",
 
+  copyrightText: "Location et hébergement Les Ollières sur Eyrieux",
   legal: "Mentions légales",
   cgv: "CGV",
 

@@ -81,7 +81,10 @@ const Footer = (props) => {
         <MailChimp language={language} languageToUse={languageToUse} />
       </div>
       <div className="copyright">
-        <span>Copyright &copy; Les Lodges de Praly {year}</span>
+        <span>
+          Copyright &copy; Les Lodges de Praly - {languageToUse.copyrightText} -
+          {year}
+        </span>
         <Link to="/legal">
           <span>- {languageToUse.legal} -</span>
         </Link>

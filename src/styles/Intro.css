@@ -55,6 +55,15 @@
   transition: all 250ms ease-in;
 }
 
+.under-title-hero {
+  font-family: "Hello mozza";
+  font-size: 40px;
+  text-shadow: #000 1px 0 20px;
+  color: #fff;
+  margin: 0;
+  letter-spacing: 3px;
+}
+
 .hero-button:hover {
   background-color: #000;
   color: #fff;
@@ -74,6 +83,12 @@
   width: 50px;
   margin: 10px;
   color: #fff;
+}
+
+.under-title {
+  font-size: 15px;
+  text-align: center;
+  margin: 15px;
 }
 
 .intro-container {
@@ -178,6 +193,10 @@
   .hero-logo {
     width: 20%;
     margin-top: 100px;
+  }
+
+  .under-title {
+    font-size: 30px;
   }
 
   .intro-image {

@@ -28,6 +28,8 @@ const Intro = (props) => {
       <div className="hero-container">
         <div className="hero">
           <img src={logoRound} alt="" className="hero-logo" />
+          <p className="under-title-hero">{languageToUse.underTitleHero}</p>
+
           <Link
             to={
               language === "french"
@@ -63,6 +65,7 @@ const Intro = (props) => {
       </div>
       <div>
         <h1>Les Lodges de Praly</h1>
+        <h2 className="under-title">{languageToUse.underTitle}</h2>
         <div className="intro-container">
           <div className="intro-text">
             <p>{languageToUse.introText1}</p>
