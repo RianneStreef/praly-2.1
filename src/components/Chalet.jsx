@@ -24,7 +24,7 @@ import bikeParking from "../images/icons/velo.png";
 import clim from "../images/icons/clim.png";
 import bebe from "../images/icons/lit-bébé.png";
 
-import chaletImage from "../images/new-images/chalet-ext2.jpg";
+import chaletImage from "../images/new-images/chalet-outside.jpg";
 
 const Chalet = (props) => {
   let { language, languageToUse } = props;

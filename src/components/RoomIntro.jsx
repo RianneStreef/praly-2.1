@@ -6,7 +6,7 @@ import "../styles/RoomIntro.css";
 
 import { content } from "../content/languages";
 
-import chalet from "../images/new-images/chalet-ext2.jpg";
+import chalet from "../images/new-images/chalet-outside.jpg";
 import appart from "../images/appart-main.jpg";
 import pavillion from "../images/new-images/pavillon-façade.jpg";
 
