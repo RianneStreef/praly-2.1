@@ -42,7 +42,7 @@
 }
 
 .chalet-image-link::before {
-  background-image: url("../images/facade-portrait-chalet.jpg");
+  background-image: url("../images/chalet-v.jpeg");
 }
 .appart-image-link::before {
   background-image: url("../images/appart-v.jpg");
