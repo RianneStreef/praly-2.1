@@ -8,6 +8,7 @@ import { content } from "../content/languages";
 
 import RoomIntro from "../components/RoomIntro";
 import Slider from "../components/Slider";
+import Food from "../components/Food";
 
 import introImage from "../images/main-image.png";
 
@@ -82,13 +83,15 @@ const Intro = (props) => {
 
       <RoomIntro language={language} languageToUse={languageToUse} />
 
+      {/* <Food language={language} languageToUse={languageToUse} /> */}
+
       <div className="groups" id="groups">
         <div className="header-placeholder" />
 
         <h2>{languageToUse.privatisationTitle1}</h2>
         <h2>{languageToUse.privatisationTitle2}</h2>
         <div className="privatisation">
-          <div className="privatisation-icon">
+          <div className="privatisation-icon mobile-only">
             <img src={privatisation} alt="" className="family-icon" />
           </div>
           <div className="privatisation-text">
@@ -108,6 +111,9 @@ const Intro = (props) => {
                 {languageToUse.devis}
               </a>
             </div>
+          </div>
+          <div className="privatisation-icon desktop-only">
+            <img src={privatisation} alt="" className="family-icon" />
           </div>
         </div>
       </div>

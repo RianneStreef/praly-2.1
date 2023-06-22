@@ -114,9 +114,10 @@
 }
 
 .groups {
-  background-image: url("../images/slider/jardin2.jpg");
+  background-image: url("../images/batiment-piscine.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   width: 90vw;
   display: flex;
   flex-direction: column;
@@ -128,6 +129,7 @@
 .groups h2 {
   text-align: right;
   color: #fff;
+  text-shadow: rgb(0, 0, 0) 1px 0px 20px;
 }
 
 .privatisation {
@@ -138,6 +140,7 @@
 .privatisation-icon {
   background-image: linear-gradient(to top, #ffffff, rgb(255, 255, 255, 0));
   padding: 5vw 15vw 5vw 5vw;
+  opacity: 0;
 }
 
 .privatisation-text {

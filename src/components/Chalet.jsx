@@ -20,9 +20,11 @@ import speaker from "../images/icons/enceinte-bluetooth.png";
 import swimmingPool from "../images/icons/piscine.png";
 import privateGarden from "../images/icons/transat.png";
 import parking from "../images/icons/parking.png";
-import bikeParking from "../images/icons/velo.png";
 import clim from "../images/icons/clim.png";
 import bebe from "../images/icons/lit-bébé.png";
+import bikeParking from "../images/icons/local-velo.png";
+import petitDej from "../images/icons/petit-dej.png";
+import food from "../images/icons/food.png";
 
 import chaletImage from "../images/new-images/chalet-outside.jpg";
 
@@ -159,10 +161,18 @@ const Chalet = (props) => {
                 <img src={bebe} alt="" className="facilities-icon" />
                 {languageToUse.chaletLi9b}
               </li>
-              {/* <li>
+              <li>
                 <img src={bikeParking} alt="" className="facilities-icon" />
                 {languageToUse.chaletLi10}
-              </li> */}
+              </li>
+              <li>
+                <img src={petitDej} alt="" className="facilities-icon" />
+                {languageToUse.chaletLi11}
+              </li>
+              <li>
+                <img src={food} alt="" className="facilities-icon" />
+                {languageToUse.chaletLi12}
+              </li>
             </ul>
             <p className="room-text">{languageToUse.chaletP4}</p>
             <div className="button-container">

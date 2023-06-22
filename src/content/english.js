@@ -129,7 +129,11 @@ export const english = {
 
   chaletLi8: "Free parking nearby",
   chaletLi9: "Secure bike parking",
-  chaletLi9b: "Baby cod on reservation (no supplement)",
+  chaletLi9b: "Baby cod on reservation (no surcharge)",
+
+  chaletLi10: "Bicycle and motorbike storage available",
+  chaletLi11: "Breakfast on reservation (surcharge)",
+  chaletLi12: "Homemade pizzas & apetizer boards",
 
   chaletP4: "The little extra: The wood stove, to enjoy cooler evenings!",
 
@@ -144,7 +148,11 @@ export const english = {
   pavillionLi5: "Swimmingpool access",
   pavillionLi6: "Free parking nearby",
   pavillionLi7: "Secure bike parking",
-  pavillionLi8: "Baby cod on reservation (no supplement)",
+  pavillionLi8: "Baby cod on reservation (no surcharge)",
+
+  pavillionLi10: "Bicycle and motorbike storage available",
+  pavillionLi11: "Breakfast on reservation (surcharge)",
+  pavillionLi12: "Homemade pizzas & apetizer boards",
 
   appartP1:
     "Accommodation located on the 1st floor of the large stone house; it can accommodate up to 4 people. Bright & spacious, you will feel at home! A bedroom with a double bed, a living room with a convertible sofa, an equipped kitchen, a bathroom with shower and separate WC.",
@@ -164,7 +172,11 @@ export const english = {
   appartLi6: "Swimmingpool access",
   appartLi7: "Free parking nearby",
   appartLi8: "Secure bike parking",
-  appartLi9: "Baby cod on reservation (no supplement)",
+  appartLi9: "Baby cod on reservation (no surcharge)",
+
+  appartLi10: "Bicycle and motorbike storage available",
+  appartLi11: "Breakfast on reservation (surcharge)",
+  appartLi12: "Homemade pizzas & apetizer boards",
 
   contactTitle: "A question? ",
   contactIntro: "Do not hesitate to contact us",
