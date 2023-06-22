@@ -10,8 +10,9 @@ import img5 from "../images/slider/chalet-sdb.jpg";
 import img6 from "../images/slider/chalet-window.jpg";
 import img7 from "../images/slider/chalet-chambre.jpg";
 import img8 from "../images/slider/pool.jpg";
-import img9 from "../images/slider/surroundings.jpg";
-import img10 from "../images/slider/batiment-piscine.jpg";
+// import img9 from "../images/slider/surroundings.jpg";
+import img10 from "../images/slider/piscine-commune.jpg";
+import img9 from "../images/new-images/coin-repas-exterieur-chalet.jpg";
 // a changer
 
 const Slider = () => {
