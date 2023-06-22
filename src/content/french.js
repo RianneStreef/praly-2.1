@@ -76,6 +76,16 @@ export const french = {
 
   comingSoon: "Disponible très prochainement",
 
+  food: "Carte du Lodges",
+
+  foodIntro: "Nous proposons sur place:",
+  foodIntroLi1:
+    "Le petit déjeuner (livré devant votre porte sous forme de plateau repas)",
+  foodIntroLi2: "La planche apéritive (assortiment de produits locaux)",
+  foodIntroLi3: "Les pizzas des lodges (pâte maison & cuisson four Ooni)",
+  foodIntroLi4: "Sélection de bières artisanales Ardéchoises",
+  foodIntroLi5: "Glaces 'Terre Adélice'",
+
   privatisationTitle1: "GROUPES ET",
   privatisationTitle2: "PRIVATISATION ",
   privatisationText1:
@@ -132,12 +142,16 @@ export const french = {
   chaletLi9b: "Lit bébé sur réservation (sans supplément)",
   // chaletLi10: "Garage à vélo sécurisé",
 
+  chaletLi10: "Local vélos/motos à disposition",
+  chaletLi11: "Petit déjeuner sur réservation (en supplément)",
+  chaletLi12: "Pizzas maisons & Planches apéritives",
+
   chaletP4:
     "Le p’tit plus : Le poêle à granulé, pour profiter des soirées plus fraîches !",
 
   pavillionP1:
     "Ici c’est le lodge où l’on optimise l’espace : petit, et cosy ! Ce studio est idéal pour 2 personnes, un coin nuit avec lit double, un coin salon & un coin repas, sans oublier sa terrasse à l’ombre du pin parasol. La terrasse est mitoyenne avec un autre hébergement mais chacun à son intimité !",
-  pavillionP2: "Le p’tit’ plus :sa terrasse à l'ombre du grand pin parasol",
+  pavillionP2: "Le p’tit’ plus :sa terrasse à l'ombre du grand pin parasol.",
 
   pavillionLi1: "20m2 hébergement",
   pavillionLi2: "Vue village & vallée",
@@ -147,6 +161,10 @@ export const french = {
   pavillionLi6: "Accès piscine",
   pavillionLi7: "Parking gratuit à proximité",
   pavillionLi8: "Lit bébé sur réservation (sans supplément)",
+
+  pavillionLi10: "Local vélos/motos à disposition",
+  pavillionLi11: "Petit déjeuner sur réservation (en supplément)",
+  pavillionLi12: "Pizzas maisons & Planches apéritives",
 
   appartP1:
     "Hébergement situé au 1er étage de la grande maison en pierre, , idéal pour 2 personnes (il peut accueillir jusqu’à 4 personnes sur demande avec un supplément de 15€/personne/nuit). Lumineux & spacieux, vous vous y sentirez comme à la maison ! Une chambre avec lit double, un salon avec un canapé convertible, une cuisine équipée, une salle de bain avec douche, et WC séparés. ",
@@ -167,6 +185,10 @@ export const french = {
   appartLi7: "Accès piscine",
   appartLi8: "Parking gratuit à proximité",
   appartLi9: "Lit bébé sur réservation (sans supplément)",
+
+  appartLi10: "Local vélos/motos à disposition",
+  appartLi11: "Petit déjeuner sur réservation (en supplément)",
+  appartLi12: "Pizzas maisons & Planches apéritives",
 
   contactTitle: "Une Question ? ",
   contactIntro: "N'hesitez pas a nous contacter",

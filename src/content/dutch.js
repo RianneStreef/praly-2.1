@@ -115,6 +115,10 @@ export const dutch = {
   chaletLi9: "Beveiligde fietsenstalling",
   chaletLi9b: "Baby bed op reservering (zonder toeslag)",
 
+  chaletLi10: "Fiets en motorstalling beschikbaar",
+  chaletLi11: "Ontbijt op reservering (toeslag)",
+  chaletLi12: "Huisgemaakte pizza's & borrelplanken",
+
   chaletP4:
     "Het kleine extraatje: de houtkachel, om van koelere avonden te genieten!",
 
@@ -130,6 +134,10 @@ export const dutch = {
   pavillionLi6: "Gratis parkeren in de buurt",
   pavillionLi7: "Beveiligde fietsenstalling",
   pavillionLi8: "Baby bed op reservering (zonder toeslag)",
+
+  pavillionLi10: "Fiets en motorstalling beschikbaar",
+  pavillionLi11: "Ontbijt op reservering (toeslag)",
+  pavillionLi12: "Huisgemaakte pizza's & borrelplanken",
 
   appartP1:
     "Deze accommodatie is gelegen op de 1e verdieping van het grote stenen huis en is geschikt voor maximaal 4 personen. Licht en ruim, je zult je meteen thuis voelen!",
@@ -149,6 +157,10 @@ export const dutch = {
   appartLi7: "Gratis parkeren in de buurt",
   appartLi8: "Beveiligde fietsenstalling",
   appartLi9: "Baby bed op reservering (zonder toeslag)",
+
+  appartLi10: "Fiets en motorstalling beschikbaar",
+  appartLi11: "Ontbijt op reservering (toeslag)",
+  appartLi12: "Huisgemaakte pizza's & borrelplanken",
 
   contactTitle: "Een vraag? ",
   contactIntro: "Neem gerust contact met ons op!",

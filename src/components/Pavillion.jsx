@@ -20,9 +20,11 @@ import speaker from "../images/icons/enceinte-bluetooth.png";
 import swimmingPool from "../images/icons/piscine.png";
 import privateGarden from "../images/icons/transat.png";
 import parking from "../images/icons/parking.png";
-import bikeParking from "../images/icons/velo.png";
 import clim from "../images/icons/clim.png";
 import bebe from "../images/icons/lit-bébé.png";
+import bikeParking from "../images/icons/local-velo.png";
+import petitDej from "../images/icons/petit-dej.png";
+import food from "../images/icons/food.png";
 
 import pavillionImage from "../images/new-images/pavillon-façade.jpg";
 
@@ -147,6 +149,18 @@ const Pavillion = (props) => {
               <li>
                 <img src={bebe} alt="" className="facilities-icon" />
                 {languageToUse.pavillionLi8}
+              </li>
+              <li>
+                <img src={bikeParking} alt="" className="facilities-icon" />
+                {languageToUse.pavillionLi10}
+              </li>
+              <li>
+                <img src={petitDej} alt="" className="facilities-icon" />
+                {languageToUse.pavillionLi11}
+              </li>
+              <li>
+                <img src={food} alt="" className="facilities-icon" />
+                {languageToUse.pavillionLi12}
               </li>
             </ul>
             <p className="room-text">{languageToUse.pavillionP4}</p>
