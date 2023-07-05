@@ -45,7 +45,7 @@ export const french = {
   bookNow: "RESERVER >",
 
   promoTitle: "Bon Cadeau Chalet",
-  promoText: "Contactez nou en direct",
+  promoText: "Contactez-nous",
 
   underTitle: "SÉJOUR AUTHENTIQUE EN ARDÈCHE",
 

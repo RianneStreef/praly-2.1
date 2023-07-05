@@ -27,8 +27,8 @@ export const dutch = {
   book: "BOOK!",
   bookNow: "BOOK NOW >",
 
-  promoTitle: "APRIL",
-  promoText: "gratis ontbijt *",
+  promoTitle: "Cadeau bon Chalet",
+  promoText: "Contact ons",
 
   underTitle: "AUTHENTIEK VERBLIJF IN DE ARDÈCHE",
 

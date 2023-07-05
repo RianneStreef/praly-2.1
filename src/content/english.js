@@ -44,8 +44,8 @@ export const english = {
   book: "BOOK!",
   bookNow: "BOOK NOW >",
 
-  promoTitle: "APRIL",
-  promoText: "free breakfast *",
+  promoTitle: "Gift voucher Chalet",
+  promoText: "Contact us",
 
   underTitle: "AUTHENTIC STAY IN THE ARDÈCHE",
 
