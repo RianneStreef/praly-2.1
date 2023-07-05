@@ -2,15 +2,15 @@ import React from "react";
 
 import "../styles/Slider.css";
 
-import img1 from "../images/slider/praly-view.jpg";
-import img2 from "../images/slider/piscine-1.jpg";
+import img2 from "../images/slider/praly-view.jpg";
+import img1 from "../images/slider/piscine-1.jpg";
 import img3 from "../images/slider/chambre1.jpg";
 import img4 from "../images/slider/chalet-int.jpg";
 import img5 from "../images/outside-night.jpg";
 import img6 from "../images/slider/chalet-window.jpg";
 import img7 from "../images/slider/chalet-chambre.jpg";
 import img8 from "../images/slider/pool.jpg";
-// import img9 from "../images/slider/surroundings.jpg";
+import img11 from "../images/slider/surroundings.jpg";
 import img10 from "../images/slider/piscine-commune.jpg";
 import img9 from "../images/new-images/coin-repas-exterieur-chalet.jpg";
 // a changer
@@ -472,6 +472,14 @@ const Slider = () => {
               alt=""
               className="slide-image"
               id="slide-image-10"
+            />
+          </div>
+          <div className="slide-image-container">
+            <img
+              src={img11}
+              alt=""
+              className="slide-image"
+              id="slide-image-11"
             />
           </div>
           <div className="slide-image-container">
