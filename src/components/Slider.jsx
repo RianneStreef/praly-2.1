@@ -6,7 +6,7 @@ import img1 from "../images/slider/praly-view.jpg";
 import img2 from "../images/slider/piscine-1.jpg";
 import img3 from "../images/slider/chambre1.jpg";
 import img4 from "../images/slider/chalet-int.jpg";
-import img5 from "../images/slider/chalet-sdb.jpg";
+import img5 from "../images/outside-night.jpg";
 import img6 from "../images/slider/chalet-window.jpg";
 import img7 from "../images/slider/chalet-chambre.jpg";
 import img8 from "../images/slider/pool.jpg";

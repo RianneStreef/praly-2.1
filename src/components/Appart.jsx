@@ -24,7 +24,7 @@ import bikeParking from "../images/icons/local-velo.png";
 import petitDej from "../images/icons/petit-dej.png";
 import food from "../images/icons/food.png";
 
-import appartImage from "../images/appart-main.jpg";
+import appartImage from "../images/appart-main-2.jpg";
 
 const Appart = (props) => {
   let { language, languageToUse } = props;
