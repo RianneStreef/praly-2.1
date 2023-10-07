@@ -203,6 +203,11 @@ export const english = {
   bookingAppartPageTitle: "Book l'Appart",
   bookingPavillionPageTitle: "Book le Pavillon",
 
+  cookieHeader: "WE VALUE YOUR PRIVACY!",
+  cookieText: "This website uses cookies to analyze our traffic.",
+  cookieAccept: "I accept!",
+  cookieDecline: "I decline..",
+
   subscribeText: "Subscribe to our newletter",
   subscribeConfirmation: "Your email adress is registered!",
   subscribeButton: "Subscribe",

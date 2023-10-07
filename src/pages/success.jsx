@@ -6,6 +6,8 @@ import "../styles/success.css";
 import { content } from "../content/languages";
 import intakeInfo from "../content/intake";
 
+import Consent from "../components/Consent";
+
 const IndexPage = function (props) {
   let { language, languageToUse } = props;
 
@@ -26,6 +28,8 @@ const IndexPage = function (props) {
         <meta name="keywords" content={languageToUse.metaKeywords} />
         <link rel="canonical" href={intakeInfo.domainName} />
       </Helmet>
+      <Consent language={language} languageToUse={languageToUse} />
+
       <div className="header-placeholder" />
       <p>{languageToUse.thanks}</p>
     </div>

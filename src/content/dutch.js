@@ -187,6 +187,11 @@ export const dutch = {
   bookingAppartPageTitle: "Boek l'Appart",
   bookingPavillionPageTitle: "Boek le Pavillon",
 
+  cookieHeader: "WIJ WAARDEREN UW PRIVACY!",
+  cookieText: "Deze website gebruikt cookies om ons verkeer te analyseren.",
+  cookieAccept: "Ik accepteer!",
+  cookieDecline: "Ik weiger..",
+
   subscribeText: "Aanmelden voor onze nieuwsbrief",
   subscribeConfirmation: "Uw email adres is geregistreerd!",
   subscribeButton: "Aanmelden",

@@ -19,6 +19,8 @@ import Chalet from "../components/Chalet";
 import Pavillion from "../components/Pavillion";
 import Appart from "../components/Appart";
 
+import Consent from "../components/Consent";
+
 const HerbergementsPage = function (props) {
   let { language, languageToUse } = props;
 
@@ -48,6 +50,8 @@ const HerbergementsPage = function (props) {
         />
         <link rel="canonical" href={intakeInfo.domainName} />
       </Helmet>
+      <Consent language={language} languageToUse={languageToUse} />
+
       <Link
         to={
           language === "french"

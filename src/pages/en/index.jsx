@@ -14,6 +14,8 @@ import Intro from "../../components/Intro";
 import Destination from "../../components/Destination";
 import Contact from "../../components/Contact";
 
+import Consent from "../../components/Consent";
+
 import top from "../../images/top.png";
 
 const IndexPage = function (props) {
@@ -65,6 +67,8 @@ const IndexPage = function (props) {
           data-usrc
         ></script>
       </Helmet>
+      <Consent language={language} languageToUse={languageToUse} />
+
       <Link
         to={
           language === "french" ? "/" : language === "english" ? "/en/" : "/nl/"

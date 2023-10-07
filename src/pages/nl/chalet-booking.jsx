@@ -6,6 +6,8 @@ import "../../styles/booking.css";
 import { content } from "../../content/languages";
 import intakeInfo from "../../content/intake";
 
+import Consent from "../../components/Consent";
+
 import logoRound from "../../images/Praly-rond.png";
 
 const ChaletBookingPage = function (props) {
@@ -32,6 +34,8 @@ const ChaletBookingPage = function (props) {
         />
         <link rel="canonical" href={intakeInfo.domainName} />
       </Helmet>
+      <Consent language={language} languageToUse={languageToUse} />
+
       <div className="hero-herbergement">
         <img src={logoRound} alt="" className="hero-logo" />
       </div>

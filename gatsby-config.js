@@ -9,26 +9,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        // You can add multiple tracking ids and a pageview event will be fired for all of them.
-        trackingIds: [
-          "G-GTHE5DC1L3",
-          "G-LEGZE4DT3Y",
-
-          // Google Analytics / GA
-        ],
-        pluginConfig: {
-          // Puts tracking script in the head instead of the body
-          head: true,
-        },
-        // defaults to false
-        enableWebVitalsTracking: true,
-        // Setting this parameter is also optional
-        respectDNT: true,
-      },
-    },
-    {
       resolve: "gatsby-plugin-mailchimp",
       options: {
         endpoint:

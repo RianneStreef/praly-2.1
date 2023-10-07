@@ -8,6 +8,8 @@ import intakeInfo from "../content/intake";
 
 import logoRound from "../images/Praly-rond.png";
 
+import Consent from "../components/Consent";
+
 const AppartBookingPage = function (props) {
   let { language, languageToUse } = props;
 
@@ -31,6 +33,8 @@ const AppartBookingPage = function (props) {
         <meta name="keywords" content={languageToUse.metaKeywordsBooking} />
         <link rel="canonical" href={intakeInfo.domainName} />
       </Helmet>
+      <Consent language={language} languageToUse={languageToUse} />
+
       <div className="hero-herbergement">
         <img src={logoRound} alt="" className="hero-logo" />
       </div>

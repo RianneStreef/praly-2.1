@@ -191,7 +191,7 @@ p {
   bottom: 40px;
   right: 40px;
   width: 40px;
-  z-index: 999;
+  z-index: 998;
 }
 
 .scroll-down {

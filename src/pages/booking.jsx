@@ -5,6 +5,8 @@ import { Link } from "gatsby";
 
 import "../styles/booking.css";
 
+import Consent from "../components/Consent";
+
 import { content } from "../content/languages";
 import intakeInfo from "../content/intake";
 
@@ -47,6 +49,8 @@ const BookingPage = function (props) {
         <meta name="keywords" content={languageToUse.metaKeywordsBooking} />
         <link rel="canonical" href={intakeInfo.domainName} />
       </Helmet>
+      <Consent language={language} languageToUse={languageToUse} />
+
       <div className="hero-booking">
         <img src={logoRound} alt="" className="hero-logo" />
 

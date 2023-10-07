@@ -1,0 +1,33 @@
+.cookie-text-header {
+  font-size: 30px;
+  margin: 5px;
+}
+.cookie-text {
+  margin: 5px;
+}
+
+#rcc-decline-button {
+  background-color: var(--color-background) !important;
+  border: 2px solid #707e6f !important;
+  color: #707e6f !important;
+}
+
+#rcc-confirm-button {
+  background-color: #707e6f !important;
+  color: #fff !important;
+}
+
+.CookieConsent {
+  background-color: var(--color-background) !important;
+  font-family: "Basic Title Font" !important;
+  color: #707e6f;
+}
+
+.CookieConsent p {
+  color: #707e6f;
+}
+
+.CookieConsent button {
+  font-family: "Hello mozza" !important;
+  font-size: 25px !important;
+}

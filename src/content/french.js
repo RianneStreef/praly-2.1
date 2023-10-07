@@ -215,6 +215,11 @@ export const french = {
   bookingAppartPageTitle: "Réservez l'Appart",
   bookingPavillionPageTitle: "Réservez le Pavillon",
 
+  cookieHeader: "NOUS RESPECTONS VOTRE VIE PRIVEE!",
+  cookieText: "Ce site web utilise des cookies pour analyser notre trafic.",
+  cookieAccept: "J'accepte !",
+  cookieDecline: "Je refuse..",
+
   subscribeText: "S'inscrire à notre newsletter",
   subscribeConfirmation: "Votre adresse email est bien enregistré!",
   subscribeButton: "S'abonner",
