@@ -27,8 +27,8 @@ export const dutch = {
   book: "BOOK!",
   bookNow: "BOOK NOW >",
 
-  promoTitle: "Cadeau bon Chalet",
-  promoText: "Contact ons",
+  promoTitle: "Kerst in de Lodges:",
+  promoText: "Gratis ontbijt",
 
   underTitle: "AUTHENTIEK VERBLIJF IN DE ARDÈCHE",
 
@@ -58,6 +58,10 @@ export const dutch = {
     "Deze studio is ideaal voor 2 personen, een slaapgedeelte met een tweepersoonsbed, een zithoek en een eethoek, om nog maar te zwijgen van het privéterras in de schaduw van de dennenbomen.",
 
   comingSoon: "Binnenkort beschikbaar",
+
+  bonCadeauTitle1: "Cadeau bon",
+  bonCadeauTitle2: "LE CHALET",
+  bonCadeauButton: "Contact",
 
   privatisationTitle1: "Groepen",
   privatisationTitle2: "En Privatisering",
@@ -173,10 +177,11 @@ export const dutch = {
 
   bookingPageTitle: "Boek uw verblijf",
 
-  promo1: "* GRATIS ONTBIJT TIJDENS EEN VERBLIJF IN APRIL: ",
-  promo2:
-    "- Deze aanbieding geldt voor alle reservering gemaakt op onze website, voor een verblijf in April 2023.",
-  promo3: "- 1 gratis ontbijt per persoon, na de eerste nacht van uw verblijf.",
+  promoTitle: "Kerst in de Lodges",
+  promo1:
+    "Voor alle reserveringen in december of januari, bieden we één gratis onbijt per persoon aan. Deze aanbieding is geldig voor:",
+  promo2: "- op de website gemaakte reserveringen.",
+  promo3: "- reserveringen gemaakt voor 15/12/2023.",
 
   bookingPageSubTitle: "Bekijk beschikbaarheid",
 

@@ -293,6 +293,49 @@
   display: none;
 }
 
+.more-info-button-container {
+  color: #fff;
+  width: 90vw;
+  padding: 0;
+  z-index: 2;
+  margin: 0;
+}
+
+.bon-cadeau-title-container {
+  background-color: #883519;
+  color: #fff;
+  width: 90vw;
+  padding: 50px 0;
+  margin: auto;
+}
+
+.bon-cadeau-text-container-1 {
+  background-color: #883519;
+  color: #fff;
+  width: 90vw;
+  padding: 0;
+  z-index: 2;
+  margin: 0 auto;
+}
+
+.bon-cadeau-text {
+  margin: 5px;
+}
+
+.bon-cadeau-text-1 {
+  padding: 5vw;
+  margin: 0;
+}
+
+.bon-cadeau-image-container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.bon-cadeau-image {
+  width: 100%;
+  margin: 0;
+}
 @media only screen and (min-width: 768px) {
   .image-links {
     padding: 35px;
@@ -356,6 +399,7 @@
 
   .room-info-button-right {
     margin: 115px 50px;
+    width: fit-content;
   }
 
   .room-info-button-left {
@@ -437,6 +481,47 @@
   #appart-intro,
   #pavillion-intro {
     height: 80px;
+  }
+
+  .bon-cadeau-title-container {
+    margin-top: 150px;
+    margin-left: 5vw;
+    width: 55vw;
+  }
+
+  .bon-cadeau-image-container {
+    width: 40vw;
+    margin-left: 50vw;
+    margin-top: -10vw;
+  }
+
+  .bon-cadeau-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .bon-cadeau-desktop {
+    background-color: #883519;
+    padding: 3vw;
+    margin: 5vw;
+  }
+
+  .bon-cadeau-title h2 {
+    font-size: 25px;
+    margin: 0;
+  }
+
+  .bon-cadeau-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .bon-cadeau-image-container {
+    margin: 0;
+    width: 15vw;
+    margin: 10px;
   }
 }
 

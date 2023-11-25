@@ -44,8 +44,8 @@ export const french = {
   book: "RESERVER!",
   bookNow: "RESERVER >",
 
-  promoTitle: "Bon Cadeau Chalet",
-  promoText: "Contactez-nous",
+  promoTitle: "LE NOËL DES LODGES:",
+  promoText: "Vos petits déjeuners Offerts",
 
   underTitle: "SÉJOUR AUTHENTIQUE EN ARDÈCHE",
 
@@ -75,6 +75,10 @@ export const french = {
     "Ce studio est idéal pour 2 personnes, un coin nuit avec lit double, un coin salon & un coin repas, sans oublier sa terrasse privée à l’ombre du pin parasol.",
 
   comingSoon: "Disponible très prochainement",
+
+  bonCadeauTitle1: "Bon Cadeau",
+  bonCadeauTitle2: "LE CHALET",
+  bonCadeauButton: "Contactez Nous",
 
   food: "Carte du Lodges",
 
@@ -202,11 +206,11 @@ export const french = {
 
   bookingPageTitle: "Réservez votre séjour",
 
-  promo1: " *VOS PETITS DÉJEUNERS OFFERTS POUR VOTRE SÉJOUR EN AVRIL: ",
-  promo2:
-    "- Offre valable pour toute réservation sur notre site web pour un séjour allant du 1er au 30 avril 2023.",
-  promo3:
-    "- Un petit déjeuner par personne offert la 1ère nuit de votre séjour.",
+  promoTitle: "Le Noël des Lodges",
+  promo1:
+    "Pour toutes réservations en décembre ou en janvier, nous vous offrons un petit déjeuner par personne. Offre valable pour les réservations: ",
+  promo2: "- en direct sur notre site web.",
+  promo3: "- effectuées avant le 15/12/2023.",
 
   bookingPageSubTitle: "Vérifier les disponibilités",
   additionalInfo:

@@ -44,8 +44,8 @@ export const english = {
   book: "BOOK!",
   bookNow: "BOOK NOW >",
 
-  promoTitle: "Gift voucher Chalet",
-  promoText: "Contact us",
+  promoTitle: "Christmas in the Lodges:",
+  promoText: "Free breakfast",
 
   underTitle: "AUTHENTIC STAY IN THE ARDÈCHE",
 
@@ -75,6 +75,10 @@ export const english = {
     "This studio is ideal for 2 people, a sleeping area with a double bed, a lounge area & a dining area, not to mention its private terrace in the shade of the pine tree.",
 
   comingSoon: "Available soon",
+
+  bonCadeauTitle1: "Gift Voucher",
+  bonCadeauTitle2: "LE CHALET",
+  bonCadeauButton: "Contact Us",
 
   privatisationTitle1: "GROUPS",
   privatisationTitle2: "PRIVATIZATION ",
@@ -190,11 +194,11 @@ export const english = {
   bookingPageTitle: "Book your stay",
   bookingPageSubTitle: "Check availability",
 
-  promo1: "* FREE BREAKFAST DURING YOU STAY IN APRIL: ",
-  promo2:
-    "- This offer is valid for all reservations made on our website, for a stay in April 2023.",
-  promo3:
-    "- One free breakfast per person, after the first night of your stay.",
+  promoTitle: "Christmas in the Lodges",
+  promo1:
+    "For all reservations in december ou january, we will offer you a breakfast per personne. This offer is fort all reservations: ",
+  promo2: "- directly on our website.",
+  promo3: "- made before 15/12/2023.",
 
   additionalInfo:
     "Depending on the period, a minimum number of nights might be required. For reservations for 4 people, please contact us directly by mail.",

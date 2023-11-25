@@ -14,6 +14,9 @@ import pictoChaletColor from "../images/chalet-couleur.png";
 import pictoPavillionColor from "../images/pavillon-couleur.png";
 import pictoAppartColor from "../images/appart-couleur.png";
 
+import bonCadeau from "../images/bon-cadeau.jpg";
+import bonCadeauDesktop from "../images/bon-cadeau-desktop.jpg";
+
 const RoomIntro = (props) => {
   let { language, languageToUse } = props;
 
@@ -116,19 +119,39 @@ const RoomIntro = (props) => {
 
             <p className="room-intro1-text">{languageToUse.introTextChalet}</p>
           </div>
-          <Link
-            to={
-              language === "french"
-                ? "/hebergements/#chalet"
-                : language === "english"
-                ? "/en/hebergements/#chalet"
-                : "/nl/hebergements/#chalet"
-            }
-            className="room-info-button room-info-button-right desktop-only"
-          >
-            {languageToUse.moreInfo}
-          </Link>
+          <div>
+            <Link
+              to={
+                language === "french"
+                  ? "/hebergements/#chalet"
+                  : language === "english"
+                  ? "/en/hebergements/#chalet"
+                  : "/nl/hebergements/#chalet"
+              }
+              className="room-info-button room-info-button-right desktop-only"
+            >
+              {languageToUse.moreInfo}
+            </Link>
+            <div className="bon-cadeau-desktop desktop-only">
+              <div className="bon-cadeau-left">
+                <div className="bon-cadeau-title">
+                  <h2>{languageToUse.bonCadeauTitle1}</h2>
+                  <h2>{languageToUse.bonCadeauTitle2}</h2>
+                </div>
+
+                <div className="center-button-container">
+                  <button className="button">
+                    {languageToUse.bonCadeauButton}
+                  </button>
+                </div>
+              </div>
+              <div className="bon-cadeau-image-container desktop-only">
+                <img src={bonCadeau} className="bon-cadeau-image" />
+              </div>
+            </div>
+          </div>
         </div>
+
         <div className="room-intro2">
           <Link
             to={
@@ -142,6 +165,20 @@ const RoomIntro = (props) => {
           >
             {languageToUse.moreInfo}
           </Link>
+        </div>
+
+        <div className="bon-cadeau-title-container mobile-only">
+          <div className="bon-cadeau-title">
+            <h2>Bon Cadeau{languageToUse.bonCadeauTitle1}</h2>
+            <h2>LE CHALET{languageToUse.bonCadeauTitle2}</h2>
+          </div>
+
+          <div className="center-button-container">
+            <button className="button">Contactez Nous</button>
+          </div>
+        </div>
+        <div className="bon-cadeau-image-container mobile-only">
+          <img src={bonCadeau} className="bon-cadeau-image" />
         </div>
 
         <div id="appart-intro" />

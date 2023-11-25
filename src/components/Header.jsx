@@ -200,10 +200,10 @@ const Header = (props) => {
         <Link
           to={
             language === "french"
-              ? "/#contact"
+              ? "/booking"
               : language === "english"
-              ? "/en/#contact"
-              : "/nl/#contact"
+              ? "/en/booking"
+              : "/nl/booking"
           }
           className="promo"
         >
