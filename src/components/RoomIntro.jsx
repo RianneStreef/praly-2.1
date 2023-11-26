@@ -169,12 +169,12 @@ const RoomIntro = (props) => {
 
         <div className="bon-cadeau-title-container mobile-only">
           <div className="bon-cadeau-title">
-            <h2>Bon Cadeau{languageToUse.bonCadeauTitle1}</h2>
-            <h2>LE CHALET{languageToUse.bonCadeauTitle2}</h2>
+            <h2>{languageToUse.bonCadeauTitle1}</h2>
+            <h2>{languageToUse.bonCadeauTitle2}</h2>
           </div>
 
           <div className="center-button-container">
-            <button className="button">Contactez Nous</button>
+            <button className="button">{languageToUse.bonCadeauButton}</button>{" "}
           </div>
         </div>
         <div className="bon-cadeau-image-container mobile-only">
