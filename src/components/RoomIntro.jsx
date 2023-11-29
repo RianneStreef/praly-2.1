@@ -140,9 +140,9 @@ const RoomIntro = (props) => {
                 </div>
 
                 <div className="center-button-container">
-                  <button className="button">
+                  <Link to="/#contact" className="button button-cadeau">
                     {languageToUse.bonCadeauButton}
-                  </button>
+                  </Link>{" "}
                 </div>
               </div>
               <div className="bon-cadeau-image-container desktop-only">
@@ -174,7 +174,9 @@ const RoomIntro = (props) => {
           </div>
 
           <div className="center-button-container">
-            <button className="button">{languageToUse.bonCadeauButton}</button>{" "}
+            <Link to="/#contact" className="button button-cadeau">
+              {languageToUse.bonCadeauButton}
+            </Link>{" "}
           </div>
         </div>
         <div className="bon-cadeau-image-container mobile-only">
