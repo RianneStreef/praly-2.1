@@ -196,7 +196,7 @@ const Header = (props) => {
           />
         </div>
       </div>
-      <div className="promo-container">
+      {/* <div className="promo-container">
         <Link
           to={
             language === "french"
@@ -216,7 +216,7 @@ const Header = (props) => {
             <p className="promo-text-2">{languageToUse.promoText}</p>
           </div>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };
