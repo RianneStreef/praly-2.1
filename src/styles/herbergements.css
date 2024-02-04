@@ -60,6 +60,10 @@
   width: 50%;
 }
 
+.picto-escale {
+  margin: 80px;
+}
+
 .installations-title {
   font-size: 30px;
 }
@@ -76,6 +80,10 @@
   background-color: rgb(8, 71, 64, 0.1);
 }
 
+.picto-container-herbergement-escale {
+  background-color: rgb(136, 53, 25, 0.1);
+}
+
 .chalet-herbergement {
   background-color: #707e6f;
 }
@@ -86,6 +94,10 @@
 
 .appart-herbergement {
   background-color: #c58a32;
+}
+
+.escale-herbergement {
+  background-color: #883519;
 }
 
 .video-container {
@@ -112,6 +124,10 @@
 
 .pavillion-button {
   background-color: #084740;
+}
+
+.escale-button {
+  background-color: #883519;
 }
 
 .book-now-herbergement {

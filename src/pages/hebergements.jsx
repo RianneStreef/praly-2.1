@@ -18,6 +18,7 @@ import top from "../images/top.png";
 import Chalet from "../components/Chalet";
 import Pavillion from "../components/Pavillion";
 import Appart from "../components/Appart";
+import Escale from "../components/Escale";
 
 import Consent from "../components/Consent";
 
@@ -91,6 +92,7 @@ const HerbergementsPage = function (props) {
         languageToUse={languageToUse}
         data={data}
       />
+      <Escale language={language} languageToUse={languageToUse} data={data} />
       {/* </SimpleReactLightbox> */}
     </div>
   );
@@ -98,7 +100,7 @@ const HerbergementsPage = function (props) {
 
 export const imagesQuery = graphql`
   query imagesQuery {
-    allContentfulPraly(sort: { fields: index }) {
+    allContentfulPraly(sort: { index: ASC }) {
       nodes {
         id
         category

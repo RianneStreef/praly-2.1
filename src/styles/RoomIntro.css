@@ -153,6 +153,10 @@
   text-align: right;
 }
 
+.book-now-escale {
+  color: #883519;
+}
+
 .picto-container {
   width: 90vw;
   padding: 0 50px;
@@ -196,6 +200,10 @@
 
 .h3-pavillion {
   color: #084740;
+}
+
+.h3-escale {
+  color: #883519;
 }
 
 .room-intro1 {

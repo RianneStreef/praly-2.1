@@ -50,7 +50,7 @@ export const english = {
   underTitle: "AUTHENTIC STAY IN THE ARDÈCHE",
 
   introText1:
-    "We welcome you to our home, surrounded by friendliness and authenticity, in the village of Ollières sur Eyrieux, in the heart of the Monts d'Ardèche. An ideal location for an easy stay: On the edge of the 'Dolce Via', in a quiet area, close to the center. With family, as a couple or with friends, come and escape for a few days or more, in one of our 3 lodges: An atypical chalet on the heights of our site, the little pavilion in the shade of the large pine tree, or in our cozy apartment! The swimming pool & garden are at your disposal. Simple pleasures and a warm welcome!",
+    "We welcome you to our home, surrounded by friendliness and authenticity, in the village of Ollières sur Eyrieux, in the heart of the Monts d'Ardèche. An ideal location for an easy stay: On the edge of the 'Dolce Via', in a quiet area, close to the center. With family, as a couple or with friends, come and escape for a few days or more, in one of our 4 lodges: An atypical chalet on the heights of our site, l'Escale in the middle of the garden, the Pavilion in the shade of the large pine tree, or the Appart in the main house. The swimming pool & garden are at your disposal. Simple pleasures and a warm welcome!",
   introText2: "Laurine & Victor /",
   introText3:
     "«The important thing to create memories is not to go far but to escape the ordinary»",
@@ -189,7 +189,7 @@ export const english = {
   message: "Your Message",
   send: "Send your message",
 
-  hebergementsPageTitle: "The 3 Lodges",
+  hebergementsPageTitle: "The 4 Lodges",
 
   bookingPageTitle: "Book your stay",
   bookingPageSubTitle: "Check availability",
