@@ -65,7 +65,9 @@ export const french = {
   introTextAppart:
     "Hébergement situé au 1er étage de la grande maison en pierre, il peut accueillir jusqu’à 4 personnes. Lumineux & spacieux, vous vous y sentirez comme à la maison !",
   introTextPavillion:
-    "Ici c’est le lodge où l’on optimise l’espace : petit et cosy ! Le p’tit’ plus : sa terrasse à l'ombre du grand pin parasol",
+    "Ici c’est le lodge où l’on optimise l’espace: petit et cosy ! Le p’tit’ plus: sa terrasse à l'ombre du grand pin parasol",
+  introTextEscale:
+    "L'Escale c'est le 'Bed & Bicycle' idéal pour votre pause sur la belle Dolce Via.",
 
   introTextChalet2:
     "Une chambre en mezzanine avec lit double, un salon sous la verrière qui peut également se transformer en coin nuit (canapé convertible), une salle de bain avec baignoire et WC, une cuisine toute équipée, et une terrasse pour les repas au grand air ! Une décoration soignée pour un confort absolu !",

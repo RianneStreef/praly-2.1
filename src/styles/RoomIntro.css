@@ -195,7 +195,7 @@
 }
 
 .h3-appart {
-  color: #c58a32;
+  color: #883519;
 }
 
 .h3-pavillion {
@@ -254,6 +254,11 @@
 
 .pavillion-intro {
   background-color: #084740;
+  color: #fff;
+}
+
+.escale-intro {
+  background-color: #883519;
   color: #fff;
 }
 
@@ -381,10 +386,6 @@
     margin: 0;
   }
 
-  .room-intro1 {
-    width: 75vw;
-  }
-
   .room-intro1-text {
     padding: 25px 5vw;
   }
@@ -414,6 +415,10 @@
     margin: 50px;
   }
 
+  .room-info-button-escale {
+    margin-bottom: 10px;
+  }
+
   .room-intro {
     margin-top: 250px;
   }
@@ -421,6 +426,11 @@
   .room-intro1 {
     width: 62vw;
   }
+
+  .pavillion-intro {
+    width: 80vw;
+  }
+
   .room-intro2 {
     padding: 25px 5vw;
   }
@@ -513,6 +523,7 @@
     background-color: #883519;
     padding: 3vw;
     margin: 5vw;
+    margin-top: 10vw;
   }
 
   .bon-cadeau-title h2 {
@@ -530,6 +541,11 @@
     margin: 0;
     width: 15vw;
     margin: 10px;
+  }
+
+  .room-info-button-chalet {
+    margin-top: 5vw;
+    margin-bottom: -5vw;
   }
 }
 
@@ -549,6 +565,9 @@
   .image-link-title {
     font-size: 80px;
   }
+  .room-info-button-chalet {
+    margin-top: 2vw;
+  }
 }
 
 @media only screen and (min-width: 1250px) {
@@ -557,6 +576,9 @@
   }
   .image-link-title {
     font-size: 100px;
+  }
+  .room-info-button-chalet {
+    margin-top: -4vw;
   }
 }
 
@@ -569,6 +591,9 @@
 @media only screen and (min-width: 1450px) {
   .room-intro {
     margin-top: 400px;
+  }
+  .room-info-button-chalet {
+    margin-top: -8vw;
   }
 }
 
