@@ -172,7 +172,6 @@ const Chalet = (props) => {
                 {languageToUse.escaleLi12}
               </li>
             </ul>
-            <p className="room-text">{languageToUse.chaletP4}</p>
             <div className="button-container">
               <Link
                 to={
