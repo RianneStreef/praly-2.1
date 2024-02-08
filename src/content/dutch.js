@@ -191,6 +191,7 @@ export const dutch = {
   bookingChaletPageTitle: "Boek le Chalet",
   bookingAppartPageTitle: "Boek l'Appart",
   bookingPavillionPageTitle: "Boek le Pavillon",
+  bookingEscalePageTitle: "Boek l'Escale",
 
   cookieHeader: "WIJ WAARDEREN UW PRIVACY!",
   cookieText: "Deze website gebruikt cookies om ons verkeer te analyseren.",

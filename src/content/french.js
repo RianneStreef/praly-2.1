@@ -67,7 +67,7 @@ export const french = {
   introTextPavillion:
     "Ici c’est le lodge où l’on optimise l’espace: petit et cosy ! Le p’tit’ plus: sa terrasse à l'ombre du grand pin parasol",
   introTextEscale:
-    "L'Escale c'est le 'Bed & Bicycle' idéal pour votre pause sur la belle Dolce Via.",
+    "Charmant chalet en bois au cœur du jardin des Lodges. L'Escale c'est le 'Bed & Bicycle' idéal pour votre pause sur la belle Dolce Via.",
 
   introTextChalet2:
     "Une chambre en mezzanine avec lit double, un salon sous la verrière qui peut également se transformer en coin nuit (canapé convertible), une salle de bain avec baignoire et WC, une cuisine toute équipée, et une terrasse pour les repas au grand air ! Une décoration soignée pour un confort absolu !",
@@ -242,6 +242,7 @@ export const french = {
   bookingChaletPageTitle: "Réservez le Chalet",
   bookingAppartPageTitle: "Réservez l'Appart",
   bookingPavillionPageTitle: "Réservez le Pavillon",
+  bookingEscalePageTitle: "Réservez l'Escale",
 
   cookieHeader: "NOUS RESPECTONS VOTRE VIE PRIVEE!",
   cookieText: "Ce site web utilise des cookies pour analyser notre trafic.",

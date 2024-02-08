@@ -206,6 +206,7 @@ export const english = {
   bookingChaletPageTitle: "Book le Chalet",
   bookingAppartPageTitle: "Book l'Appart",
   bookingPavillionPageTitle: "Book le Pavillon",
+  bookingEscalePageTitle: "Book l'Escale",
 
   cookieHeader: "WE VALUE YOUR PRIVACY!",
   cookieText: "This website uses cookies to analyze our traffic.",

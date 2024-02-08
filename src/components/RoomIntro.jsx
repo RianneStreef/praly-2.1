@@ -77,7 +77,24 @@ const RoomIntro = (props) => {
               {languageToUse.moreInfo}
             </div>
           </Link>
+
+          <Link
+            to={
+              language === "french"
+                ? "/#escale-intro"
+                : language === "english"
+                ? "/en/#escale-intro"
+                : "/nl/#escale-intro"
+            }
+            className="image-link escale-image-link"
+          >
+            <p className="image-link-title">L'Escale</p>
+            <div to="/#escale-intro" className="extra-info-button">
+              {languageToUse.moreInfo}
+            </div>
+          </Link>
         </div>
+
         <div id="chalet-intro" />
 
         <div className="room-images-container room-images-container-chalet">
@@ -354,8 +371,12 @@ const RoomIntro = (props) => {
               {languageToUse.bookNow}
             </Link>
             <div className="picto-container picto-container-escale">
-              <img src={pictoEscaleColor} alt="L'Escale" className="picto " />
-              <h3 className="h3-room h3-appart">L'Escale</h3>
+              <img
+                src={pictoEscaleColor}
+                alt="L'Escale"
+                className="picto picto-escale-small"
+              />
+              <h3 className="h3-room h3-escale">L'Escale</h3>
             </div>
             <div className="room-image-container-inverse escale-image">
               <Link

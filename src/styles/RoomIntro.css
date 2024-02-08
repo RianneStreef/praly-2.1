@@ -42,13 +42,16 @@
 }
 
 .chalet-image-link::before {
-  background-image: url("../images/chalet-v.jpeg");
+  background-image: url("../images/new-images/chalet-outside.jpg");
 }
 .appart-image-link::before {
-  background-image: url("../images/appart-v-2.jpg");
+  background-image: url("../images/appart-main-2.jpg");
 }
 .pavillion-image-link::before {
-  background-image: url("../images/pavillon-v.jpg");
+  background-image: url("../images/new-images/pavillon-façade.jpg");
+}
+.escale-image-link::before {
+  background-image: url("../images/escale-main.jpg");
 }
 
 .image-link-title {
@@ -179,8 +182,15 @@
   background-color: rgb(8, 71, 64, 0.1);
 }
 
+.picto-container-escale {
+  background-color: rgb(136, 53, 25, 0.1);
+}
 .picto {
   width: 50%;
+}
+
+.picto-escale-small {
+  width: 60%;
 }
 
 .h3-room {
@@ -195,7 +205,7 @@
 }
 
 .h3-appart {
-  color: #883519;
+  color: #c58a32;
 }
 
 .h3-pavillion {
@@ -356,7 +366,7 @@
 
   .image-link {
     height: 40vw;
-    width: 27vw;
+    width: 25vw;
   }
 
   .image-link-title {
