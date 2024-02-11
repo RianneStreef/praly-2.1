@@ -90,14 +90,14 @@ const Chalet = (props) => {
             >
               {languageToUse.bookNow}
             </Link>
-            <video
+            {/* <video
               controls
               autoPlay
               muted
               className="room-video-horizontal room-video-escale mobile-only"
             >
               <source src={videoRoom1} type="video/mp4" />
-            </video>
+            </video> */}
             <img
               src={escaleImage}
               alt="L'Escale"
@@ -176,10 +176,10 @@ const Chalet = (props) => {
               <Link
                 to={
                   language === "french"
-                    ? "/chalet-booking"
+                    ? "/escale-booking"
                     : language === "english"
-                    ? "/en/chalet-booking"
-                    : "/nl/chalet-booking"
+                    ? "/en/escale-booking"
+                    : "/nl/escale-booking"
                 }
                 className="herbergement-button escale-button"
               >
