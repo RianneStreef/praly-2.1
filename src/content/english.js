@@ -66,6 +66,8 @@ export const english = {
     "Accommodation located on the 1st floor of the large stone house; it can accommodate up to 4 people. Bright & spacious, you will feel at home! ",
   introTextPavillion:
     "Here is the lodge where space is optimized: small and cozy! The little extra: its terrace in the shade of the large pine tree.",
+  introTextEscale:
+    "Charming wooden cabin in the middle of the Lodges' garden. L'Escale is the ideal 'Bed & Bicyle' for your break in the beautiful Dolce Via.",
 
   introTextChalet2:
     "A bedroom on the mezzanine with a double bed, a living room under the glass roof which can also be transformed into a sleeping area (sofa bed), a bathroom with bathtub and WC, a fully equipped kitchen, and a terrace for meals in the open air!",
@@ -181,6 +183,24 @@ export const english = {
   appartLi10: "Bicycle and motorbike storage available",
   appartLi11: "Breakfast on reservation (surcharge)",
   appartLi12: "Homemade pizzas & apetizer boards",
+
+  escaleP1:
+    "Charming wooden cabin, fully equipped, in the heart of the Lodges de Praly's garden. Carefully decorated, wood and color, all in a warm and modern atmosphere. This studio is ideal for 2 people. Enjoy its pergola, high table and small garden.",
+  escaleLi1: "20m2 accommodation",
+  escaleLi2: "Garden vue",
+
+  escaleLi3: "Double bed 140x200cm",
+  // escaleLi3: "Sofa bed 140x190cm",
+  escaleLi5: "Douche",
+  escaleLi7: "Swimmingpool access",
+  escaleLi7b: "Air conditioning",
+  escaleLi8: "Small private garden area",
+  escaleLi9: "Free parking nearby",
+  escaleLi9b: "Baby cod on reservation (no surcharge)",
+
+  escaleLi10: "Bicycle and motorbike storage available",
+  escaleLi11: "Breakfast on reservation (surcharge)",
+  escaleLi12: "Homemade pizzas & apetizer boards",
 
   contactTitle: "A question? ",
   contactIntro: "Do not hesitate to contact us",

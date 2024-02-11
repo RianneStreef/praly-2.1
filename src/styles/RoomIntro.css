@@ -6,6 +6,7 @@
 .image-links {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding: 15px;
 }
 
@@ -15,8 +16,9 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 40vw;
-  width: 27vw;
+  height: 20vw;
+  width: 40vw;
+  margin: 20px 0;
   position: relative;
 }
 
@@ -58,9 +60,10 @@
   font-family: "Hello mozza";
   font-size: 25px;
   color: #fff;
-  margin: 100px 0 20px 0;
+  /* margin: 100px 0 20px 0; */
   filter: brightness(1);
   transition: all 250ms linear;
+  margin-bottom: 0;
 }
 
 .image-link:hover .image-link-title {
@@ -365,13 +368,13 @@
   }
 
   .image-link {
-    height: 40vw;
-    width: 25vw;
+    height: 20vw;
+    width: 40vw;
   }
 
   .image-link-title {
     font-size: 60px;
-    margin: 100px 0 20px 0;
+    /* margin: 100px 0 20px 0; */
   }
 
   .hidden-mobile-room-intro {
@@ -564,7 +567,7 @@
     font-size: 3rem;
   }
   .image-link-title {
-    margin: 200px 0 20px 0;
+    /* margin: 200px 0 20px 0; */
   }
   .book-now {
     font-size: 4.5rem;
@@ -614,5 +617,8 @@
 
   .room-intro-text-block-inverse {
     width: 425px;
+  }
+  .room-info-button-chalet {
+    margin-top: -10vw;
   }
 }

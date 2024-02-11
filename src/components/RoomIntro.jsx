@@ -43,7 +43,7 @@ const RoomIntro = (props) => {
             className="image-link chalet-image-link"
           >
             <p className="image-link-title">Le Chalet</p>
-            <div to="/#chalet-intro" className="extra-info-button">
+            <div to="/#chalet-intro" className="extra-info-button desktop-only">
               {languageToUse.moreInfo}
             </div>
           </Link>
@@ -59,7 +59,9 @@ const RoomIntro = (props) => {
             className="image-link appart-image-link"
           >
             <p className="image-link-title">L'Appart</p>
-            <div className="extra-info-button">{languageToUse.moreInfo}</div>
+            <div className="extra-info-button desktop-only">
+              {languageToUse.moreInfo}
+            </div>
           </Link>
 
           <Link
@@ -73,7 +75,10 @@ const RoomIntro = (props) => {
             className="image-link pavillion-image-link"
           >
             <p className="image-link-title">Le Pavillon</p>
-            <div to="/#pavillion-intro" className="extra-info-button">
+            <div
+              to="/#pavillion-intro"
+              className="extra-info-button desktop-only"
+            >
               {languageToUse.moreInfo}
             </div>
           </Link>
@@ -89,7 +94,7 @@ const RoomIntro = (props) => {
             className="image-link escale-image-link"
           >
             <p className="image-link-title">L'Escale</p>
-            <div to="/#escale-intro" className="extra-info-button">
+            <div to="/#escale-intro" className="extra-info-button desktop-only">
               {languageToUse.moreInfo}
             </div>
           </Link>
