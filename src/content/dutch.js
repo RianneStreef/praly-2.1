@@ -51,7 +51,7 @@ export const dutch = {
   introTextPavillion:
     "Dit is de lodge waar de ruimte is geoptimaliseerd: klein, maar gezellig! Het kleine extraatje: het terras in de schaduw van de grote den.",
   introTextEscale:
-    "Charmant houten huisje midden in de tuin van de Lodges. L'Escale is het ideale 'Bed & Bicyle' voor een pause in de mooie Dolce Via.",
+    "Charmant houten chalet midden in de tuin van de Lodges. L'Escale is het ideale 'Bed & Bicyle' voor een pause in de mooie Dolce Via.",
 
   introTextChalet2:
     "Een slaapkamer op de mezzanine met een tweepersoonsbed, een woonkamer onder het glazen dak die ook kan worden omgevormd tot een slaapgedeelte (slaapbank), een badkamer met ligbad en toilet, een volledig uitgeruste keuken en een terras voor maaltijden in de open lucht! Alles is zorgvuldig gedecoreerd voor absoluut comfort!",
@@ -172,8 +172,7 @@ export const dutch = {
   appartLi12: "Huisgemaakte pizza's & borrelplanken",
 
   escaleP1:
-    "Charmant chalet en bois, tout équipé au cœur du jardin des Lodges de Praly. Une décoration soignée, du bois, de la couleur, le tout dans une ambiance chaleureuse & moderne. Ce studio est idéal pour 2 personnes. Profitez également de sa pergola, son mange debout et son petit coin jardin.",
-
+    "Charmant houten chalet, volledig uitgerust in het hart van de tuin van Lodges de Praly. Zorgvuldige decoratie, hout, kleur, alles in een warme en moderne sfeer. Deze studio is ideaal voor 2 personen. Geniet ook van de pergola, de statafel en de kleine tuin.",
   escaleLi1: "20m2 accommodatie",
   escaleLi2: "Tuin uitzicht",
   escaleLi3: "Tweepersoonsbed 140x200cm",
