@@ -28,8 +28,9 @@ const RoomIntro = (props) => {
   return (
     <>
       <div className="room-intro" id="accommodation">
-        <h2>{languageToUse.ourRooms1}</h2>
-        <h2>{languageToUse.ourRooms2}</h2>
+        <h2 className="hebergements-h2">
+          {languageToUse.ourRooms1} {languageToUse.ourRooms2}
+        </h2>
 
         <div className="image-links">
           <Link
