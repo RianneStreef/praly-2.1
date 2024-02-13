@@ -6,6 +6,7 @@
 .image-links {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding: 15px;
 }
 
@@ -15,8 +16,9 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 40vw;
-  width: 27vw;
+  height: 20vw;
+  width: 40vw;
+  margin: 20px 0;
   position: relative;
 }
 
@@ -42,22 +44,26 @@
 }
 
 .chalet-image-link::before {
-  background-image: url("../images/chalet-v.jpeg");
+  background-image: url("../images/new-images/chalet-outside.jpg");
 }
 .appart-image-link::before {
-  background-image: url("../images/appart-v-2.jpg");
+  background-image: url("../images/appart-main-2.jpg");
 }
 .pavillion-image-link::before {
-  background-image: url("../images/pavillon-v.jpg");
+  background-image: url("../images/new-images/pavillon-façade.jpg");
+}
+.escale-image-link::before {
+  background-image: url("../images/escale-main.jpg");
 }
 
 .image-link-title {
   font-family: "Hello mozza";
   font-size: 25px;
   color: #fff;
-  margin: 100px 0 20px 0;
+  /* margin: 100px 0 20px 0; */
   filter: brightness(1);
   transition: all 250ms linear;
+  margin-bottom: 0;
 }
 
 .image-link:hover .image-link-title {
@@ -153,6 +159,10 @@
   text-align: right;
 }
 
+.book-now-escale {
+  color: #883519;
+}
+
 .picto-container {
   width: 90vw;
   padding: 0 50px;
@@ -175,8 +185,15 @@
   background-color: rgb(8, 71, 64, 0.1);
 }
 
+.picto-container-escale {
+  background-color: rgb(136, 53, 25, 0.1);
+}
 .picto {
   width: 50%;
+}
+
+.picto-escale-small {
+  width: 60%;
 }
 
 .h3-room {
@@ -196,6 +213,10 @@
 
 .h3-pavillion {
   color: #084740;
+}
+
+.h3-escale {
+  color: #883519;
 }
 
 .room-intro1 {
@@ -246,6 +267,11 @@
 
 .pavillion-intro {
   background-color: #084740;
+  color: #fff;
+}
+
+.escale-intro {
+  background-color: #883519;
   color: #fff;
 }
 
@@ -342,13 +368,13 @@
   }
 
   .image-link {
-    height: 40vw;
-    width: 27vw;
+    height: 20vw;
+    width: 40vw;
   }
 
   .image-link-title {
     font-size: 60px;
-    margin: 100px 0 20px 0;
+    /* margin: 100px 0 20px 0; */
   }
 
   .hidden-mobile-room-intro {
@@ -371,10 +397,6 @@
   .room-image {
     width: 55vw;
     margin: 0;
-  }
-
-  .room-intro1 {
-    width: 75vw;
   }
 
   .room-intro1-text {
@@ -406,6 +428,10 @@
     margin: 50px;
   }
 
+  .room-info-button-escale {
+    margin-bottom: 10px;
+  }
+
   .room-intro {
     margin-top: 250px;
   }
@@ -413,6 +439,11 @@
   .room-intro1 {
     width: 62vw;
   }
+
+  .pavillion-intro {
+    width: 80vw;
+  }
+
   .room-intro2 {
     padding: 25px 5vw;
   }
@@ -505,6 +536,7 @@
     background-color: #883519;
     padding: 3vw;
     margin: 5vw;
+    margin-top: 10vw;
   }
 
   .bon-cadeau-title h2 {
@@ -523,6 +555,11 @@
     width: 15vw;
     margin: 10px;
   }
+
+  .room-info-button-chalet {
+    margin-top: 5vw;
+    margin-bottom: -5vw;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -530,7 +567,7 @@
     font-size: 3rem;
   }
   .image-link-title {
-    margin: 200px 0 20px 0;
+    /* margin: 200px 0 20px 0; */
   }
   .book-now {
     font-size: 4.5rem;
@@ -541,6 +578,9 @@
   .image-link-title {
     font-size: 80px;
   }
+  .room-info-button-chalet {
+    margin-top: 2vw;
+  }
 }
 
 @media only screen and (min-width: 1250px) {
@@ -549,6 +589,9 @@
   }
   .image-link-title {
     font-size: 100px;
+  }
+  .room-info-button-chalet {
+    margin-top: -4vw;
   }
 }
 
@@ -562,6 +605,9 @@
   .room-intro {
     margin-top: 400px;
   }
+  .room-info-button-chalet {
+    margin-top: -8vw;
+  }
 }
 
 @media only screen and (min-width: 1700px) {
@@ -571,5 +617,8 @@
 
   .room-intro-text-block-inverse {
     width: 425px;
+  }
+  .room-info-button-chalet {
+    margin-top: -10vw;
   }
 }

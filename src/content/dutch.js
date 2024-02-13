@@ -33,7 +33,7 @@ export const dutch = {
   underTitle: "AUTHENTIEK VERBLIJF IN DE ARDÈCHE",
 
   introText1:
-    "Welkom bij Les Lodges de Praly. Wij heten u welkom in ons vriendelijke en authentieke huis, in het dorp Ollières sur Eyrieux, in het hart van de Monts d'Ardèche. Een ideale locatie voor een heerlijk verblijf: aan de rand van de 'Dolce Via', in een rustige omgeving en dicht bij het centrum. Kom met familie, partner of vrienden een paar dagen of langer ontsnappen in een van onze 3 lodges: het atypisch chalet hoog op ons terrein, het kleine paviljoen in de schaduw van de grote dennen, of in onze gezellige appartement! Zwembad en tuin staan ook ​​tot uw beschikking. Simpel plezier en een warm welkom!",
+    "Welkom bij Les Lodges de Praly. Wij heten u welkom in ons vriendelijke en authentieke huis, in het dorp Ollières sur Eyrieux, in het hart van de Monts d'Ardèche. Een ideale locatie voor een heerlijk verblijf: aan de rand van de 'Dolce Via', in een rustige omgeving en dicht bij het centrum. Kom met familie, partner of vrienden een paar dagen of langer ontsnappen in een van onze 4 lodges: het atypisch chalet hoog op ons terrein, l'Escale midden in de tuin, het Pavillon in de schaduw van de grote dennen, of in l'Apart in het stenen huis. Zwembad en tuin staan ook ​​tot uw beschikking. Simpel plezier en een warm welkom!",
 
   introText2: "Laurine & Victor /",
   introText3:
@@ -50,6 +50,9 @@ export const dutch = {
     "Deze accommodatie is gelegen op de 1e verdieping van het grote stenen huis en is geschikt voor maximaal 4 personen. Licht en ruim, je zult je meteen thuis voelen!",
   introTextPavillion:
     "Dit is de lodge waar de ruimte is geoptimaliseerd: klein, maar gezellig! Het kleine extraatje: het terras in de schaduw van de grote den.",
+  introTextEscale:
+    "Charmant houten chalet midden in de tuin van de Lodges. L'Escale is het ideale 'Bed & Bicyle' voor een pause in de mooie Dolce Via.",
+
   introTextChalet2:
     "Een slaapkamer op de mezzanine met een tweepersoonsbed, een woonkamer onder het glazen dak die ook kan worden omgevormd tot een slaapgedeelte (slaapbank), een badkamer met ligbad en toilet, een volledig uitgeruste keuken en een terras voor maaltijden in de open lucht! Alles is zorgvuldig gedecoreerd voor absoluut comfort!",
   introTextAppart2:
@@ -107,16 +110,17 @@ export const dutch = {
   installations: "Faciliteiten",
 
   chaletLi1: "40m2 accommodatie",
-  chaletLi2: "Tweepersoonsbed 160x200cm",
-  chaletLi3: "Slaapbank 140x190cm",
-  chaletLi4: "Bad",
-  chaletLi5: "Bluetooth speaker",
-  chaletLi6: "Toegang tot het zwembad",
-  chaletLi7: "Privétuin met hangmat, ligstoel en BBQ!",
+  chaletLi2: "Uitzicht op de vallei",
+  chaletLi3: "Tweepersoonsbed 160x200cm",
+  // chaletLi3: "Slaapbank 140x190cm",
+  chaletLi5: "Bad",
+  chaletLi6: "Bluetooth speaker",
+  chaletLi7: "Toegang tot het zwembad",
   chaletLi7b: "Airconditioning",
 
-  chaletLi8: "Gratis parkeren in de buurt",
-  chaletLi9: "Beveiligde fietsenstalling",
+  chaletLi8: "Privétuin met hangmat, ligstoel en BBQ!",
+
+  chaletLi9: "Gratis parkeren in de buurt",
   chaletLi9b: "Baby bed op reservering (zonder toeslag)",
 
   chaletLi10: "Fiets en motorstalling beschikbaar",
@@ -131,12 +135,12 @@ export const dutch = {
   pavillionP2: "",
 
   pavillionLi1: "20m2 accommodatie",
-  pavillionLi2: "Tweepersoonsbed 140x200cm",
-  pavillionLi3: "Douche",
-  pavillionLi4: "Bluetooth speaker",
-  pavillionLi5: "Toegang tot het zwembad",
-  pavillionLi6: "Gratis parkeren in de buurt",
-  pavillionLi7: "Beveiligde fietsenstalling",
+  pavillionLi2: "Uitzicht op het dorp en de vallei",
+  pavillionLi3: "Tweepersoonsbed 140x200cm",
+  pavillionLi4: "Douche",
+  pavillionLi5: "Bluetooth speaker",
+  pavillionLi6: "Toegang tot het zwembad",
+  pavillionLi7: "Gratis parkeren in de buurt",
   pavillionLi8: "Baby bed op reservering (zonder toeslag)",
 
   pavillionLi10: "Fiets en motorstalling beschikbaar",
@@ -153,18 +157,38 @@ export const dutch = {
   appartLiExtra2: "het terras in de schaduw van de grote den.",
 
   appartLi1: "50m2 accommodatie",
-  appartLi2: "Slaapkamer met tweepersoonsbed 160x200cm",
-  appartLi3: "Slaapbank 140x190cm",
-  appartLi4: "Douche",
-  appartLi5: "Bluetooth speaker",
-  appartLi6: "Toegang tot het zwembad",
-  appartLi7: "Gratis parkeren in de buurt",
-  appartLi8: "Beveiligde fietsenstalling",
+  appartLi2: "Uitzicht op het dorp en de vallei",
+  appartLi3:
+    "Slaapkamer met tweepersoonsbed 160x200cm OF 2 eenpersoonsbedden 80x200cm",
+  appartLi4: "Slaapbank voor twee personen 140x190cm",
+  appartLi5: "Douche",
+  appartLi6: "Bluetooth speaker",
+  appartLi7: "Toegang tot het zwembad",
+  appartLi8: "Gratis parkeren in de buurt",
   appartLi9: "Baby bed op reservering (zonder toeslag)",
 
   appartLi10: "Fiets en motorstalling beschikbaar",
   appartLi11: "Ontbijt op reservering (toeslag)",
   appartLi12: "Huisgemaakte pizza's & borrelplanken",
+
+  escaleP1:
+    "Charmant houten chalet, volledig uitgerust in het hart van de tuin van Lodges de Praly. Zorgvuldige decoratie, hout, kleur, alles in een warme en moderne sfeer. Deze studio is ideaal voor 2 personen. Geniet ook van de pergola, de statafel en de kleine tuin.",
+  escaleLi1: "20m2 accommodatie",
+  escaleLi2: "Tuin uitzicht",
+  escaleLi3: "Tweepersoonsbed 140x200cm",
+  // escaleLi4: "Canapé convertible 140x190cm",
+  escaleLi5: "Douche",
+  // escaleLi6: "Enceinte Bluetooth",
+  escaleLi7: "Toegang tot het zwembad",
+  escaleLi7b: "Airconditioning",
+  escaleLi8: "Kleine privé tuin",
+  escaleLi9: "Gratis parkeren in de buurt",
+  escaleLi9b: "Baby bed op reservering (zonder toeslag)",
+  // escaleLi10: "Garage à vélo sécurisé",
+
+  escaleLi10: "Fiets en motorstalling beschikbaar",
+  escaleLi11: "Ontbijt op reservering (toeslag)",
+  escaleLi12: "Huisgemaakte pizza's & borrelplanken",
 
   contactTitle: "Een vraag? ",
   contactIntro: "Neem gerust contact met ons op!",
@@ -173,7 +197,7 @@ export const dutch = {
   message: "Bericht",
   send: "Verzenden",
 
-  hebergementsPageTitle: "De 3 Lodges",
+  hebergementsPageTitle: "De 4 Lodges",
 
   bookingPageTitle: "Boek uw verblijf",
 
@@ -191,6 +215,7 @@ export const dutch = {
   bookingChaletPageTitle: "Boek le Chalet",
   bookingAppartPageTitle: "Boek l'Appart",
   bookingPavillionPageTitle: "Boek le Pavillon",
+  bookingEscalePageTitle: "Boek l'Escale",
 
   cookieHeader: "WIJ WAARDEREN UW PRIVACY!",
   cookieText: "Deze website gebruikt cookies om ons verkeer te analyseren.",

@@ -50,7 +50,7 @@ export const english = {
   underTitle: "AUTHENTIC STAY IN THE ARDÈCHE",
 
   introText1:
-    "We welcome you to our home, surrounded by friendliness and authenticity, in the village of Ollières sur Eyrieux, in the heart of the Monts d'Ardèche. An ideal location for an easy stay: On the edge of the 'Dolce Via', in a quiet area, close to the center. With family, as a couple or with friends, come and escape for a few days or more, in one of our 3 lodges: An atypical chalet on the heights of our site, the little pavilion in the shade of the large pine tree, or in our cozy apartment! The swimming pool & garden are at your disposal. Simple pleasures and a warm welcome!",
+    "We welcome you to our home, surrounded by friendliness and authenticity, in the village of Ollières sur Eyrieux, in the heart of the Monts d'Ardèche. An ideal location for an easy stay: On the edge of the 'Dolce Via', in a quiet area, close to the center. With family, as a couple or with friends, come and escape for a few days or more, in one of our 4 lodges: An atypical chalet on the heights of our site, l'Escale in the middle of the garden, the Pavilion in the shade of the large pine tree, or the Appart in the main house. The swimming pool & garden are at your disposal. Simple pleasures and a warm welcome!",
   introText2: "Laurine & Victor /",
   introText3:
     "«The important thing to create memories is not to go far but to escape the ordinary»",
@@ -66,6 +66,8 @@ export const english = {
     "Accommodation located on the 1st floor of the large stone house; it can accommodate up to 4 people. Bright & spacious, you will feel at home! ",
   introTextPavillion:
     "Here is the lodge where space is optimized: small and cozy! The little extra: its terrace in the shade of the large pine tree.",
+  introTextEscale:
+    "Charming wooden cabin in the middle of the Lodges' garden. L'Escale is the ideal 'Bed & Bicyle' for your break in the beautiful Dolce Via.",
 
   introTextChalet2:
     "A bedroom on the mezzanine with a double bed, a living room under the glass roof which can also be transformed into a sleeping area (sofa bed), a bathroom with bathtub and WC, a fully equipped kitchen, and a terrace for meals in the open air!",
@@ -182,6 +184,24 @@ export const english = {
   appartLi11: "Breakfast on reservation (surcharge)",
   appartLi12: "Homemade pizzas & apetizer boards",
 
+  escaleP1:
+    "Charming wooden cabin, fully equipped, in the heart of the Lodges de Praly's garden. Carefully decorated, wood and color, all in a warm and modern atmosphere. This studio is ideal for 2 people. Enjoy its pergola, high table and small garden.",
+  escaleLi1: "20m2 accommodation",
+  escaleLi2: "Garden vue",
+
+  escaleLi3: "Double bed 140x200cm",
+  // escaleLi3: "Sofa bed 140x190cm",
+  escaleLi5: "Douche",
+  escaleLi7: "Swimmingpool access",
+  escaleLi7b: "Air conditioning",
+  escaleLi8: "Small private garden area",
+  escaleLi9: "Free parking nearby",
+  escaleLi9b: "Baby cod on reservation (no surcharge)",
+
+  escaleLi10: "Bicycle and motorbike storage available",
+  escaleLi11: "Breakfast on reservation (surcharge)",
+  escaleLi12: "Homemade pizzas & apetizer boards",
+
   contactTitle: "A question? ",
   contactIntro: "Do not hesitate to contact us",
   name: "Your Name",
@@ -189,7 +209,7 @@ export const english = {
   message: "Your Message",
   send: "Send your message",
 
-  hebergementsPageTitle: "The 3 Lodges",
+  hebergementsPageTitle: "The 4 Lodges",
 
   bookingPageTitle: "Book your stay",
   bookingPageSubTitle: "Check availability",
@@ -206,6 +226,7 @@ export const english = {
   bookingChaletPageTitle: "Book le Chalet",
   bookingAppartPageTitle: "Book l'Appart",
   bookingPavillionPageTitle: "Book le Pavillon",
+  bookingEscalePageTitle: "Book l'Escale",
 
   cookieHeader: "WE VALUE YOUR PRIVACY!",
   cookieText: "This website uses cookies to analyze our traffic.",

@@ -18,6 +18,7 @@ import top from "../../images/top.png";
 import Chalet from "../../components/Chalet";
 import Pavillion from "../../components/Pavillion";
 import Appart from "../../components/Appart";
+import Escale from "../../components/Escale";
 
 import Consent from "../../components/Consent";
 
@@ -89,6 +90,7 @@ const HerbergementsPage = function (props) {
         languageToUse={languageToUse}
         data={data}
       />
+      <Escale language={language} languageToUse={languageToUse} data={data} />
       {/* </SimpleReactLightbox> */}
     </div>
   );

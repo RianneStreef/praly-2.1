@@ -50,7 +50,7 @@ export const french = {
   underTitle: "SÉJOUR AUTHENTIQUE EN ARDÈCHE",
 
   introText1:
-    "Bienvenue aux Lodges de Praly, nous vous accueillons chez nous, entre convivialité et authenticité, dans le village des Ollières sur Eyrieux, en plein cœur des Monts d’Ardèche. Un emplacement idéal pour un séjour facile : Au bord de la « Dolce Via », dans un quartier calme, à deux pas du centre. En famille, en couple ou entre amis, venez-vous évader quelques jours ou plus, dans l’un de nos 3 lodges :  Un chalet atypique sur les hauteurs du jardin, le pavillon à l’ombre du pin parasol, et l'appartement cosy ! Piscine & jardin sont à votre disposition. Des plaisirs simples et un accueil chaleureux !",
+    "Bienvenue aux Lodges de Praly, nous vous accueillons chez nous, entre convivialité et authenticité, dans le village des Ollières sur Eyrieux, en plein cœur des Monts d’Ardèche. Un emplacement idéal pour un séjour facile : Au bord de la « Dolce Via », dans un quartier calme, à deux pas du centre. En famille, en couple ou entre amis, venez-vous évader quelques jours ou plus, dans l’un de nos 4 lodges :  Un Chalet atypique sur les hauteurs du terrain, L'Escale au cœur du jardin, le Pavillon à l’ombre du pin parasol, et L'Appart dans la maison en pierre. Piscine & jardin sont à votre disposition. Des plaisirs simples et un accueil chaleureux !",
   introText2: "Laurine & Victor /",
   introText3:
     "« L’important pour se créer des souvenirs ce n’est pas de partir loin mais de fuir l’ordinaire »",
@@ -65,7 +65,9 @@ export const french = {
   introTextAppart:
     "Hébergement situé au 1er étage de la grande maison en pierre, il peut accueillir jusqu’à 4 personnes. Lumineux & spacieux, vous vous y sentirez comme à la maison !",
   introTextPavillion:
-    "Ici c’est le lodge où l’on optimise l’espace : petit et cosy ! Le p’tit’ plus : sa terrasse à l'ombre du grand pin parasol",
+    "Ici c’est le lodge où l’on optimise l’espace: petit et cosy ! Le p’tit’ plus: sa terrasse à l'ombre du grand pin parasol",
+  introTextEscale:
+    "Charmant chalet en bois au cœur du jardin des Lodges. L'Escale c'est le 'Bed & Bicycle' idéal pour votre pause sur la belle Dolce Via.",
 
   introTextChalet2:
     "Une chambre en mezzanine avec lit double, un salon sous la verrière qui peut également se transformer en coin nuit (canapé convertible), une salle de bain avec baignoire et WC, une cuisine toute équipée, et une terrasse pour les repas au grand air ! Une décoration soignée pour un confort absolu !",
@@ -194,6 +196,28 @@ export const french = {
   appartLi11: "Petit déjeuner sur réservation (en supplément)",
   appartLi12: "Pizzas maisons & Planches apéritives",
 
+  escaleP1:
+    "Charmant chalet en bois, tout équipé au cœur du jardin des Lodges de Praly. Une décoration soignée, du bois, de la couleur, le tout dans une ambiance chaleureuse & moderne. Ce studio est idéal pour 2 personnes. Profitez également de sa pergola, son mange debout et son petit coin jardin.",
+
+  installations: "Installations",
+
+  escaleLi1: "20m2 hébergement",
+  escaleLi2: "Vue jardin",
+  escaleLi3: "Lit double 140x200cm",
+  // escaleLi4: "Canapé convertible 140x190cm",
+  escaleLi5: "Douche",
+  // escaleLi6: "Enceinte Bluetooth",
+  escaleLi7: "Accès piscine",
+  escaleLi7b: "Climatisation",
+  escaleLi8: "Petit coin jardin privé",
+  escaleLi9: "Parking gratuit à proximité",
+  escaleLi9b: "Lit bébé sur réservation (sans supplément)",
+  // escaleLi10: "Garage à vélo sécurisé",
+
+  escaleLi10: "Local vélos/motos à disposition",
+  escaleLi11: "Petit déjeuner sur réservation (en supplément)",
+  escaleLi12: "Pizzas maisons & Planches apéritives",
+
   contactTitle: "Une Question ? ",
   contactIntro: "N'hesitez pas a nous contacter",
   name: "Votre Nom",
@@ -202,7 +226,7 @@ export const french = {
   send: "Envoyer votre message",
 
   herbergementsLink: "Nos hebergements",
-  hebergementsPageTitle: "Les 3 Lodges",
+  hebergementsPageTitle: "Les 4 Lodges",
 
   bookingPageTitle: "Réservez votre séjour",
 
@@ -218,6 +242,7 @@ export const french = {
   bookingChaletPageTitle: "Réservez le Chalet",
   bookingAppartPageTitle: "Réservez l'Appart",
   bookingPavillionPageTitle: "Réservez le Pavillon",
+  bookingEscalePageTitle: "Réservez l'Escale",
 
   cookieHeader: "NOUS RESPECTONS VOTRE VIE PRIVEE!",
   cookieText: "Ce site web utilise des cookies pour analyser notre trafic.",
