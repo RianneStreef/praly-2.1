@@ -3,6 +3,10 @@
   margin-bottom: 10vw;
 }
 
+.hebergements-h2 {
+  font-size: 1.8rem;
+}
+
 .image-links {
   display: flex;
   justify-content: space-around;
@@ -367,6 +371,9 @@
     padding: 35px;
   }
 
+  .hebergements-h2 {
+    font-size: 8rem;
+  }
   .image-link {
     height: 20vw;
     width: 40vw;

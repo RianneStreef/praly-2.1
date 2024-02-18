@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.leslodgesdepraly.fr",
-    title: "gatsby-template",
+    title: "Les Lodges de Praly",
   },
   plugins: [
     {
@@ -21,11 +21,11 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "siteName",
-        short_name: "companyName",
+        name: "Les Lodges de Praly",
+        short_name: "Les Lodges de Praly",
         start_url: "/",
-        background_color: "#e30613",
-        theme_color: "#ff00ff",
+        background_color: "#fff",
+        theme_color: "#fff",
         display: "standalone",
         icon: "src/images/icon.png",
       },
