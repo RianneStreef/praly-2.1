@@ -73,6 +73,17 @@ const Footer = (props) => {
             >
               Le Pavillon
             </Link>
+            <Link
+              to={
+                language === "french"
+                  ? "/hebergements#escale"
+                  : language === "english"
+                  ? "/en/hebergements#escale"
+                  : "/nl/hebergements#escale"
+              }
+            >
+              L'Escale
+            </Link>
           </div>
 
           <div className="footer-link-column "></div>

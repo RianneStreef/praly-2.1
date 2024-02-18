@@ -33,15 +33,6 @@
   width: 50px;
 }
 
-/* .destination-text-block {
-  background-color: magenta;
-  height: 75px;
-  width: 175px;
-  float: right;
-  margin: 0 0 0 20px;
-  overflow: auto;
-} */
-
 .destination-extra {
   display: flex;
   flex-direction: column;
