@@ -27,6 +27,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("../images/Hero-image-reserver.jpg") !important;
 }
 
 .hero-booking-chalet {
