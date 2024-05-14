@@ -38,7 +38,7 @@ const ChaletBookingPage = function (props) {
       </Helmet>
       <Consent language={language} languageToUse={languageToUse} />
 
-      <div className="hero-herbergement">
+      <div className="hero-booking hero-booking-chalet">
         <img src={logoRound} alt="" className="hero-logo" />
       </div>
       <div className="iframe-container">

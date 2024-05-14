@@ -26,7 +26,7 @@ import bikeParking from "../images/icons/local-velo.png";
 import petitDej from "../images/icons/petit-dej.png";
 import food from "../images/icons/food.png";
 
-import pavillionImage from "../images/pavillon-main-2.jpg";
+import pavillionImage from "../images/pavillon-main-3.jpg";
 
 const Pavillion = (props) => {
   let { language, languageToUse } = props;

@@ -26,7 +26,7 @@ import bikeParking from "../images/icons/local-velo.png";
 import petitDej from "../images/icons/petit-dej.png";
 import food from "../images/icons/food.png";
 
-import escaleImage from "../images/escale-main.jpg";
+import escaleImage from "../images/escale-main-2.jpg";
 
 const Chalet = (props) => {
   let { language, languageToUse } = props;

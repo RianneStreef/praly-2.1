@@ -38,7 +38,7 @@ const PavillionBookingPage = function (props) {
       </Helmet>
       <Consent language={language} languageToUse={languageToUse} />
 
-      <div className="hero-herbergement">
+      <div className="hero-booking hero-booking-pavillion">
         <img src={logoRound} alt="" className="hero-logo" />
       </div>
       <h1>{languageToUse.bookingPavillionPageTitle}</h1>
