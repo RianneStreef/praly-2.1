@@ -35,7 +35,7 @@ const EscaleBookingPage = function (props) {
       </Helmet>
       <Consent language={language} languageToUse={languageToUse} />
 
-      <div className="hero-booking hero-booking-escale">
+      <div className="`hero-booking hero-booking-escale">
         <img src={logoRound} alt="" className="hero-logo" />
       </div>
       <h1>{languageToUse.bookingEscalePageTitle}</h1>
