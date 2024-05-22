@@ -1,7 +1,7 @@
 .hero-herbergement {
   width: 100vw;
   min-height: 100vh;
-  background-image: url("../images/Hero-image-hebergement-mobile-v3.jpg");
+  background-image: url("../images/new-images/pavillion-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -186,10 +186,6 @@
 }
 
 @media (min-width: 768px) {
-  .hero-herbergement {
-    background-image: url("../images/Hero-image-hebergement-v3.jpg");
-  }
-
   .lodge-header-container {
     flex-direction: row;
     justify-content: space-between;
