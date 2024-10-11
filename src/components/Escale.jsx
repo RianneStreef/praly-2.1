@@ -163,14 +163,14 @@ const Chalet = (props) => {
                 <img src={bikeParking} alt="" className="facilities-icon" />
                 {languageToUse.escaleLi10}
               </li>
-              <li>
+              {/* <li>
                 <img src={petitDej} alt="" className="facilities-icon" />
                 {languageToUse.escaleLi11}
               </li>
               <li>
                 <img src={food} alt="" className="facilities-icon" />
                 {languageToUse.escaleLi12}
-              </li>
+              </li> */}
             </ul>
             <div className="button-container">
               <Link

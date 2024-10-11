@@ -154,14 +154,14 @@ const Pavillion = (props) => {
                 <img src={bikeParking} alt="" className="facilities-icon" />
                 {languageToUse.pavillionLi10}
               </li>
-              <li>
+              {/* <li>
                 <img src={petitDej} alt="" className="facilities-icon" />
                 {languageToUse.pavillionLi11}
               </li>
               <li>
                 <img src={food} alt="" className="facilities-icon" />
                 {languageToUse.pavillionLi12}
-              </li>
+              </li> */}
             </ul>
             <p className="room-text">{languageToUse.pavillionP4}</p>
             <div className="button-container">
