@@ -144,14 +144,14 @@ const Appart = (props) => {
                 <img src={bikeParking} alt="" className="facilities-icon" />
                 {languageToUse.appartLi10}
               </li>
-              <li>
+              {/* <li>
                 <img src={petitDej} alt="" className="facilities-icon" />
                 {languageToUse.appartLi11}
               </li>
               <li>
                 <img src={food} alt="" className="facilities-icon" />
                 {languageToUse.appartLi12}
-              </li>
+              </li> */}
             </ul>
             <p className="room-text">{languageToUse.appartLiExtrasTitle}</p>
             <ul>
