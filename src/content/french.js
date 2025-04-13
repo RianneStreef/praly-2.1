@@ -236,6 +236,28 @@ export const french = {
   promo2: "- en direct sur notre site web.",
   promo3: "- effectuées avant le 15/12/2023.",
 
+  velo: "Accueil vélos",
+  introVelo:
+    "Nous sommes heureux de vous accueillir avec le label ACCUEIL VÉLOS, pour une pause tout confort, lors de votre parcours sur la Dolce Via. Les lodges sont situées au niveau de l’ancienne gare des Ollières sur Eyrieux, à 100m de la voie verte. Sur place un local à vélos est à votre disposition et nous sommes présents pour vous accueillir. BIENVENUE !",
+  ardecheVelo: "L'ARDECHE A VELO",
+  introVelo2: "Des routes uniques pour tous les plaisirs du vélo en Ardèche… ",
+  introVelo3: "L’Ardèche à vélo",
+  introVelo4: " c’est pédaler sur des ",
+  introVelo5: "voies douces",
+  introVelo6: " sécurisées avec ",
+  introVelo7: "la Dolce Via",
+  introVelo8: " la voie douce de la Payre",
+  introVelo9: " ou encore",
+  introVelo10: " la ViaRhôna. ",
+  introVelo11: "Ou alors se lancer un défi sportif à VTT sur ",
+  introVelo12: "la Grande Traversée de l’Ardèche VTT",
+  introVelo13:
+    "ou alors sur l'une des fameuses routes de l'Ardéchoise. Pour les plus dilettantes vous pourrez partir à la journée sur les petites routes de campagne avec ",
+  introVelo14: "nos boucles départementales VAE",
+  introVelo15:
+    "... Chacun pourra, le temps d'un week-end, d'une journée, d'un séjour itinérant, flâner à vélo tout en profitant d’une halte baignade ou d’un",
+  introVelo16: " pique-nique !",
+
   bookingPageSubTitle: "Vérifier les disponibilités",
   additionalInfo:
     "En fonction de la période un minimum de nuit est requis. Pour les demandes pour 4 personnes merci de nous contacter en direct par email.",

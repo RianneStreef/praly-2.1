@@ -89,7 +89,7 @@ const Header = (props) => {
             </Link>
           </li>
           <span className="dot">&#8226;</span>
-
+          {/* 
           <li>
             <Link
               to={
@@ -102,6 +102,21 @@ const Header = (props) => {
               className="nav-link"
             >
               {languageToUse.groups}
+            </Link>
+          </li> */}
+
+          <li>
+            <Link
+              to={
+                language === "french"
+                  ? "/velo"
+                  : language === "english"
+                  ? "/en/velo"
+                  : "/nl/velo"
+              }
+              className="nav-link"
+            >
+              {languageToUse.velo}
             </Link>
           </li>
           <span className="dot">&#8226;</span>
