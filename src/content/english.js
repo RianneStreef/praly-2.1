@@ -220,6 +220,28 @@ export const english = {
   promo2: "- directly on our website.",
   promo3: "- made before 15/12/2023.",
 
+  velo: "Bike Welcome",
+  introVelo:
+    "We are delighted to welcome you with the ACCUEIL VÉLOS label, offering you a comfortable break along your journey on the Dolce Via. The lodges are located at the site of the former Ollières-sur-Eyrieux train station, just 100 meters from the greenway. A secure bike storage area is available on-site, and we are here to greet you personally. WELCOME!",
+
+  aardecheVelo: "ARDÈCHE BY BIKE",
+  introVelo2: "Unique routes for all cycling pleasures in Ardèche…",
+  introVelo3: "Ardèche by bike",
+  introVelo4: " means pedaling on ",
+  introVelo5: "greenways",
+  introVelo6: " secured with ",
+  introVelo7: "the Dolce Via",
+  introVelo8: " the Payre greenway",
+  introVelo9: " or even",
+  introVelo10: " the ViaRhôna.",
+  introVelo11: "Or challenge yourself on a mountain bike along ",
+  introVelo12: "the Grande Traversée de l’Ardèche VTT",
+  introVelo13:
+    "or on one of the famous roads of the Ardéchoise cycling event. For the more laid-back, you can set off for a day trip on the small country roads with ",
+  introVelo14: "our departmental e-bike loops",
+  introVelo15:
+    "... Everyone can, for a weekend, a day, or a touring trip, wander around by bike while enjoying a swim break or a",
+  introVelo16: " picnic!",
   additionalInfo:
     "Depending on the period, a minimum number of nights might be required. For reservations for 4 people, please contact us directly by mail.",
 

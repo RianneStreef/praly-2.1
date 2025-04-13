@@ -107,15 +107,15 @@ const Navbar = (props) => {
           <Link
             to={
               language === "french"
-                ? "/#groups"
+                ? "/velo"
                 : language === "english"
-                ? "/en/#groups"
-                : "/nl/#groups"
+                ? "/en/velo"
+                : "/nl/velo"
             }
             className="nav-link-mobile"
             onClick={() => setOpen(!open)}
           >
-            {languageToUse.groups}
+            {languageToUse.velo}
           </Link>
         </li>
 

@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import { Link } from "gatsby";
-import Layout from "../components/Layout";
+import Layout from "../../components/Layout";
 
-import { content } from "../content/languages";
-import "../styles/velo.css";
+import { content } from "../../content/languages";
+import "../../styles/velo.css";
 
-import logoVelo from "../images/VELO.jpg";
-import logoDolceVita from "../images/logo_dolce_via.svg";
+import logoVelo from "../../images/VELO.jpg";
+import logoDolceVita from "../../images/logo_dolce_via.svg";
 
 const VeloPage = (props) => {
   let { language, languageToUse, setLanguage } = props;
