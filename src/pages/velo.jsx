@@ -8,8 +8,6 @@ import "../styles/velo.css";
 import logoVelo from "../images/VELO.jpg";
 import logoDolceVita from "../images/logo_dolce_via.svg";
 
-import velo1 from "../images/velo1.jpg";
-
 const VeloPage = (props) => {
   let { language, languageToUse, setLanguage } = props;
   function handleSetLanguage(language) {
