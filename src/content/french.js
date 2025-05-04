@@ -245,7 +245,7 @@ export const french = {
   introVelo4: " c’est pédaler sur des ",
   introVelo5: "voies douces",
   introVelo6: " sécurisées avec ",
-  introVelo7: "la Dolce Via",
+  introVelo7: "la Dolce Via,",
   introVelo8: " la voie douce de la Payre",
   introVelo9: " ou encore",
   introVelo10: " la ViaRhôna. ",

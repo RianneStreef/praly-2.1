@@ -230,7 +230,7 @@ export const english = {
   introVelo4: " means pedaling on ",
   introVelo5: "greenways",
   introVelo6: " secured with ",
-  introVelo7: "the Dolce Via",
+  introVelo7: "the Dolce Via, ",
   introVelo8: " the Payre greenway",
   introVelo9: " or even",
   introVelo10: " the ViaRhôna.",

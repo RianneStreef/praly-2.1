@@ -211,15 +211,15 @@ export const dutch = {
   introVelo:
     "Wij heten je van harte welkom met het ACCUEIL VÉLOS-label, voor een comfortabele pauze tijdens je tocht over de Dolce Via. De lodges bevinden zich bij het voormalige station van Ollières-sur-Eyrieux, op slechts 100 meter van het fietspad. Ter plaatse is er een fietsenstalling beschikbaar en wij staan klaar om je persoonlijk te ontvangen. WELKOM!",
 
-  ardecheVelo: "ARDECHE PER FIETS",
+  ardecheVelo: "ARDECHE OP DE FIETS",
   introVelo2:
     "Ontdek unieke routes die alle soorten fietsplezier in de Ardèche bieden…",
-  introVelo3: "Ardèche per fiets", // NIET AANPASSEN
+  introVelo3: "Ardèche op de fiets", // NIET AANPASSEN
   introVelo4: " betekent fietsen over schilderachtige en veilige ",
   introVelo5: "fietspaden", // NIET AANPASSEN
   introVelo6: ", zoals de bekende ",
-  introVelo7: "Dolce Via", // NIET AANPASSEN
-  introVelo8: ", het rustige ",
+  introVelo7: "Dolce Via, ", // NIET AANPASSEN
+  introVelo8: "het rustige ",
   introVelo8: "Payre fietspad", // NIET AANPASSEN
   introVelo9: ", of de iconische",
   introVelo10: " ViaRhôna.", // NIET AANPASSEN
