@@ -220,7 +220,7 @@ export const dutch = {
   introVelo6: ", zoals de bekende ",
   introVelo7: "Dolce Via, ", // NIET AANPASSEN
   introVelo8: "het rustige ",
-  introVelo8: "Payre fietspad", // NIET AANPASSEN
+  introVelo8: "het Payre fietspad", // NIET AANPASSEN
   introVelo9: ", of de iconische",
   introVelo10: " ViaRhôna.", // NIET AANPASSEN
   introVelo11: "Voor de sportieve fietser is er de uitdaging van ",
