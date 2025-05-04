@@ -23,6 +23,7 @@
 .footer-logo-container {
   display: flex;
   justify-content: center;
+  width: 100vw;
 }
 
 .footer-logo {

@@ -1,18 +1,41 @@
-.velo {
-  /* color: #00693e; */
+.hero-velo {
+  width: 100vw;
+  min-height: 70vh;
+  background-image: url("../images/hero-velo-mobile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .logos-velo {
   display: flex;
-  flex-direction: column;
-
+  flex-direction: row;
   justify-content: center;
   align-items: center; /* vertical alignment */
 }
 
 .logo-velo {
-  max-width: 250px;
+  max-width: 100px;
   margin: 50px;
+}
+
+.velo-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* vertical alignment */
+  margin-top: 30px;
+}
+.image-velo {
+  width: 90vw;
+}
+
+.desktop-only {
+  display: none;
 }
 
 #intro-velo {
@@ -26,7 +49,31 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .hero-velo {
+    background-image: url("../images/hero-velo.png");
+  }
   .logos-velo {
     flex-direction: row;
+  }
+  .logo-velo {
+    max-width: 250px;
+    margin: 50px;
+  }
+  .velo-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; /* vertical alignment */
+  }
+
+  .image-velo {
+    width: 30vw;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+  .desktop-only {
+    display: flex;
   }
 }

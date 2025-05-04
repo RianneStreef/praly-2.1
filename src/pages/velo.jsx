@@ -7,6 +7,8 @@ import "../styles/velo.css";
 
 import logoVelo from "../images/VELO.jpg";
 import logoDolceVita from "../images/logo_dolce_via.svg";
+import velo1 from "../images/velo-1.png";
+import velo2 from "../images/velo-2.png";
 
 const VeloPage = (props) => {
   let { language, languageToUse, setLanguage } = props;
@@ -20,6 +22,7 @@ const VeloPage = (props) => {
   return (
     <div className="velo">
       <div className="header-placeholder" />
+      <div className="hero-velo" />
       <h1 className="velo">{languageToUse.velo}</h1>
       <div className="logos-velo">
         <Link
@@ -37,6 +40,10 @@ const VeloPage = (props) => {
         </Link>
       </div>
       <p className="intro-velo intro-text">{languageToUse.introVelo}</p>
+      <div className="velo-image-container">
+        <img src={velo1} className="image-velo" />
+        <img src={velo2} className="image-velo desktop-only" />
+      </div>
       <h2 className="intro-text" id="intro-velo">
         {languageToUse.ardecheVelo}
       </h2>
@@ -113,7 +120,9 @@ const VeloPage = (props) => {
           </Link>
         </span>
       </p>
-      <div className="images-velo"></div>
+      <div className="mobile-only velo-image-container ">
+        <img src={velo2} className="image-velo" />
+      </div>{" "}
     </div>
   );
 };
