@@ -213,6 +213,10 @@ p {
   display: none;
 }
 
+.insta {
+  margin: 100px 0 0 0;
+}
+
 @media only screen and (min-width: 768px) {
   h1 {
     font-size: 6.6rem;

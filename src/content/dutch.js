@@ -207,6 +207,30 @@ export const dutch = {
   promo2: "- op de website gemaakte reserveringen.",
   promo3: "- reserveringen gemaakt voor 15/12/2023.",
 
+  velo: "Fietsers Welkom",
+  introVelo:
+    "Wij heten je van harte welkom met het ACCUEIL VÉLOS-label, voor een comfortabele pauze tijdens je tocht over de Dolce Via. De lodges bevinden zich bij het voormalige station van Ollières-sur-Eyrieux, op slechts 100 meter van het fietspad. Ter plaatse is er een fietsenstalling beschikbaar en wij staan klaar om je persoonlijk te ontvangen. WELKOM!",
+
+  ardecheVelo: "ARDECHE OP DE FIETS",
+  introVelo2:
+    "Ontdek unieke routes die alle soorten fietsplezier in de Ardèche bieden…",
+  introVelo3: "Ardèche op de fiets", // NIET AANPASSEN
+  introVelo4: " betekent fietsen over schilderachtige en veilige ",
+  introVelo5: "fietspaden", // NIET AANPASSEN
+  introVelo6: ", zoals de bekende ",
+  introVelo7: "Dolce Via, ", // NIET AANPASSEN
+  introVelo8: "het rustige ",
+  introVelo8: "het Payre fietspad", // NIET AANPASSEN
+  introVelo9: ", of de iconische",
+  introVelo10: " ViaRhôna.", // NIET AANPASSEN
+  introVelo11: "Voor de sportieve fietser is er de uitdaging van ",
+  introVelo12: "de Grande Traversée de l’Ardèche VTT", // NIET AANPASSEN
+  introVelo13:
+    " of de legendarische wegen van de Ardéchoise. Wie liever rustig fietst, kan een dagtocht maken langs landelijke weggetjes met ",
+  introVelo14: "onze regionale e-bike lussen", // NIET AANPASSEN
+  introVelo15:
+    ". Of je nu een weekend, een dag of een meerdaagse tocht plant, fietsen door de Ardèche betekent genieten van een verfrissende zwempauze of een gezellige",
+  introVelo16: " picknick!",
   bookingPageSubTitle: "Bekijk beschikbaarheid",
 
   additionalInfo:
