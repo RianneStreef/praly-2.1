@@ -22,7 +22,6 @@ const VeloPage = (props) => {
   return (
     <div className="velo">
       <div className="header-placeholder" />
-      <div className="hero-velo" />
       <h1 className="velo">{languageToUse.velo}</h1>
       <div className="logos-velo">
         <Link
@@ -123,6 +122,9 @@ const VeloPage = (props) => {
       <div className="mobile-only velo-image-container ">
         <img src={velo2} className="image-velo" />
       </div>{" "}
+      <div className="velo-image-container">
+        <div className="hero-velo" />
+      </div>
     </div>
   );
 };
