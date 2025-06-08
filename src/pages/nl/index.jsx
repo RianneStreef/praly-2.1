@@ -62,9 +62,8 @@ const IndexPage = function (props) {
         <meta name="keywords" content={languageToUse.metaKeywords} />
         <link rel="canonical" href={intakeInfo.domainName} />
         <script
-          src="https://cdn2.woxo.tech/a.js#60ca0c172d51e300159c2b7c"
+          src="https://static.elfsight.com/platform/platform.js"
           async
-          data-usrc
         ></script>
       </Helmet>
       <Consent language={language} languageToUse={languageToUse} />
@@ -80,7 +79,12 @@ const IndexPage = function (props) {
       </Link>
       <Intro language={language} languageToUse={languageToUse} />
       <Destination language={language} languageToUse={languageToUse} />
-      <div data-mc-src="f74096ba-47e0-4c7f-872a-0e4f2149245c#instagram" />
+      <div className="insta">
+        <div
+          class="elfsight-app-cae15560-d14d-4da8-bc0e-9c31f1a982ed"
+          data-elfsight-app-lazy
+        ></div>
+      </div>
 
       <Contact language={language} languageToUse={languageToUse} />
     </div>
