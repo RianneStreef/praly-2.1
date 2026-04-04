@@ -17,7 +17,7 @@ import pictoAppartColor from "../images/appart-couleur.png";
 import pictoEscaleColor from "../images/escale-couleur.png";
 
 import bonCadeau from "../images/bon-cadeau.jpg";
-import bonCadeauDesktop from "../images/bon-cadeau-desktop.jpg";
+// import bonCadeauDesktop from "../images/bon-cadeau-desktop.jpg";
 
 const RoomIntro = (props) => {
   let { language, languageToUse } = props;
