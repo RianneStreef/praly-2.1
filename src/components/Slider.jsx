@@ -11,7 +11,7 @@ import img6 from "../images/slider/chalet-window.jpg";
 import img7 from "../images/slider/chambre-pavillon.jpg";
 import img8 from "../images/slider/pool.jpg";
 import img11 from "../images/slider/surroundings.jpg";
-import img10 from "../images/slider/façade-ESCALE-famille.jpg";
+import img10 from "../images/slider/facade-ESCALE-famille.jpg";
 import img9 from "../images/slider/salon-appart.jpg";
 
 // a changer

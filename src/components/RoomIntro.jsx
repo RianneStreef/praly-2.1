@@ -7,8 +7,8 @@ import "../styles/RoomIntro.css";
 import { content } from "../content/languages";
 
 import chalet from "../images/new-images/chalet-outside.jpg";
-import appart from "../images/new-images/april26/façade-appart.jpg";
-import pavillion from "../images/new-images/april26/façade-pavillon-1-2.jpg";
+import appart from "../images/new-images/april26/facade-appart.jpg";
+import pavillion from "../images/new-images/april26/facade-pavillon-1-2.jpg";
 import escale from "../images/escale-main-2.jpg";
 
 import pictoChaletColor from "../images/chalet-couleur.png";
