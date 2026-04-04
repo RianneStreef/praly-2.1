@@ -5,7 +5,7 @@ import "../styles/Slider.css";
 import img2 from "../images/slider/praly-view.jpg";
 import img1 from "../images/slider/lit-escale.jpg";
 import img3 from "../images/slider/cuisine-PAV.jpg";
-import img4 from "../images/slider/victor-laurine-piscine.jpg";
+import img4 from "../images/slider/piscine-1.jpg";
 import img5 from "../images/outside-night.jpg";
 import img6 from "../images/slider/chalet-window.jpg";
 import img7 from "../images/slider/chambre-pavillon.jpg";
