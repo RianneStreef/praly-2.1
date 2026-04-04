@@ -162,6 +162,12 @@
   margin-right: 10px;
 }
 
+.wifi-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
 .room-image-hebergements {
   width: 90vw;
   z-index: 50;

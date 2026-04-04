@@ -16,6 +16,7 @@ import privatisation from "../images/famille.png";
 import logoRound from "../images/Praly-rond.png";
 import facebook from "../images/facebookWhite.png";
 import instagram from "../images/instagramWhite.png";
+import plan from "../images/plan.png";
 
 const Intro = (props) => {
   let { language, languageToUse } = props;
@@ -36,8 +37,8 @@ const Intro = (props) => {
               language === "french"
                 ? "/booking"
                 : language === "english"
-                ? "/en/booking"
-                : "/nl/booking"
+                  ? "/en/booking"
+                  : "/nl/booking"
             }
             className="hero-button"
           >
@@ -83,9 +84,11 @@ const Intro = (props) => {
 
       <RoomIntro language={language} languageToUse={languageToUse} />
 
+      <img src={plan} className="plan" alt="plan"></img>
+
       {/* <Food language={language} languageToUse={languageToUse} /> */}
 
-      <div className="groups" id="groups">
+      {/* <div className="groups" id="groups">
         <div className="header-placeholder" />
 
         <h2>{languageToUse.privatisationTitle1}</h2>
@@ -116,15 +119,15 @@ const Intro = (props) => {
             <img src={privatisation} alt="" className="family-icon" />
           </div>
         </div>
-      </div>
-      <div className="devis-button-container-mobile">
+      </div> */}
+      {/* <div className="devis-button-container-mobile">
         <a
           href="mailto:contact@leslodgesdepraly.fr"
           className="devis-button mobile-only"
         >
           {languageToUse.devis}
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };

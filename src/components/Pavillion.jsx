@@ -25,6 +25,7 @@ import bebe from "../images/icons/lit-bébé.png";
 import bikeParking from "../images/icons/local-velo.png";
 import petitDej from "../images/icons/petit-dej.png";
 import food from "../images/icons/food.png";
+import wifi from "../images/icons/wifi-solid.png";
 
 import pavillionImage from "../images/pavillon-main-3.jpg";
 
@@ -59,8 +60,8 @@ const Pavillion = (props) => {
             language === "french"
               ? "/pavillion-booking"
               : language === "english"
-              ? "/en/pavillion-booking"
-              : "/nl/pavillion-booking"
+                ? "/en/pavillion-booking"
+                : "/nl/pavillion-booking"
           }
           className="book-now book-now-pavillion mobile-only"
         >
@@ -83,8 +84,8 @@ const Pavillion = (props) => {
                 language === "french"
                   ? "/pavillion-booking"
                   : language === "english"
-                  ? "/en/pavillion-booking"
-                  : "/nl/pavillion-booking"
+                    ? "/en/pavillion-booking"
+                    : "/nl/pavillion-booking"
               }
               className="book-now book-now-pavillion desktop-only"
             >
@@ -157,11 +158,11 @@ const Pavillion = (props) => {
               {/* <li>
                 <img src={petitDej} alt="" className="facilities-icon" />
                 {languageToUse.pavillionLi11}
-              </li>
+              </li>*/}
               <li>
-                <img src={food} alt="" className="facilities-icon" />
+                <img src={wifi} alt="" className="facilities-icon wifi-icon" />
                 {languageToUse.pavillionLi12}
-              </li> */}
+              </li>
             </ul>
             <p className="room-text">{languageToUse.pavillionP4}</p>
             <div className="button-container">
@@ -170,8 +171,8 @@ const Pavillion = (props) => {
                   language === "french"
                     ? "/pavillion-booking"
                     : language === "english"
-                    ? "/en/pavillion-booking"
-                    : "/nl/pavillion-booking"
+                      ? "/en/pavillion-booking"
+                      : "/nl/pavillion-booking"
                 }
                 className="herbergement-button pavillion-button"
               >

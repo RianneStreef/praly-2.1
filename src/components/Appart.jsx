@@ -23,6 +23,7 @@ import bebe from "../images/icons/lit-bébé.png";
 import bikeParking from "../images/icons/local-velo.png";
 import petitDej from "../images/icons/petit-dej.png";
 import food from "../images/icons/food.png";
+import wifi from "../images/icons/wifi-solid.png";
 
 import appartImage from "../images/appart-main-2.jpg";
 
@@ -57,8 +58,8 @@ const Appart = (props) => {
             language === "french"
               ? "/appart-booking"
               : language === "english"
-              ? "/en/appart-booking"
-              : "/nl/appart-booking"
+                ? "/en/appart-booking"
+                : "/nl/appart-booking"
           }
           className="book-now book-now-appart mobile-only"
         >
@@ -81,8 +82,8 @@ const Appart = (props) => {
                 language === "french"
                   ? "/appart-booking"
                   : language === "english"
-                  ? "/en/appart-booking"
-                  : "/nl/appart-booking"
+                    ? "/en/appart-booking"
+                    : "/nl/appart-booking"
               }
               className="book-now book-now-appart desktop-only"
             >
@@ -144,14 +145,14 @@ const Appart = (props) => {
                 <img src={bikeParking} alt="" className="facilities-icon" />
                 {languageToUse.appartLi10}
               </li>
-              {/* <li>
+              {/* {/* <li>
                 <img src={petitDej} alt="" className="facilities-icon" />
                 {languageToUse.appartLi11}
-              </li>
-              <li>
-                <img src={food} alt="" className="facilities-icon" />
-                {languageToUse.appartLi12}
               </li> */}
+              <li>
+                <img src={wifi} alt="" className="facilities-icon wifi-icon" />
+                {languageToUse.appartLi12}
+              </li>{" "}
             </ul>
             <p className="room-text">{languageToUse.appartLiExtrasTitle}</p>
             <ul>
@@ -164,8 +165,8 @@ const Appart = (props) => {
                   language === "french"
                     ? "/appart-booking"
                     : language === "english"
-                    ? "/en/appart-booking"
-                    : "/nl/appart-booking"
+                      ? "/en/appart-booking"
+                      : "/nl/appart-booking"
                 }
                 className="herbergement-button appart-button"
               >

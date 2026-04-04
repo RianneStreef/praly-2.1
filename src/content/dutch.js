@@ -134,9 +134,9 @@ export const dutch = {
     "Dit is de lodge waar de ruimte is geoptimaliseerd: Deze studio is ideaal voor 2 personen, een slaapgedeelte met een tweepersoonsbed, een zithoek en een eethoek, om nog maar te zwijgen van het terras in de schaduw van de dennenbomen. Het terras grenst aan een andere accommodatie maar heeft ieder zijn eigen privacy!",
   pavillionP2: "",
 
-  pavillionLi1: "20m2 accommodatie",
+  pavillionLi1: "27m2 accommodatie",
   pavillionLi2: "Uitzicht op het dorp en de vallei",
-  pavillionLi3: "Tweepersoonsbed 140x200cm",
+  pavillionLi3: "Tweepersoonsbed 160x200cm",
   pavillionLi4: "Douche",
   pavillionLi5: "Bluetooth speaker",
   pavillionLi6: "Toegang tot het zwembad",
@@ -169,7 +169,7 @@ export const dutch = {
 
   appartLi10: "Fiets en motorstalling beschikbaar",
   appartLi11: "Ontbijt op reservering (toeslag)",
-  appartLi12: "Huisgemaakte pizza's & borrelplanken",
+  appartLi12: "Glasvezel wifi",
 
   escaleP1:
     "Charmant houten chalet, volledig uitgerust in het hart van de tuin van Lodges de Praly. Zorgvuldige decoratie, hout, kleur, alles in een warme en moderne sfeer. Deze studio is ideaal voor 2 personen. Geniet ook van de pergola, de statafel en de kleine tuin.",

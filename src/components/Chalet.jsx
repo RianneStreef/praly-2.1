@@ -59,8 +59,8 @@ const Chalet = (props) => {
             language === "french"
               ? "/chalet-booking"
               : language === "english"
-              ? "/en/chalet-booking"
-              : "/nl/chalet-booking"
+                ? "/en/chalet-booking"
+                : "/nl/chalet-booking"
           }
           className="book-now book-now-chalet mobile-only"
         >
@@ -83,8 +83,8 @@ const Chalet = (props) => {
                 language === "french"
                   ? "/chalet-booking"
                   : language === "english"
-                  ? "/en/chalet-booking"
-                  : "/nl/chalet-booking"
+                    ? "/en/chalet-booking"
+                    : "/nl/chalet-booking"
               }
               className="book-now book-now-chalet desktop-only"
             >
@@ -109,6 +109,7 @@ const Chalet = (props) => {
           <p className="room-text">{languageToUse.chaletP1}</p>
           <p className="room-text">{languageToUse.chaletP2}</p>
           <p className="room-text">{languageToUse.chaletP3}</p>
+          <p className="room-text">{languageToUse.chaletP4}</p>
         </div>
         <div className="room-description room-description-chalet">
           <Lightbox lightboxImages={lightboxImages} />
@@ -174,15 +175,15 @@ const Chalet = (props) => {
                 {languageToUse.chaletLi12}
               </li> */}
             </ul>
-            <p className="room-text">{languageToUse.chaletP4}</p>
+            <p className="room-text">{languageToUse.chaletP5}</p>
             <div className="button-container">
               <Link
                 to={
                   language === "french"
                     ? "/chalet-booking"
                     : language === "english"
-                    ? "/en/chalet-booking"
-                    : "/nl/chalet-booking"
+                      ? "/en/chalet-booking"
+                      : "/nl/chalet-booking"
                 }
                 className="herbergement-button chalet-button"
               >

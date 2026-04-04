@@ -147,8 +147,8 @@ export const english = {
     "Here is the lodge where space is optimized: small, and cozy! This studio is ideal for 2 people, a sleeping area with a double bed, a lounge area & a dining area, not to mention its private terrace in the shade of the pine tree. The terrace is adjoining with another accommodation but each has its own privacy!",
   pavillionP2:
     "The little extra: its terrace in the shade of the large pine tree.",
-  pavillionLi1: "20m2 accommodation",
-  pavillionLi2: "Double bed 140x200cm",
+  pavillionLi1: "27m2 accommodation",
+  pavillionLi2: "Double bed 160x200cm",
   pavillionLi3: "Douche",
   pavillionLi4: "Bluetooth speaker",
   pavillionLi5: "Swimmingpool access",
@@ -182,7 +182,7 @@ export const english = {
 
   appartLi10: "Bicycle and motorbike storage available",
   appartLi11: "Breakfast on reservation (surcharge)",
-  appartLi12: "Homemade pizzas & apetizer boards",
+  appartLi12: "Fibre Wi-Fi",
 
   escaleP1:
     "Charming wooden cabin, fully equipped, in the heart of the Lodges de Praly's garden. Carefully decorated, wood and color, all in a warm and modern atmosphere. This studio is ideal for 2 people. Enjoy its pergola, high table and small garden.",
