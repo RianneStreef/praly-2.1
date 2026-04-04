@@ -104,7 +104,7 @@ export const french = {
   devis: "Votre devis",
 
   destinationTitle1: "DESTINATION",
-  destinationTitle2: "L’ARDÈCHE BUISSONNIÈRE",
+  destinationTitle2: "LA VALLÉE DE L’EYRIEUX – MONTS D’ARDÈCHE",
   destinationText1:
     "C’est le point de départ idéal pour découvrir la vallée de l’Eyrieux & ses environs. Une Ardèche nature & authentique, celle des grands espaces au cœur du parc naturel des Monts d’Ardèche.  Venez-vous ressourcer en toute quiétude ou profiter des nombreuses activités pour les plus aventuriers !",
   destinationText2: "Pour en savoir plus",
@@ -133,6 +133,11 @@ export const french = {
     "Une chambre en mezzanine avec lit double, un salon sous la verrière, une salle de bain avec baignoire et WC, une cuisine toute équipée, et une terrasse pour les repas au grand air !",
   chaletP3: "Une décoration soignée pour un confort absolu !",
 
+  chaletP4:
+    "BAIN NORDIQUE (de septembre à fin avril, supplément 30€) : Découvrez cette tradition scandinave ancestrale qui allie bien-être, relaxation et connexion avec la nature. Ce bain extérieur, chauffé à l'aide d'un poêle à bois (eau entre 37°C et 40°C), est conçu pour offrir une expérience sensorielle unique, favorisant la détente musculaire et l'évacuation du stress.",
+  chaletP5:
+    "Le p’tit plus : Le poêle à granulé, pour profiter des soirées plus fraîches !",
+
   installations: "Installations",
 
   chaletLi1: "40m2 hébergement",
@@ -152,16 +157,13 @@ export const french = {
   chaletLi11: "Petit déjeuner sur réservation (en supplément)",
   chaletLi12: "Pizzas maisons & Planches apéritives",
 
-  chaletP4:
-    "Le p’tit plus : Le poêle à granulé, pour profiter des soirées plus fraîches !",
-
   pavillionP1:
     "Ici c’est le lodge où l’on optimise l’espace : petit, et cosy ! Ce studio est idéal pour 2 personnes, un coin nuit avec lit double, un coin salon & un coin repas, sans oublier sa terrasse à l’ombre du pin parasol. La terrasse est mitoyenne avec un autre hébergement mais chacun à son intimité !",
   pavillionP2: "Le p’tit’ plus :sa terrasse à l'ombre du grand pin parasol.",
 
-  pavillionLi1: "20m2 hébergement",
+  pavillionLi1: "27m2 hébergement",
   pavillionLi2: "Vue village & vallée",
-  pavillionLi3: "Lit double 140x200cm",
+  pavillionLi3: "Lit double 160x200cm",
   pavillionLi4: "Douche",
   pavillionLi5: "Enceinte Bluetooth",
   pavillionLi6: "Accès piscine",
@@ -170,7 +172,7 @@ export const french = {
 
   pavillionLi10: "Local vélos/motos à disposition",
   pavillionLi11: "Petit déjeuner sur réservation (en supplément)",
-  pavillionLi12: "Pizzas maisons & Planches apéritives",
+  pavillionLi12: "WIFI-Fibre",
 
   appartP1:
     "Hébergement situé au 1er étage de la grande maison en pierre, , idéal pour 2 personnes (il peut accueillir jusqu’à 4 personnes sur demande avec un supplément de 15€/personne/nuit). Lumineux & spacieux, vous vous y sentirez comme à la maison ! Une chambre avec lit double, un salon avec un canapé convertible, une cuisine équipée, une salle de bain avec douche, et WC séparés. ",
@@ -194,7 +196,7 @@ export const french = {
 
   appartLi10: "Local vélos/motos à disposition",
   appartLi11: "Petit déjeuner sur réservation (en supplément)",
-  appartLi12: "Pizzas maisons & Planches apéritives",
+  appartLi12: "WIFI-Fibre",
 
   escaleP1:
     "Charmant chalet en bois, tout équipé au cœur du jardin des Lodges de Praly. Une décoration soignée, du bois, de la couleur, le tout dans une ambiance chaleureuse & moderne. Ce studio est idéal pour 2 personnes. Profitez également de sa pergola, son mange debout et son petit coin jardin.",

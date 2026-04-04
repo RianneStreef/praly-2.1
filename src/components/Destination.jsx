@@ -15,7 +15,7 @@ import destinationBanner from "../images/banner-destination.jpg";
 // import destination4 from "../images/destination4.jpeg";
 // import destination5 from "../images/destination5.jpeg";
 
-import logoLink1 from "../images/logo-ardeche-buissoniere/logo-ardeche.png";
+import logoLink1 from "../images/logo-ardeche-buissoniere/coeur-ardeche.webp";
 import logoLink2 from "../images/logo-ardeche-buissoniere/logo-sport.png";
 import logoLink3 from "../images/logo-ardeche-buissoniere/logo-aqua-rock.png";
 import logoLink4 from "../images/logo-ardeche-buissoniere/logo-dolce-via.svg";

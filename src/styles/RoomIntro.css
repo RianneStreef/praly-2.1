@@ -51,10 +51,10 @@
   background-image: url("../images/new-images/chalet-outside.jpg");
 }
 .appart-image-link::before {
-  background-image: url("../images/appart-main-2.jpg");
+  background-image: url("../images/new-images/april26/facade-appart.jpg");
 }
 .pavillion-image-link::before {
-  background-image: url("../images/new-images/pavillon-façade.jpg");
+  background-image: url("../images/new-images/april26/facade-pavillon-1-2.jpg");
 }
 .escale-image-link::before {
   background-image: url("../images/escale-main-2.jpg");

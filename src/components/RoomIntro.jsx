@@ -7,8 +7,8 @@ import "../styles/RoomIntro.css";
 import { content } from "../content/languages";
 
 import chalet from "../images/new-images/chalet-outside.jpg";
-import appart from "../images/appart-horizontal.jpg";
-import pavillion from "../images/new-images/pavillon-façade.jpg";
+import appart from "../images/new-images/april26/facade-appart.jpg";
+import pavillion from "../images/new-images/april26/facade-pavillon-1-2.jpg";
 import escale from "../images/escale-main-2.jpg";
 
 import pictoChaletColor from "../images/chalet-couleur.png";
@@ -17,7 +17,7 @@ import pictoAppartColor from "../images/appart-couleur.png";
 import pictoEscaleColor from "../images/escale-couleur.png";
 
 import bonCadeau from "../images/bon-cadeau.jpg";
-import bonCadeauDesktop from "../images/bon-cadeau-desktop.jpg";
+// import bonCadeauDesktop from "../images/bon-cadeau-desktop.jpg";
 
 const RoomIntro = (props) => {
   let { language, languageToUse } = props;
@@ -38,8 +38,8 @@ const RoomIntro = (props) => {
               language === "french"
                 ? "/#chalet-intro"
                 : language === "english"
-                ? "/en/#chalet-intro"
-                : "/nl/#chalet-intro"
+                  ? "/en/#chalet-intro"
+                  : "/nl/#chalet-intro"
             }
             className="image-link chalet-image-link"
           >
@@ -54,8 +54,8 @@ const RoomIntro = (props) => {
               language === "french"
                 ? "/#appart-intro"
                 : language === "english"
-                ? "/en/#appart-intro"
-                : "/nl/#appart-intro"
+                  ? "/en/#appart-intro"
+                  : "/nl/#appart-intro"
             }
             className="image-link appart-image-link"
           >
@@ -70,8 +70,8 @@ const RoomIntro = (props) => {
               language === "french"
                 ? "/#pavillion-intro"
                 : language === "english"
-                ? "/en/#pavillion-intro"
-                : "/nl/#pavillion-intro"
+                  ? "/en/#pavillion-intro"
+                  : "/nl/#pavillion-intro"
             }
             className="image-link pavillion-image-link"
           >
@@ -89,8 +89,8 @@ const RoomIntro = (props) => {
               language === "french"
                 ? "/#escale-intro"
                 : language === "english"
-                ? "/en/#escale-intro"
-                : "/nl/#escale-intro"
+                  ? "/en/#escale-intro"
+                  : "/nl/#escale-intro"
             }
             className="image-link escale-image-link"
           >
@@ -109,8 +109,8 @@ const RoomIntro = (props) => {
               language === "french"
                 ? "/chalet-booking"
                 : language === "english"
-                ? "/en/chalet-booking"
-                : "/nl/chalet-booking"
+                  ? "/en/chalet-booking"
+                  : "/nl/chalet-booking"
             }
             className="book-now book-now-chalet mobile-only"
           >
@@ -126,8 +126,8 @@ const RoomIntro = (props) => {
                 language === "french"
                   ? "/chalet-booking"
                   : language === "english"
-                  ? "/en/chalet-booking"
-                  : "/nl/chalet-booking"
+                    ? "/en/chalet-booking"
+                    : "/nl/chalet-booking"
               }
               className="book-now book-now-chalet desktop-only"
             >
@@ -170,8 +170,8 @@ const RoomIntro = (props) => {
             language === "french"
               ? "/hebergements/#chalet"
               : language === "english"
-              ? "/en/hebergements/#chalet"
-              : "/nl/hebergements/#chalet"
+                ? "/en/hebergements/#chalet"
+                : "/nl/hebergements/#chalet"
           }
           className="room-info-button room-info-button-right desktop-only room-info-button-chalet"
         >
@@ -184,8 +184,8 @@ const RoomIntro = (props) => {
               language === "french"
                 ? "/hebergements/#chalet"
                 : language === "english"
-                ? "/en/hebergements/#chalet"
-                : "/nl/hebergements/#chalet"
+                  ? "/en/hebergements/#chalet"
+                  : "/nl/hebergements/#chalet"
             }
             className="room-info-button room-info-button-right mobile-only"
           >
@@ -218,8 +218,8 @@ const RoomIntro = (props) => {
                 language === "french"
                   ? "/appart-booking"
                   : language === "english"
-                  ? "/en/appart-booking"
-                  : "/nl/appart-booking"
+                    ? "/en/appart-booking"
+                    : "/nl/appart-booking"
               }
               className="book-now book-now-appart mobile-only"
             >
@@ -235,8 +235,8 @@ const RoomIntro = (props) => {
                   language === "french"
                     ? "/appart-booking"
                     : language === "english"
-                    ? "/en/appart-booking"
-                    : "/nl/appart-booking"
+                      ? "/en/appart-booking"
+                      : "/nl/appart-booking"
                 }
                 className="book-now book-now-appart desktop-only"
               >
@@ -258,8 +258,8 @@ const RoomIntro = (props) => {
               language === "french"
                 ? "/hebergements/#appart"
                 : language === "english"
-                ? "/en/hebergements/#appart"
-                : "/nl/hebergements/#appart"
+                  ? "/en/hebergements/#appart"
+                  : "/nl/hebergements/#appart"
             }
             className="room-info-button room-info-button-left  desktop-only"
           >
@@ -272,8 +272,8 @@ const RoomIntro = (props) => {
               language === "french"
                 ? "/hebergements/#appart"
                 : language === "english"
-                ? "/en/hebergements/#appart"
-                : "/nl/hebergements/#appart"
+                  ? "/en/hebergements/#appart"
+                  : "/nl/hebergements/#appart"
             }
             className="room-info-button room-info-button-left  mobile-only"
           >
@@ -289,8 +289,8 @@ const RoomIntro = (props) => {
               language === "french"
                 ? "/pavillion-booking"
                 : language === "english"
-                ? "/en/pavillion-booking"
-                : "/nl/pavillion-booking"
+                  ? "/en/pavillion-booking"
+                  : "/nl/pavillion-booking"
             }
             className="book-now book-now-pavillion mobile-only"
           >
@@ -310,8 +310,8 @@ const RoomIntro = (props) => {
                 language === "french"
                   ? "/pavillion-booking"
                   : language === "english"
-                  ? "/en/pavillion-booking"
-                  : "/nl/pavillion-booking"
+                    ? "/en/pavillion-booking"
+                    : "/nl/pavillion-booking"
               }
               className="book-now book-now-pavillion desktop-only"
             >
@@ -336,8 +336,8 @@ const RoomIntro = (props) => {
                 language === "french"
                   ? "/hebergements/#pavillion"
                   : language === "english"
-                  ? "/en/hebergements/#pavillion"
-                  : "/nl/hebergements/#pavillion"
+                    ? "/en/hebergements/#pavillion"
+                    : "/nl/hebergements/#pavillion"
               }
               className="room-info-button room-info-button-right desktop-only"
             >
@@ -351,8 +351,8 @@ const RoomIntro = (props) => {
               language === "french"
                 ? "/hebergements/#pavillion"
                 : language === "english"
-                ? "/en/hebergements/#pavillion"
-                : "/nl/hebergements/#pavillion"
+                  ? "/en/hebergements/#pavillion"
+                  : "/nl/hebergements/#pavillion"
             }
             className="room-info-button room-info-button-right mobile-only"
           >
@@ -369,8 +369,8 @@ const RoomIntro = (props) => {
                 language === "french"
                   ? "/escale-booking"
                   : language === "english"
-                  ? "/en/escale-booking"
-                  : "/nl/escale-booking"
+                    ? "/en/escale-booking"
+                    : "/nl/escale-booking"
               }
               className="book-now book-now-escale mobile-only"
             >
@@ -390,8 +390,8 @@ const RoomIntro = (props) => {
                   language === "french"
                     ? "/escale-booking"
                     : language === "english"
-                    ? "/en/escale-booking"
-                    : "/nl/escale-booking"
+                      ? "/en/escale-booking"
+                      : "/nl/escale-booking"
                 }
                 className="book-now book-now-escale desktop-only"
               >
@@ -413,8 +413,8 @@ const RoomIntro = (props) => {
               language === "french"
                 ? "/hebergements/#escale"
                 : language === "english"
-                ? "/en/hebergements/#escale"
-                : "/nl/hebergements/#escale"
+                  ? "/en/hebergements/#escale"
+                  : "/nl/hebergements/#escale"
             }
             className="room-info-button room-info-button-left room-info-button-escale  desktop-only"
           >
@@ -427,8 +427,8 @@ const RoomIntro = (props) => {
               language === "french"
                 ? "/hebergements/#escale"
                 : language === "english"
-                ? "/en/hebergements/#escale"
-                : "/nl/hebergements/#escale"
+                  ? "/en/hebergements/#escale"
+                  : "/nl/hebergements/#escale"
             }
             className="room-info-button room-info-button-left  mobile-only"
           >

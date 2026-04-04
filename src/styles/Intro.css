@@ -159,6 +159,12 @@
   width: 25vw;
 }
 
+.plan {
+  width: 90vw;
+  display: block;
+  margin: 0 auto;
+}
+
 .devis-button-container-mobile {
   display: flex;
   justify-content: center;
