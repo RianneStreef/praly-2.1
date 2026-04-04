@@ -14,8 +14,6 @@ import img11 from "../images/slider/surroundings.jpg";
 import img10 from "../images/slider/facade-ESCALE-famille.jpg";
 import img9 from "../images/slider/salon-appart.jpg";
 
-// a changer
-
 const Slider = () => {
   function setSliderLeft() {
     let slider = document.getElementById("image-slider");

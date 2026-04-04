@@ -10,7 +10,7 @@ import RoomIntro from "../components/RoomIntro";
 import Slider from "../components/Slider";
 import Food from "../components/Food";
 
-import introImage from "../images/main-image.png";
+// import introImage from "../images/main-image.png";
 
 import privatisation from "../images/famille.png";
 import logoRound from "../images/Praly-rond.png";
