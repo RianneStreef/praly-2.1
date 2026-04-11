@@ -25,7 +25,7 @@ import petitDej from "../images/icons/petit-dej.png";
 import food from "../images/icons/food.png";
 import wifi from "../images/icons/wifi-solid.png";
 
-import appartImage from "../images/appart-main-2.jpg";
+import appartImage from "../images/new-images/april26/facade-appart.jpg";
 
 const Appart = (props) => {
   let { language, languageToUse } = props;
