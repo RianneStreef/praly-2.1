@@ -90,14 +90,14 @@ const Chalet = (props) => {
             >
               {languageToUse.bookNow}
             </Link>
-            <video
+            {/* <video
               controls
               autoPlay
               muted
               className="room-video-horizontal room-video-chalet mobile-only"
             >
               <source src={videoRoom1} type="video/mp4" />
-            </video>
+            </video> */}
             <img
               src={chaletImage}
               alt="Le Chalet"
