@@ -16,7 +16,7 @@ import privatisation from "../images/famille.png";
 import logoRound from "../images/Praly-rond.png";
 import facebook from "../images/facebookWhite.png";
 import instagram from "../images/instagramWhite.png";
-import plan from "../images/plan.png";
+import plan from "../images/PLANDESLODGESPNG.png";
 
 const Intro = (props) => {
   let { language, languageToUse } = props;
