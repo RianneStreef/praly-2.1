@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-
 import { Link } from "gatsby";
 
 import "../../styles/booking.css";
@@ -9,35 +8,70 @@ import { content } from "../../content/languages";
 import intakeInfo from "../../content/intake";
 
 import Consent from "../../components/Consent";
-
 import logoRound from "../../images/Praly-rond.png";
 
-const BookingPage = function (props) {
-  let { language, languageToUse } = props;
+const BookingPage = ({ language }) => {
+  // ✅ Language handling (same logic as your new version)
+  const languages = {
+    english: content.english,
+    french: content.french,
+    dutch: content.dutch,
+  };
 
-  languageToUse = content.english;
+  const languageToUse = languages[language] || content.english;
 
-  // useEffect(() => {
-  //   let frame = document.getElementById("booking");
+  useEffect(() => {
+    const loadScript = () => {
+      return new Promise((resolve) => {
+        const existing = document.querySelector(
+          'script[src="https://login.smoobu.com/js/Settings/BookingToolIframe.js"]',
+        );
 
-  //   console.log("found frame");
-  //   console.log(frame);
+        if (existing) {
+          resolve();
+          return;
+        }
 
-  //   // frame.onload = function () {
-  //   //   frame.style.height =
-  //   console.log(frame.contentWindow.document.body.scrollHeight + "px");
-  //   //   console.log("measuring iframe");
-  //   frame.style.height = frame.contentWindow.document.body.scrollHeight + "px";
-  //   // };
-  // });
+        const script = document.createElement("script");
+        script.src =
+          "https://login.smoobu.com/js/Settings/BookingToolIframe.js";
+        script.async = true;
+        script.onload = resolve;
+
+        document.body.appendChild(script);
+      });
+    };
+
+    const initWidget = async () => {
+      await loadScript();
+
+      const tryInit = () => {
+        const container = document.getElementById("apartmentIframeAll");
+
+        if (!container || !window.BookingToolIframe) {
+          setTimeout(tryInit, 150);
+          return;
+        }
+
+        // ✅ Important for Gatsby navigation
+        container.innerHTML = "";
+
+        window.BookingToolIframe.initialize({
+          url: "https://login.smoobu.com/en/booking-tool/iframe/384298",
+          baseUrl: "https://login.smoobu.com",
+          target: "#apartmentIframeAll",
+        });
+      };
+
+      tryInit();
+    };
+
+    initWidget();
+  }, []);
 
   return (
     <div>
-      <Helmet
-        htmlAttributes={{
-          lang: "en",
-        }}
-      >
+      <Helmet htmlAttributes={{ lang: "en" }}>
         <title>{languageToUse.bookingTitle}</title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -47,41 +81,40 @@ const BookingPage = function (props) {
         <meta name="keywords" content={languageToUse.metaKeywordsBooking} />
         <link rel="canonical" href={intakeInfo.domainName} />
       </Helmet>
+
       <Consent language={language} languageToUse={languageToUse} />
 
       <div className="hero-booking">
-        <img src={logoRound} alt="" className="hero-logo" />
+        <img src={logoRound} alt="Praly logo" className="hero-logo" />
+
         <Link
           to={
             language === "french"
-              ? "/booking#booking"
+              ? "/booking#booking-section"
               : language === "english"
-              ? "/en/booking#booking"
-              : "/nl/booking#booking"
+                ? "/en/booking#booking-section"
+                : "/nl/booking#booking-section"
           }
           className="hero-button"
         >
           {languageToUse.bookingPageTitle}
         </Link>
       </div>
-      <div id="booking">
+
+      <div id="booking-section">
         <div className="header-placeholder" />
 
         <h2 className="page-subtitle">{languageToUse.bookingPageSubTitle}</h2>
-        {/* <div className="promo-info">
-          <p>{languageToUse.promo1}</p>
-          <p>{languageToUse.promo2}</p>
 
-          <p>{languageToUse.promo3}</p>
-        </div> */}
         <div className="additional-info-resas">
           <p>{languageToUse.additionalInfo}</p>
         </div>
       </div>
-      <iframe
-        className="iframe-booking iframe-booking-all"
-        id="booking"
-        src="https://booking.smoobu.com/9A384298"
+
+      {/* ✅ Widget injects here */}
+      <div
+        id="apartmentIframeAll"
+        style={{ width: "100%", minHeight: "800px" }}
       />
     </div>
   );

@@ -54,7 +54,7 @@ const PavillionBookingPage = ({ language }) => {
         container.innerHTML = "";
 
         window.BookingToolIframe.initialize({
-          url: "https://login.smoobu.com/fr/booking-tool/iframe/384298?apartmentId=1165291",
+          url: "https://login.smoobu.com/booking-tool/iframe/384298?apartmentId=1165291&lang=fr&locale=fr",
           baseUrl: "https://login.smoobu.com",
           target: "#pavillionIframe",
         });

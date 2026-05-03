@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 import "../../styles/booking.css";
@@ -6,24 +6,66 @@ import "../../styles/booking.css";
 import { content } from "../../content/languages";
 import intakeInfo from "../../content/intake";
 
+import Consent from "../../components/Consent";
 import logoRound from "../../images/Praly-rond.png";
 
-import Consent from "../../components/Consent";
+const EscaleBookingPage = ({ language }) => {
+  const languages = {
+    english: content.english,
+    french: content.french,
+    dutch: content.dutch,
+  };
 
-const EscaleBookingPage = function (props) {
-  let { language, languageToUse } = props;
+  const languageToUse = languages[language] || content.english;
 
-  language === "english" ? (languageToUse = content.english) : null;
-  language === "french" ? (languageToUse = content.french) : null;
-  language === "dutch" ? (languageToUse = content.dutch) : null;
+  useEffect(() => {
+    const loadScript = () =>
+      new Promise((resolve) => {
+        const existing = document.querySelector(
+          'script[src="https://login.smoobu.com/js/Settings/BookingToolIframe.js"]',
+        );
+
+        if (existing) return resolve();
+
+        const script = document.createElement("script");
+        script.src =
+          "https://login.smoobu.com/js/Settings/BookingToolIframe.js";
+        script.async = true;
+        script.onload = resolve;
+
+        document.body.appendChild(script);
+      });
+
+    const initWidget = async () => {
+      await loadScript();
+
+      const tryInit = () => {
+        const container = document.getElementById("escaleIframe");
+
+        if (!container || !window.BookingToolIframe) {
+          setTimeout(tryInit, 150);
+          return;
+        }
+
+        // ✅ Important for Gatsby navigation
+        container.innerHTML = "";
+
+        window.BookingToolIframe.initialize({
+          url: "https://login.smoobu.com/en/booking-tool/iframe/384298?apartmentId=1972961",
+          baseUrl: "https://login.smoobu.com",
+          target: "#escaleIframe",
+        });
+      };
+
+      tryInit();
+    };
+
+    initWidget();
+  }, []);
 
   return (
     <div>
-      <Helmet
-        htmlAttributes={{
-          lang: "fr",
-        }}
-      >
+      <Helmet htmlAttributes={{ lang: "en" }}>
         <title>{languageToUse.bookingTitle}</title>
         <meta name="robots" content="index, follow" />
         <meta
@@ -33,18 +75,17 @@ const EscaleBookingPage = function (props) {
         <meta name="keywords" content={languageToUse.metaKeywordsBooking} />
         <link rel="canonical" href={intakeInfo.domainName} />
       </Helmet>
+
       <Consent language={language} languageToUse={languageToUse} />
 
-      <div className="hero-herbergement hero-booking-escale">
-        <img src={logoRound} alt="" className="hero-logo" />
+      <div className="hero-booking hero-booking-escale">
+        <img src={logoRound} alt="Praly logo" className="hero-logo" />
       </div>
+
       <h1>{languageToUse.bookingEscalePageTitle}</h1>
 
-      <iframe
-        className="iframe-booking iframe-booking-individual"
-        id="escale-booking"
-        src="https://booking.smoobu.com/9A384298?apartmentId=1972961"
-      />
+      {/* ✅ Widget injects here */}
+      <div id="escaleIframe" style={{ width: "100%", minHeight: "800px" }} />
     </div>
   );
 };
